@@ -1,10 +1,196 @@
 {% extends 'landingpage/landingpage_base.html' %}
+{% load static %}
 
-{% block title %}Inicio - Landing Page{% endblock %}
+{% block title %}Inicio — Estudio Aurora{% endblock %}
 
 {% block content %}
-<section class="hero">
-    <h2>Bienvenido a la Landing Page</h2>
-    <p>Este es un ejemplo de app independiente con su propio estilo.</p>
-</section>
+
+  <!-- HERO -->
+  <section class="lp-hero" id="inicio">
+    <div>
+      <h1>Diseño & Desarrollo para tu negocio</h1>
+      <p>Soluciones visuales y tecnológicas con enfoque en resultados. Sitios que convierten, marcas que se recuerdan.</p>
+      <div style="display:flex;gap:12px;flex-wrap:wrap;">
+        <a href="#servicios" class="lp-btn lp-btn-primary">Ver servicios</a>
+        <a href="#contacto" class="lp-btn lp-btn-ghost">Contactar</a>
+      </div>
+    </div>
+
+    <div class="lp-hero-card">
+      <div class="lp-hero-illus">
+        <div class="lp-spark" aria-hidden="true"></div>
+      </div>
+      <p style="margin:12px 0 0;color:#cbd5e1;font-size:14px;">
+        Paquetes a medida para emprendedores y PyMEs. Diseño, desarrollo y performance en un solo lugar.
+      </p>
+    </div>
+  </section>
+
+  <!-- SERVICIOS -->
+  <section class="lp-wrap" id="servicios">
+    <h2 class="lp-section-title">Servicios</h2>
+
+    <div class="lp-grid">
+      <!-- Card 1 -->
+      <article class="lp-card" data-modal-target="m1" tabindex="0" role="button" aria-haspopup="dialog" aria-controls="m1">
+        <span class="lp-pill">Destacado</span>
+        <div class="lp-media">
+          <!-- Fallback con gradiente; si querés imagen local, poné un <img> aquí -->
+        </div>
+        <h3>Sitios Web Rápidos</h3>
+        <p>Landing pages y webs empresariales optimizadas para conversión.</p>
+        <div class="lp-card-actions">
+          <span class="lp-btn lp-btn-primary">Ver más</span>
+        </div>
+      </article>
+
+      <!-- Card 2 -->
+      <article class="lp-card" data-modal-target="m2" tabindex="0" role="button" aria-haspopup="dialog" aria-controls="m2">
+        <div class="lp-media"></div>
+        <h3>Branding & Identidad</h3>
+        <p>Logotipo, paleta, tipografía y guías para coherencia visual.</p>
+        <div class="lp-card-actions">
+          <span class="lp-btn lp-btn-primary">Ver más</span>
+        </div>
+      </article>
+
+      <!-- Card 3 -->
+      <article class="lp-card" data-modal-target="m3" tabindex="0" role="button" aria-haspopup="dialog" aria-controls="m3">
+        <div class="lp-media"></div>
+        <h3>E-commerce</h3>
+        <p>Tienda online lista para vender: catálogo, pagos y envíos.</p>
+        <div class="lp-card-actions">
+          <span class="lp-btn lp-btn-primary">Ver más</span>
+        </div>
+      </article>
+    </div>
+  </section>
+
+  
+  <!-- CONTACTO -->
+  <section class="lp-wrap" id="contacto">
+    <h2 class="lp-section-title">Contacto</h2>
+    <div class="lp-card" style="cursor:default">
+      <p style="margin:0 0 12px;color:#cbd5e1;">Dejanos tu consulta y diseñamos una propuesta a medida.</p>
+      <div style="display:flex;gap:10px;flex-wrap:wrap">
+        <a class="lp-btn lp-btn-primary" href="mailto:hola@tu-marca.com">Escribir email</a>
+        <a class="lp-btn lp-btn-ghost" href="https://wa.me/5491123456789?text=Hola!%20Quiero%20una%20cotizaci%C3%B3n" target="_blank" rel="noreferrer">Hablar por WhatsApp</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== MODALES (1..6) ===== -->
+  <!-- M1 -->
+  <div class="lp-modal" id="m1" role="dialog" aria-modal="true" aria-labelledby="m1_title">
+    <div class="lp-modal-card">
+      <button class="lp-modal-close" data-close aria-label="Cerrar">✕</button>
+      <div class="lp-modal-media"><!-- <img src="{% static 'landingpage/img/serv_web.jpg' %}" alt=""> --></div>
+      <div class="lp-modal-body">
+        <h3 class="lp-modal-title" id="m1_title">Sitios Web Rápidos</h3>
+        <p class="lp-modal-desc">Landing pages y sitios corporativos con performance A (Lighthouse), SEO técnico y analítica. Integración con formularios y WhatsApp.</p>
+      </div>
+    </div>
+  </div>
+
+  <!-- M2 -->
+  <div class="lp-modal" id="m2" role="dialog" aria-modal="true" aria-labelledby="m2_title">
+    <div class="lp-modal-card">
+      <button class="lp-modal-close" data-close aria-label="Cerrar">✕</button>
+      <div class="lp-modal-media"></div>
+      <div class="lp-modal-body">
+        <h3 class="lp-modal-title" id="m2_title">Branding & Identidad</h3>
+        <p class="lp-modal-desc">Sistema visual consistente: logo, paleta, tipografías y componentes para que tu marca se reconozca en todos los puntos de contacto.</p>
+      </div>
+    </div>
+  </div>
+
+  <!-- M3 -->
+  <div class="lp-modal" id="m3" role="dialog" aria-modal="true" aria-labelledby="m3_title">
+    <div class="lp-modal-card">
+      <button class="lp-modal-close" data-close aria-label="Cerrar">✕</button>
+      <div class="lp-modal-media"></div>
+      <div class="lp-modal-body">
+        <h3 class="lp-modal-title" id="m3_title">E-commerce</h3>
+        <p class="lp-modal-desc">Catálogo, checkout, pagos y envíos. Te dejamos la tienda lista para escalar y medir.</p>
+      </div>
+    </div>
+  </div>
+
+  <!-- M4 -->
+  <div class="lp-modal" id="m4" role="dialog" aria-modal="true" aria-labelledby="m4_title">
+    <div class="lp-modal-card">
+      <button class="lp-modal-close" data-close aria-label="Cerrar">✕</button>
+      <div class="lp-modal-media"></div>
+      <div class="lp-modal-body">
+        <h3 class="lp-modal-title" id="m4_title">Restobar “Luz”</h3>
+        <p class="lp-modal-desc">Landing con reservas online, menú administrable y fotos optimizadas para SEO local.</p>
+      </div>
+    </div>
+  </div>
+
+  <!-- M5 -->
+  <div class="lp-modal" id="m5" role="dialog" aria-modal="true" aria-labelledby="m5_title">
+    <div class="lp-modal-card">
+      <button class="lp-modal-close" data-close aria-label="Cerrar">✕</button>
+      <div class="lp-modal-media"></div>
+      <div class="lp-modal-body">
+        <h3 class="lp-modal-title" id="m5_title">Estudio Contable</h3>
+        <p class="lp-modal-desc">Sitio institucional con blog para notas y captación de leads. Ideal para posicionamiento orgánico.</p>
+      </div>
+    </div>
+  </div>
+
+  <!-- M6 -->
+  <div class="lp-modal" id="m6" role="dialog" aria-modal="true" aria-labelledby="m6_title">
+    <div class="lp-modal-card">
+      <button class="lp-modal-close" data-close aria-label="Cerrar">✕</button>
+      <div class="lp-modal-media"></div>
+      <div class="lp-modal-body">
+        <h3 class="lp-modal-title" id="m6_title">Moda Local</h3>
+        <p class="lp-modal-desc">Tienda con variantes por talle/color, integraciones de pago y automatización de emails post-compra.</p>
+      </div>
+    </div>
+  </div>
+
+{% endblock %}
+
+{% block scripts %}
+<script>
+  (function(){
+    // Abrir modal (por click en card o Enter)
+    document.querySelectorAll('[data-modal-target]').forEach(card=>{
+      const id = card.getAttribute('data-modal-target');
+      const modal = document.getElementById(id);
+      if(!modal) return;
+
+      function open(){
+        modal.classList.add('show');
+        // Cerrar al clickear backdrop
+        modal.addEventListener('click', onBackdrop);
+        // Cerrar con ESC
+        document.addEventListener('keydown', onEsc);
+      }
+      function close(){
+        modal.classList.remove('show');
+        modal.removeEventListener('click', onBackdrop);
+        document.removeEventListener('keydown', onEsc);
+      }
+      function onBackdrop(e){
+        // Cerrar si clic fuera del contenido (no dentro de .lp-modal-card)
+        if(!e.target.closest('.lp-modal-card')) close();
+      }
+      function onEsc(e){
+        if(e.key === 'Escape') close();
+      }
+
+      card.addEventListener('click', open);
+      card.addEventListener('keydown', (e)=>{ if(e.key==='Enter' || e.key===' ') { e.preventDefault(); open(); } });
+
+      // Botón "X" dentro del modal
+      modal.querySelectorAll('[data-close]').forEach(btn=>{
+        btn.addEventListener('click', close);
+      });
+    });
+  })();
+</script>
 {% endblock %}

@@ -1,43 +1,90 @@
+{% load static %}
 <!DOCTYPE html>
 <html lang="es">
 <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>{% block title %}Mi Blog{% endblock %}</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>{% block title %}Mi Blog{% endblock %}</title>
 
-    <!-- Tailwind CSS CDN -->
-    <script src="https://cdn.tailwindcss.com"></script>
+  <!-- Tailwind -->
+  <script src="https://cdn.tailwindcss.com"></script>
 
-    <!-- Aquí puedes poner tu CSS custom si quieres -->
-    <style>
-        /* Ejemplo CSS custom */
-        body {
-            font-family: 'Inter', sans-serif;
-        }
-    </style>
+  <!-- Tema unificado (cards, panels, inputs, etc.) -->
+  <link rel="stylesheet" href="{% static 'propiedades/css/theme.css' %}?v=3">
+
+  <link rel="icon" href="{% static 'img/favicon.png' %}" type="image/png"/>
+
+  <!-- Fondo propio del BLOG (gris claro, elegante) -->
+  <style>
+    .blog-bg{
+      /* Radiales grisáceos muy suaves + degradado gris */
+      background:
+        radial-gradient(900px 450px at -10% -10%, rgba(148,163,184,0.12), transparent 60%),
+        radial-gradient(900px 450px at 110% 0%, rgba(148,163,184,0.12), transparent 60%),
+        linear-gradient(180deg, #f8fafc 0%, #f1f5f9 100%); /* slate-50 -> slate-100 */
+      background-attachment: fixed;
+      min-height: 100dvh;
+    }
+  </style>
+
+  {% block head %}{% endblock %}
 </head>
-<body class="bg-gray-100 text-gray-900">
+<body class="blog-bg text-slate-800 antialiased">
+  <!-- Header -->
+  <header class="sticky top-0 z-30 backdrop-blur supports-[backdrop-filter]:bg-white/70 bg-white/80 border-b border-slate-200">
+    <div class="mx-auto w-full max-w-7xl px-4 sm:px-6 lg:px-8 h-16 flex items-center justify-between">
+      <!-- Logo -->
+      <a href="{% url 'home' %}" class="flex items-center gap-2 font-semibold text-slate-900">
+        <img src="{% static 'img/tu_logo.png' %}" alt="Logo" class="h-8 w-auto" onerror="this.style.display='none'">
+        <span>Mi Blog</span>
+      </a>
 
-    <header class="bg-white shadow-md p-4">
-        <div class="container mx-auto">
-            <h1 class="text-2xl font-bold">Mi Blog</h1>
-        </div>
-    </header>
+      <!-- Desktop: CTA -->
+      <div class="hidden md:flex items-center gap-2">
+        <a href="https://github.com/LeoDaSilva31" target="_blank" class="btn btn-secondary text-sm">GitHub</a>
+      </div>
 
-    <main class="container mx-auto p-4">
-        {% block content %}
-        <!-- Contenido dinámico -->
-        {% endblock %}
-    </main>
+      <!-- Mobile: menú -->
+      <div class="flex items-center gap-2 md:hidden">
+        <button id="menu-toggle" class="p-2 rounded hover:bg-slate-100 focus:outline-none" aria-label="Abrir menú" aria-expanded="false">☰</button>
+      </div>
+    </div>
 
-    <footer class="bg-white shadow-inner p-4 mt-8 text-center text-gray-600 text-sm">
-        &copy; 2025 Mi Blog - Todos los derechos reservados
-    </footer>
+    <!-- Menú móvil -->
+    <div id="mobile-menu" class="hidden md:hidden px-4 pb-4 space-y-2">
+      <a class="block hover:underline" href="{% url 'home' %}">Inicio</a>
+      <a class="block hover:underline" href="{% url 'propiedades:home' %}">Propiedades</a>
+      <a class="block hover:underline" href="{% url 'landingpage_home' %}">Landing Page</a>
+      <a class="block hover:underline" href="https://github.com/LeoDaSilva31" target="_blank" rel="noreferrer">GitHub</a>
+    </div>
+  </header>
 
-    <!-- Scripts JS si quieres -->
-    <script>
-        // Aquí va tu JS si hace falta
-        console.log("Blog cargado");
-    </script>
+  <!-- Main -->
+  <main class="mx-auto w-full max-w-7xl flex-grow px-4 sm:px-6 lg:px-8 py-8">
+    {% block content %}{% endblock %}
+  </main>
+
+  <!-- Footer -->
+  <footer class="mt-8 border-t border-slate-200">
+    <div class="mx-auto w-full max-w-7xl px-4 sm:px-6 lg:px-8 py-6 text-sm text-slate-500 flex flex-col sm:flex-row items-center justify-between gap-2">
+      <p>© {{ now|date:"Y" }} Mi Blog — Leonardo Da Silva</p>
+      <div class="flex items-center gap-4">
+        <a class="hover:underline" href="#">Términos</a>
+        <a class="hover:underline" href="#">Privacidad</a>
+      </div>
+    </div>
+  </footer>
+
+  {% block scripts %}{% endblock %}
+  <script>
+    const t = document.getElementById('menu-toggle');
+    const m = document.getElementById('mobile-menu');
+    if (t && m) {
+      t.addEventListener('click', () => {
+        const isHidden = m.classList.toggle('hidden');
+        t.setAttribute('aria-expanded', String(!isHidden));
+      });
+    }
+  </script>
 </body>
 </html>

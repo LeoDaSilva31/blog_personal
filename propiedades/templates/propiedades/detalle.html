@@ -1,0 +1,276 @@
+{% extends 'propiedades/propiedades_base.html' %}
+{% load static humanize l10n %}
+
+{% block title %}{{ propiedad.titulo }}{% endblock %}
+
+{% block content %}
+  <!-- Volver -->
+  <a href="{% url 'propiedades:lista' %}" class="mb-5 inline-flex items-center gap-2 text-sm text-gray-600 hover:text-gray-900">
+    <svg class="h-4 w-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 19l-7-7m0 0l7-7m-7 7h18"/></svg>
+    Volver al listado
+  </a>
+
+  <!-- Encabezado -->
+  <header class="panel mb-6">
+    <div class="flex flex-wrap items-start justify-between gap-4">
+      <div>
+        <h1 class="text-2xl sm:text-3xl font-semibold text-gray-900">{{ propiedad.titulo }}</h1>
+        <div class="mt-2 flex flex-wrap items-center gap-2">
+          <span class="badge">{{ propiedad.get_tipo_operacion_display }}</span>
+          <span class="badge badge-muted">{{ propiedad.get_tipo_display }}</span>
+        </div>
+      </div>
+
+      <!-- Precio destacado (2×) con color según moneda) -->
+      <div class="rounded-2xl bg-white/95 px-5 py-3 soft-shadow">
+        <div class="flex items-baseline gap-2">
+          {% if propiedad.precio_usd %}
+            <span class="text-xs font-semibold tracking-wide text-emerald-700 bg-emerald-50 border border-emerald-200 px-2 py-0.5 rounded">USD</span>
+            <span class="leading-none font-bold text-2xl sm:text-3xl text-emerald-700">{{ propiedad.precio_usd|floatformat:0|localize }}</span>
+          {% elif propiedad.precio_pesos %}
+            <span class="text-xs font-semibold tracking-wide text-slate-700 bg-slate-50 border border-slate-200 px-2 py-0.5 rounded">$</span>
+            <span class="leading-none font-bold text-2xl sm:text-3xl text-gray-900">{{ propiedad.precio_pesos|floatformat:0|localize }}</span>
+          {% else %}
+            <span class="leading-none font-semibold text-gray-700">Precio a consultar</span>
+          {% endif %}
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <!-- Galería -->
+  <section class="panel">
+    <div class="grid grid-cols-1 md:grid-cols-3 gap-4">
+      <!-- Imagen grande -->
+      <div class="md:col-span-2">
+        {% if propiedad.imagen_principal %}
+          <div class="relative overflow-hidden rounded-2xl border border-gray-200 soft-shadow">
+            <img id="mainImageDisplay"
+                 src="{{ propiedad.imagen_principal.url }}"
+                 alt="{{ propiedad.titulo }}"
+                 class="h-72 w-full object-cover sm:h-96 cursor-zoom-in"
+                 data-open-modal="modal-foto">
+          </div>
+        {% else %}
+          <div class="h-72 sm:h-96 w-full rounded-2xl border border-dashed border-gray-300 bg-gray-50 flex items-center justify-center text-gray-400">
+            Sin imagen principal
+          </div>
+        {% endif %}
+      </div>
+
+      <!-- Miniaturas -->
+      <div class="md:col-span-1">
+        <div class="grid grid-cols-4 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-3">
+          {% if propiedad.imagen_principal %}
+            <button class="rounded-xl overflow-hidden border border-gray-200 ring-2 ring-gray-900"
+                    data-thumb-wrap data-active="true">
+              <img src="{{ propiedad.imagen_principal.url }}" alt="Miniatura principal" class="h-20 w-full object-cover" data-thumb>
+            </button>
+          {% endif %}
+
+          {% for foto in propiedad.imagenes.all %}
+            <button class="rounded-xl overflow-hidden border border-gray-200 ring-2 ring-transparent hover:ring-gray-400 transition"
+                    data-thumb-wrap>
+              <img src="{{ foto.imagen.url }}" alt="{{ foto.descripcion_corta|default:'Foto' }}" class="h-20 w-full object-cover" data-thumb>
+            </button>
+          {% empty %}
+            {% if not propiedad.imagen_principal %}
+              <p class="col-span-full text-sm text-gray-500">No hay imágenes.</p>
+            {% endif %}
+          {% endfor %}
+        </div>
+      </div>
+    </div>
+
+    <!-- Modal fullscreen -->
+    <div id="modal-foto" role="dialog" aria-modal="true" class="fixed inset-0 z-50 hidden bg-black/80 p-4">
+      <div class="mx-auto flex h-full max-w-6xl items-center justify-center" data-modal-content>
+        <div class="relative w-full">
+          {% if propiedad.imagen_principal %}
+            <img id="modalImage"
+                 src="{{ propiedad.imagen_principal.url }}"
+                 alt="{{ propiedad.titulo }}"
+                 class="max-h-[85vh] w-full rounded-2xl object-contain" />
+          {% elif propiedad.imagenes.first %}
+            <img id="modalImage"
+                 src="{{ propiedad.imagenes.first.imagen.url }}"
+                 alt="{{ propiedad.titulo }}"
+                 class="max-h-[85vh] w-full rounded-2xl object-contain" />
+          {% else %}
+            <div id="modalImageFallback"
+                 class="max-h-[85vh] w-full rounded-2xl bg-gray-200 text-gray-500 flex items-center justify-center p-8">
+              Sin imágenes disponibles
+            </div>
+          {% endif %}
+
+          <button type="button" data-close-modal="modal-foto"
+                  class="absolute right-3 top-3 inline-flex items-center gap-2 rounded-xl bg-white/90 px-3 py-1.5 text-sm text-gray-800 shadow hover:bg-white">
+            Cerrar
+          </button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Detalles + Mapa -->
+  <section class="mt-8 grid grid-cols-1 md:grid-cols-3 gap-6">
+    <!-- Detalles -->
+    <div class="md:col-span-2 space-y-4">
+      <div class="panel">
+        <h2 class="text-lg font-semibold text-gray-900">Detalles del inmueble</h2>
+        <ul class="mt-3 grid grid-cols-1 sm:grid-cols-2 gap-3 text-sm text-gray-700">
+
+          <li class="inline-flex items-center gap-2">
+            <img src="{% static 'propiedades/icons/money.png' %}" alt="" class="h-4 w-4 opacity-80">
+            <span class="font-medium">Precio USD:</span>
+            <span>{{ propiedad.precio_usd|default:"—" }}</span>
+          </li>
+
+          <li class="inline-flex items-center gap-2">
+            <img src="{% static 'propiedades/icons/money.png' %}" alt="" class="h-4 w-4 opacity-80">
+            <span class="font-medium">Precio Pesos:</span>
+            <span>{{ propiedad.precio_pesos|default:"—" }}</span>
+          </li>
+
+          <li class="inline-flex items-center gap-2">
+            <img src="{% static 'propiedades/icons/location.png' %}" alt="" class="h-4 w-4 opacity-80">
+            <span class="font-medium">Ubicación:</span>
+            <span>{{ propiedad.direccion }}, {{ propiedad.localidad }}, {{ propiedad.provincia }}{% if propiedad.pais %}, {{ propiedad.pais }}{% endif %}</span>
+          </li>
+
+          <li class="inline-flex items-center gap-2">
+            <img src="{% static 'propiedades/icons/area-total.png' %}" alt="" class="h-4 w-4 opacity-80">
+            <span class="font-medium">Metros cuadrados totales:</span>
+            <span>{{ propiedad.metros_cuadrados_total|default:"—" }}</span>
+          </li>
+
+          <li class="inline-flex items-center gap-2">
+            <img src="{% static 'propiedades/icons/area-covered.png' %}" alt="" class="h-4 w-4 opacity-80">
+            <span class="font-medium">Metros cuadrados cubiertos:</span>
+            <span>{{ propiedad.metros_cuadrados_cubierta|default:"—" }}</span>
+          </li>
+
+          <li class="inline-flex items-center gap-2">
+            <img src="{% static 'propiedades/icons/bed.png' %}" alt="" class="h-4 w-4 opacity-80">
+            <span class="font-medium">Dormitorios:</span>
+            <span>{{ propiedad.dormitorios|default:"—" }}</span>
+          </li>
+
+          <li class="inline-flex items-center gap-2">
+            <img src="{% static 'propiedades/icons/bath.png' %}" alt="" class="h-4 w-4 opacity-80">
+            <span class="font-medium">Baños:</span>
+            <span>{{ propiedad.banios|default:"—" }}</span>
+          </li>
+
+          <li class="inline-flex items-center gap-2">
+            <img src="{% static 'propiedades/icons/garage.png' %}" alt="" class="h-4 w-4 opacity-80">
+            <span class="font-medium">Cocheras:</span>
+            <span>{{ propiedad.cocheras|default:"—" }}</span>
+          </li>
+
+          <li class="inline-flex items-center gap-2">
+            <img src="{% static 'propiedades/icons/clock.png' %}" alt="" class="h-4 w-4 opacity-80">
+            <span class="font-medium">Antigüedad:</span>
+            <span>{{ propiedad.antiguedad|default:"—" }}</span>
+          </li>
+
+          <li class="inline-flex items-center gap-2">
+            <img src="{% static 'propiedades/icons/amenities.png' %}" alt="" class="h-4 w-4 opacity-80">
+            <span class="font-medium">Amenidades:</span>
+            <span>{{ propiedad.amenidades|default:"—" }}</span>
+          </li>
+
+          <li class="inline-flex items-center gap-2">
+            <img src="{% static 'propiedades/icons/pet.png' %}" alt="" class="h-4 w-4 opacity-80">
+            <span class="font-medium">Mascotas:</span>
+            <span>{{ propiedad.acepta_mascotas|yesno:"Sí,No" }}</span>
+          </li>
+
+          {% if propiedad.acepta_mascotas %}
+          <li class="inline-flex items-center gap-2">
+            <img src="{% static 'propiedades/icons/pet.png' %}" alt="" class="h-4 w-4 opacity-80">
+            <span class="font-medium">Tipo mascota:</span>
+            <span>{{ propiedad.get_tipo_mascota_permitida_display }}</span>
+          </li>
+          {% endif %}
+        </ul>
+
+        <div class="mt-4">
+          <h3 class="text-base font-semibold text-gray-900">Descripción</h3>
+          <p class="mt-2 text-gray-700 leading-relaxed">{{ propiedad.descripcion }}</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Mapa -->
+    <aside class="md:col-span-1">
+      <div class="panel">
+        <h2 class="text-lg font-semibold text-gray-900 mb-2">Ubicación</h2>
+        {% with q=propiedad.direccion|stringformat:"s"|add:", "|add:propiedad.localidad|add:", "|add:propiedad.provincia|add:", "|add:propiedad.pais %}
+          <div class="rounded-xl overflow-hidden border border-gray-200 soft-shadow">
+            <iframe
+              src="https://www.google.com/maps?q={{ q|urlencode }}&output=embed"
+              class="w-full h-64"
+              loading="lazy"
+              referrerpolicy="no-referrer-when-downgrade"
+              style="border:0;"
+              allowfullscreen
+            ></iframe>
+          </div>
+        {% endwith %}
+      </div>
+    </aside>
+  </section>
+
+  <!-- JS de la galería -->
+  <script>
+  (function(){
+    const main = document.getElementById('mainImageDisplay');
+    const modal = document.getElementById('modal-foto');
+    const modalImg = document.getElementById('modalImage');
+
+    const showModal = () => modal && modal.classList.remove('hidden');
+    const hideModal = () => modal && modal.classList.add('hidden');
+
+    document.querySelectorAll('[data-open-modal="modal-foto"]').forEach(el => {
+      el.addEventListener('click', showModal);
+    });
+    document.querySelectorAll('[data-close-modal="modal-foto"]').forEach(el => {
+      el.addEventListener('click', hideModal);
+    });
+    if (modal) {
+      modal.addEventListener('click', (e) => {
+        const content = e.target.closest('[data-modal-content]');
+        if (!content) hideModal();
+      });
+    }
+    document.addEventListener('keydown', (e) => {
+      if (e.key === 'Escape') hideModal();
+    });
+
+    // Miniaturas: swap imagen + estado activo
+    const setActive = (wrap) => {
+      document.querySelectorAll('[data-thumb-wrap]').forEach(w => {
+        w.classList.remove('ring-gray-900');
+        w.classList.add('ring-transparent');
+        w.removeAttribute('data-active');
+      });
+      if (wrap) {
+        wrap.classList.remove('ring-transparent');
+        wrap.classList.add('ring-gray-900');
+        wrap.setAttribute('data-active', 'true');
+      }
+    };
+
+    document.querySelectorAll('[data-thumb]').forEach((img) => {
+      img.addEventListener('click', (ev) => {
+        const src = ev.currentTarget.getAttribute('src');
+        const alt = ev.currentTarget.getAttribute('alt') || '';
+        if (main) { main.src = src; main.alt = alt; }
+        if (modalImg) { modalImg.src = src; modalImg.alt = alt; }
+        setActive(ev.currentTarget.closest('[data-thumb-wrap]'));
+      });
+    });
+  })();
+  </script>
+{% endblock %}

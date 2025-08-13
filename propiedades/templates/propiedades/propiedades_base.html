@@ -1,0 +1,94 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>{% block title %}TU INMOBILIARIA{% endblock %}</title>
+
+  <!-- Tailwind -->
+
+  <script src="https://cdn.tailwindcss.com"></script>
+
+  <!-- CSS unificado con cache-busting y namespacing -->
+  <link rel="stylesheet" href="{% static 'propiedades/css/theme.css' %}?v=3">
+
+  <link rel="icon" href="{% static 'img/favicon.png' %}" type="image/png"/>
+
+
+  {% block head %}{% endblock %}
+</head>
+<body class="app-bg text-slate-800 antialiased">
+
+  <!-- Header -->
+  <header class="sticky top-0 z-30 backdrop-blur supports-[backdrop-filter]:bg-white/70 bg-white/80 border-b border-slate-200">
+    <div class="mx-auto w-full max-w-7xl px-4 sm:px-6 lg:px-8 h-16 flex items-center justify-between">
+
+      <!-- Logo -->
+      <a href="{% url 'propiedades:home' %}" class="flex items-center gap-2 font-semibold text-slate-900">
+        <img src="{% static 'img/tu_logo.png' %}" alt="Logo" class="h-8 w-auto" onerror="this.style.display='none'">
+        <span>TU INMOBILIARIA</span>
+      </a>
+
+      <!-- Nav grande -->
+      <nav class="hidden md:flex items-center gap-4 text-sm">
+        <a class="hover:underline" href="{% url 'propiedades:home' %}">Inicio</a>
+        <a class="hover:underline" href="{% url 'propiedades:lista' %}">Propiedades</a>
+      </nav>
+
+      <!-- Desktop: botón buscar -->
+      <div class="hidden md:flex items-center gap-2">
+        <a href="{% url 'propiedades:busqueda' %}" class="btn btn-secondary text-sm">Buscar</a>
+      </div>
+
+      <!-- Mobile: input búsqueda + menú -->
+      <div class="flex items-center gap-2 md:hidden">
+        <form method="get" action="{% url 'propiedades:busqueda' %}" class="relative">
+          <input type="text" name="q" placeholder="Buscar..."
+                 class="pl-3 pr-8 py-1 rounded border border-slate-300 focus:outline-none focus:ring-2 focus:ring-blue-400 text-sm">
+          <button type="submit" class="absolute right-2 top-1/2 -translate-y-1/2 text-slate-400 hover:text-slate-600">
+            🔍
+          </button>
+        </form>
+
+        <!-- Botón menú -->
+        <button id="menu-toggle" class="p-2 rounded hover:bg-slate-100 focus:outline-none">
+          ☰
+        </button>
+      </div>
+    </div>
+
+    <!-- Menú móvil desplegable -->
+    <div id="mobile-menu" class="hidden md:hidden px-4 pb-4 space-y-2">
+      <a class="block hover:underline" href="{% url 'propiedades:home' %}">Inicio</a>
+      <a class="block hover:underline" href="{% url 'propiedades:lista' %}">Propiedades</a>
+      <a class="block hover:underline" href="{% url 'propiedades:busqueda' %}">Búsqueda avanzada</a>
+    </div>
+  </header>
+
+  <!-- Main -->
+  <main class="mx-auto w-full max-w-7xl flex-grow px-4 sm:px-6 lg:px-8 py-8">
+    {% block content %}{% endblock %}
+  </main>
+
+  <!-- Footer -->
+  <footer class="mt-8 border-t border-slate-200">
+    <div class="mx-auto w-full max-w-7xl px-4 sm:px-6 lg:px-8 py-6 text-sm text-slate-500 flex flex-col sm:flex-row items-center justify-between gap-2">
+      <p>© {{ now|date:"Y" }} TU INMOBILIARIA. Todos los derechos reservados.</p>
+      <div class="flex items-center gap-4">
+        <a class="hover:underline" href="#">Términos</a>
+        <a class="hover:underline" href="#">Privacidad</a>
+      </div>
+    </div>
+  </footer>
+
+  {% block scripts %}{% endblock %}
+
+  <!-- Script menú móvil -->
+  <script>
+    document.getElementById('menu-toggle').addEventListener('click', function() {
+      document.getElementById('mobile-menu').classList.toggle('hidden');
+    });
+  </script>
+</body>
+</html>

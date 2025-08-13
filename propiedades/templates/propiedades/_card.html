@@ -1,0 +1,74 @@
+{% load static humanize l10n %}
+
+<article class="card group relative h-full overflow-hidden rounded-2xl border border-gray-200 bg-white transition hover:-translate-y-1 hover:shadow-xl flex flex-col">
+  <!-- Link invisible que cubre toda la card -->
+  <a href="{% url 'propiedades:detalle' prop.pk %}" class="absolute inset-0 z-10" aria-label="Ver {{ prop.titulo }}"></a>
+
+  <!-- Media -->
+  <div class="relative">
+    {% if prop.imagen_principal %}
+      <img src="{{ prop.imagen_principal.url }}" alt="{{ prop.titulo }}"
+           class="w-full h-44 object-cover transition duration-300 group-hover:scale-[1.02]" />
+    {% else %}
+      <div class="w-full h-44 bg-gray-100 flex items-center justify-center text-gray-400">Sin imagen</div>
+    {% endif %}
+
+    <!-- Badges -->
+    <div class="pointer-events-none absolute left-3 top-3 flex gap-2">
+      <span class="pointer-events-auto rounded-full bg-white/95 px-2.5 py-1 text-[11px] font-medium text-gray-900 shadow">
+        {{ prop.get_tipo_operacion_display }}
+      </span>
+      <span class="pointer-events-auto rounded-full bg-white/90 px-2.5 py-1 text-[11px] font-medium text-gray-700 shadow">
+        {{ prop.get_tipo_display }}
+      </span>
+    </div>
+
+    <!-- Precio -->
+    <div class="absolute bottom-3 left-3 rounded-xl bg-white/95 px-3 py-1.5 text-xs font-semibold soft-shadow">
+      {% if prop.precio_usd %}
+        <span class="text-emerald-700">USD {{ prop.precio_usd|floatformat:0|localize }}</span>
+      {% elif prop.precio_pesos %}
+        <span class="text-gray-900">$ {{ prop.precio_pesos|floatformat:0|localize }}</span>
+      {% else %}
+        <span class="text-gray-700">Precio a consultar</span>
+      {% endif %}
+    </div>
+  </div>
+
+  <!-- Contenido -->
+  <div class="p-5 flex flex-col flex-1">
+    <h2 class="card-title line-clamp-2">{{ prop.titulo }}</h2>
+
+    <!-- Ubicación -->
+    <div class="mt-1 line-clamp-1 text-xs text-gray-600 inline-flex items-center gap-1.5">
+      <img src="{% static 'propiedades/icons/location.png' %}" alt="" class="h-3.5 w-3.5 opacity-80">
+      <span>{{ prop.localidad }}{% if prop.provincia %}, {{ prop.provincia }}{% endif %}</span>
+    </div>
+
+    <!-- Specs -->
+    <div class="mt-3 grid grid-cols-3 gap-3 text-[11px] text-gray-700">
+      <div class="inline-flex items-center gap-1.5">
+        <img src="{% static 'propiedades/icons/bed.png' %}" alt="" class="h-3.5 w-3.5 opacity-80">
+        <span>{% if prop.dormitorios %}{{ prop.dormitorios }}{% else %}—{% endif %} habit.</span>
+      </div>
+      <div class="inline-flex items-center gap-1.5">
+        <img src="{% static 'propiedades/icons/bath.png' %}" alt="" class="h-3.5 w-3.5 opacity-80">
+        <span>{% if prop.banios %}{{ prop.banios }}{% else %}—{% endif %} bañ.</span>
+      </div>
+      <div class="inline-flex items-center gap-1.5">
+        <img src="{% static 'propiedades/icons/area-covered.png' %}" alt="" class="h-3.5 w-3.5 opacity-80">
+        <span>{% if prop.metros_cuadrados_cubierta %}{{ prop.metros_cuadrados_cubierta|floatformat:0 }}{% else %}—{% endif %} m²</span>
+      </div>
+    </div>
+
+    <div class="mt-4 flex items-center justify-between">
+      <span class="text-xs text-gray-500">Click en la card para ver más</span>
+      <span class="inline-flex items-center gap-1.5 text-xs font-medium text-gray-700">
+        Ver detalle
+        <svg xmlns="http://www.w3.org/2000/svg" class="h-3.5 w-3.5" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+          <path stroke-linecap="round" stroke-linejoin="round" d="M17.25 8.25L21 12m0 0l-3.75 3.75M21 12H3" />
+        </svg>
+      </span>
+    </div>
+  </div>
+</article>

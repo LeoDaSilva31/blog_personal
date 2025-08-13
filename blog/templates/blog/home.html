@@ -1,0 +1,77 @@
+{% extends 'blog/base.html' %}
+
+{% block title %}Inicio - Mi Blog{% endblock %}
+
+{% block content %}
+<div class="flex flex-col md:flex-row gap-6">
+
+  <!-- Menú lateral izquierdo
+  <aside class="hidden md:block md:w-1/5 bg-white rounded shadow p-4 sticky top-4 h-[calc(100vh-2rem)] overflow-auto">
+    <h3 class="font-semibold mb-3 text-lg border-b pb-2">Categorías</h3>
+    <ul class="space-y-2 text-gray-700">
+      <li><a href="#" class="hover:text-blue-600">Tecnología</a></li>
+      <li><a href="#" class="hover:text-blue-600">Programación</a></li>
+      <li><a href="#" class="hover:text-blue-600">Diseño</a></li>
+      <li><a href="#" class="hover:text-blue-600">Tutoriales</a></li>
+    </ul>
+  </aside>
+
+   -->
+
+  <!-- Contenido principal -->
+  <section class="flex-1 space-y-8">
+
+    <!-- Banner principal -->
+    <div class="relative bg-gradient-to-r from-blue-500 to-indigo-600 rounded-lg text-white p-10 flex flex-col md:flex-row items-center md:items-start gap-6 shadow-lg">
+      <div class="flex-1">
+        <h1 class="text-4xl font-extrabold mb-4">Bienvenido a Mi Blog</h1>
+        <p class="text-lg mb-6">Aquí encontrarás los mejores artículos, tutoriales y recursos sobre desarrollo web y tecnología.</p>
+        <a href="#" class="inline-block bg-white text-blue-700 font-semibold px-6 py-3 rounded shadow hover:bg-gray-100 transition">Leer más</a>
+      </div>
+      <div class="hidden md:block flex-1">
+        <img src="https://images.unsplash.com/photo-1504384308090-c894fdcc538d?auto=format&fit=crop&w=600&q=80" alt="Banner tech" class="rounded-lg shadow-lg" />
+      </div>
+    </div>
+
+    <!-- Sección de artículos destacados 
+    <div>
+      <h2 class="text-2xl font-bold mb-6 border-b pb-2">Artículos Destacados</h2>
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+
+        <article class="bg-white rounded-lg shadow p-4 hover:shadow-lg transition">
+          <img src="https://images.unsplash.com/photo-1556740738-b6a63e27c4df?auto=format&fit=crop&w=400&q=80" alt="Artículo 1" class="rounded mb-3 w-full h-48 object-cover" />
+          <h3 class="font-semibold text-lg mb-2">Cómo empezar con Django</h3>
+          <p class="text-gray-700 text-sm">Una guía paso a paso para crear tu primera app web con Django y Python.</p>
+        </article>
+
+        <article class="bg-white rounded-lg shadow p-4 hover:shadow-lg transition">
+          <img src="https://images.unsplash.com/photo-1519389950473-47ba0277781c?auto=format&fit=crop&w=400&q=80" alt="Artículo 2" class="rounded mb-3 w-full h-48 object-cover" />
+          <h3 class="font-semibold text-lg mb-2">Tailwind CSS desde CDN</h3>
+          <p class="text-gray-700 text-sm">Aprende a usar Tailwind CSS sin instalar nada, directamente con CDN.</p>
+        </article>
+
+        <article class="bg-white rounded-lg shadow p-4 hover:shadow-lg transition">
+          <img src="https://images.unsplash.com/photo-1522202176988-66273c2fd55f?auto=format&fit=crop&w=400&q=80" alt="Artículo 3" class="rounded mb-3 w-full h-48 object-cover" />
+          <h3 class="font-semibold text-lg mb-2">Mejores prácticas en programación</h3>
+          <p class="text-gray-700 text-sm">Consejos útiles para escribir código limpio y eficiente.</p>
+        </article>
+
+      </div>
+    </div>
+
+    -->
+
+    <!-- Sección lateral derecha (solo en pantallas grandes) -->
+  </section>
+
+  <aside class="hidden md:block md:w-1/5 bg-white rounded shadow p-4 sticky top-4 h-[calc(100vh-2rem)] overflow-auto">
+    <h3 class="font-semibold mb-3 text-lg border-b pb-2">Enlaces a las aplicaciones</h3>
+    <ul class="space-y-2 text-gray-700">
+      <li><a href="{% url 'landingpage_home' %}" class="hover:text-green-600">Enlace a la app Landing Page</a></li>
+      <li></li><a href="{% url 'propiedades:home' %}">Ir a Propiedades</a></li>
+
+    </ul>
+  </aside>
+
+</div>
+{% endblock %}

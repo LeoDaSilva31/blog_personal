@@ -1,0 +1,23 @@
+{% extends 'propiedades/propiedades_base.html' %}
+{% load humanize l10n %}
+
+{% block title %}Inicio{% endblock %}
+
+{% block content %}
+  <section class="mb-8">
+    <h1 class="text-2xl sm:text-3xl font-semibold text-gray-900">Propiedades destacadas</h1>
+    <p class="mt-1 text-sm text-gray-600">Una selección para vos</p>
+
+    {% if propiedades_destacadas %}
+      <div class="mt-4 grid items-stretch grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
+        {% for prop in propiedades_destacadas %}
+          {% include 'propiedades/_card.html' with prop=prop %}
+        {% endfor %}
+      </div>
+    {% else %}
+      <div class="panel panel-muted mt-4">
+        <p class="text-gray-600">No hay propiedades destacadas por ahora.</p>
+      </div>
+    {% endif %}
+  </section>
+{% endblock %}

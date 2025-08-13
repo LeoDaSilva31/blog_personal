@@ -1,0 +1,37 @@
+{% extends 'propiedades/propiedades_base.html' %}
+{% load humanize l10n %}
+
+{% block title %}Listado de Propiedades{% endblock %}
+
+{% block content %}
+  <div class="mb-6">
+    <h1 class="text-2xl sm:text-3xl font-semibold text-gray-900">Todas las propiedades</h1>
+    <p class="mt-1 text-sm text-gray-500">Encontrá lo que soñás</p>
+  </div>
+
+    {% if propiedades %}
+      <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 2xl:grid-cols-6 gap-6">
+        {% for prop in propiedades %}
+          {% include 'propiedades/_card.html' with prop=prop %}
+        {% endfor %}
+      </div>
+    {% else %}
+      <p class="text-center text-gray-500">No hay propiedades publicadas.</p>
+    {% endif %}
+
+  {% if is_paginated %}
+    <nav class="mt-8 flex items-center justify-center gap-2 text-sm">
+      {% if page_obj.has_previous %}
+        <a class="px-3 py-1.5 rounded-lg border border-gray-300 hover:bg-gray-50" href="?page={{ page_obj.previous_page_number }}">Anterior</a>
+      {% endif %}
+
+      <span class="px-3 py-1.5 rounded-lg border border-gray-200 bg-gray-50">
+        Página {{ page_obj.number }} de {{ page_obj.paginator.num_pages }}
+      </span>
+
+      {% if page_obj.has_next %}
+        <a class="px-3 py-1.5 rounded-lg border border-gray-300 hover:bg-gray-50" href="?page={{ page_obj.next_page_number }}">Siguiente</a>
+      {% endif %}
+    </nav>
+  {% endif %}
+{% endblock %}

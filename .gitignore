@@ -1,0 +1,39 @@
+# --- Python / Django ---
+__pycache__/
+*.py[cod]
+*.so
+*.log
+*.pot
+*.pyc
+*.pyo
+*.pyd
+
+# Virtualenv
+env/
+venv/
+.venv/
+ENV/
+.env
+*.env
+
+# Base de datos local (si usás SQLite)
+db.sqlite3
+
+# Archivos/media subidos por usuarios
+media/
+
+# Static de compilación/colecta (ajustá al nombre de tu STATIC_ROOT si lo usás)
+staticfiles/
+static_root/
+
+# IDE / OS
+.vscode/
+.idea/
+*.code-workspace
+.DS_Store
+Thumbs.db
+
+# Node / build (si existiera)
+node_modules/
+dist/
+build/

@@ -1,0 +1,2942 @@
+[
+{
+  "model": "propiedades.propiedad",
+  "pk": 53,
+  "fields": {
+    "titulo": "Terreno ideal para inversión",
+    "descripcion": "Terreno ideal para inversión. Los datos mostrados son ilustrativos y solo para pruebas. Esta publicación es de ejemplo.",
+    "tipo": "otro",
+    "tipo_operacion": "venta",
+    "precio_usd": "777.00",
+    "precio_pesos": null,
+    "direccion": "Calle 628",
+    "localidad": "Ezpeleta",
+    "provincia": "Buenos Aires",
+    "pais": "Argentina",
+    "acepta_mascotas": true,
+    "tipo_mascota_permitida": "no_especificado",
+    "metros_cuadrados_total": "474.00",
+    "metros_cuadrados_cubierta": "150.00",
+    "dormitorios": 2,
+    "banios": 2,
+    "cocheras": 2,
+    "antiguedad": 14,
+    "amenidades": "Parrilla, Gimnasio",
+    "imagen_principal": "propiedades/imagenes_principal/53_principal.webp",
+    "is_destacada": false,
+    "estado_publicacion": "publicada",
+    "fecha_creacion": "2025-08-13T14:27:54.772Z",
+    "fecha_actualizacion": "2025-08-13T14:27:55.098Z"
+  }
+},
+{
+  "model": "propiedades.propiedad",
+  "pk": 54,
+  "fields": {
+    "titulo": "Depósito amplio",
+    "descripcion": "Depósito amplio. Los datos mostrados son ilustrativos y solo para pruebas. Esta publicación es de ejemplo.",
+    "tipo": "deposito",
+    "tipo_operacion": "venta",
+    "precio_usd": null,
+    "precio_pesos": "47011000.00",
+    "direccion": "Calle 465",
+    "localidad": "Lomas de Zamora",
+    "provincia": "Buenos Aires",
+    "pais": "Argentina",
+    "acepta_mascotas": true,
+    "tipo_mascota_permitida": "gatos",
+    "metros_cuadrados_total": "232.00",
+    "metros_cuadrados_cubierta": "375.00",
+    "dormitorios": 4,
+    "banios": 3,
+    "cocheras": 1,
+    "antiguedad": 3,
+    "amenidades": "Gimnasio, Parrilla, Parque, Seguridad 24hs",
+    "imagen_principal": "propiedades/imagenes_principal/54_principal.webp",
+    "is_destacada": true,
+    "estado_publicacion": "publicada",
+    "fecha_creacion": "2025-08-13T14:27:55.445Z",
+    "fecha_actualizacion": "2025-08-13T14:27:55.769Z"
+  }
+},
+{
+  "model": "propiedades.propiedad",
+  "pk": 55,
+  "fields": {
+    "titulo": "Departamento moderno con balcón",
+    "descripcion": "Departamento moderno con balcón. Los datos mostrados son ilustrativos y solo para pruebas. Esta publicación es de ejemplo.",
+    "tipo": "casa",
+    "tipo_operacion": "alquiler",
+    "precio_usd": null,
+    "precio_pesos": "428000.00",
+    "direccion": "Calle 271",
+    "localidad": "Bernal",
+    "provincia": "Buenos Aires",
+    "pais": "Argentina",
+    "acepta_mascotas": true,
+    "tipo_mascota_permitida": "otros",
+    "metros_cuadrados_total": "173.00",
+    "metros_cuadrados_cubierta": "202.00",
+    "dormitorios": 3,
+    "banios": 3,
+    "cocheras": 1,
+    "antiguedad": 27,
+    "amenidades": "Cochera cubierta, Pileta, Parque, Parrilla, Seguridad 24hs",
+    "imagen_principal": "propiedades/imagenes_principal/55_principal.webp",
+    "is_destacada": true,
+    "estado_publicacion": "publicada",
+    "fecha_creacion": "2025-08-13T14:27:56.166Z",
+    "fecha_actualizacion": "2025-08-13T14:27:56.293Z"
+  }
+},
+{
+  "model": "propiedades.propiedad",
+  "pk": 56,
+  "fields": {
+    "titulo": "Oficina amoblada en el centro",
+    "descripcion": "Oficina amoblada en el centro. Los datos mostrados son ilustrativos y solo para pruebas. Esta publicación es de ejemplo.",
+    "tipo": "terreno",
+    "tipo_operacion": "alquiler",
+    "precio_usd": null,
+    "precio_pesos": "684000.00",
+    "direccion": "Calle 582",
+    "localidad": "Lanús",
+    "provincia": "Buenos Aires",
+    "pais": "Argentina",
+    "acepta_mascotas": false,
+    "tipo_mascota_permitida": "gatos",
+    "metros_cuadrados_total": "233.00",
+    "metros_cuadrados_cubierta": "115.00",
+    "dormitorios": 3,
+    "banios": 3,
+    "cocheras": 3,
+    "antiguedad": 16,
+    "amenidades": "Seguridad 24hs, Pileta, Parrilla, Parque",
+    "imagen_principal": "propiedades/imagenes_principal/56_principal.webp",
+    "is_destacada": false,
+    "estado_publicacion": "publicada",
+    "fecha_creacion": "2025-08-13T14:27:56.973Z",
+    "fecha_actualizacion": "2025-08-13T14:27:57.088Z"
+  }
+},
+{
+  "model": "propiedades.propiedad",
+  "pk": 57,
+  "fields": {
+    "titulo": "Departamento moderno con balcón",
+    "descripcion": "Departamento moderno con balcón. Los datos mostrados son ilustrativos y solo para pruebas. Esta publicación es de ejemplo.",
+    "tipo": "casa",
+    "tipo_operacion": "venta",
+    "precio_usd": null,
+    "precio_pesos": "48118000.00",
+    "direccion": "Calle 104",
+    "localidad": "Avellaneda",
+    "provincia": "Buenos Aires",
+    "pais": "Argentina",
+    "acepta_mascotas": true,
+    "tipo_mascota_permitida": "otros",
+    "metros_cuadrados_total": "229.00",
+    "metros_cuadrados_cubierta": "211.00",
+    "dormitorios": 4,
+    "banios": 3,
+    "cocheras": 0,
+    "antiguedad": 18,
+    "amenidades": "Parque, Terraza",
+    "imagen_principal": "propiedades/imagenes_principal/57_principal.webp",
+    "is_destacada": false,
+    "estado_publicacion": "publicada",
+    "fecha_creacion": "2025-08-13T14:27:57.757Z",
+    "fecha_actualizacion": "2025-08-13T14:27:57.912Z"
+  }
+},
+{
+  "model": "propiedades.propiedad",
+  "pk": 58,
+  "fields": {
+    "titulo": "Departamento moderno con balcón",
+    "descripcion": "Departamento moderno con balcón. Los datos mostrados son ilustrativos y solo para pruebas. Esta publicación es de ejemplo.",
+    "tipo": "oficina",
+    "tipo_operacion": "venta",
+    "precio_usd": null,
+    "precio_pesos": "40460000.00",
+    "direccion": "Calle 685",
+    "localidad": "Lomas de Zamora",
+    "provincia": "Buenos Aires",
+    "pais": "Argentina",
+    "acepta_mascotas": false,
+    "tipo_mascota_permitida": "otros",
+    "metros_cuadrados_total": "643.00",
+    "metros_cuadrados_cubierta": "58.00",
+    "dormitorios": 1,
+    "banios": 3,
+    "cocheras": 1,
+    "antiguedad": 41,
+    "amenidades": "Parrilla, Pileta",
+    "imagen_principal": "propiedades/imagenes_principal/58_principal.webp",
+    "is_destacada": true,
+    "estado_publicacion": "publicada",
+    "fecha_creacion": "2025-08-13T14:27:58.900Z",
+    "fecha_actualizacion": "2025-08-13T14:27:59.016Z"
+  }
+},
+{
+  "model": "propiedades.propiedad",
+  "pk": 59,
+  "fields": {
+    "titulo": "Oficina amoblada en el centro",
+    "descripcion": "Oficina amoblada en el centro. Los datos mostrados son ilustrativos y solo para pruebas. Esta publicación es de ejemplo.",
+    "tipo": "apartamento",
+    "tipo_operacion": "venta",
+    "precio_usd": null,
+    "precio_pesos": "186625000.00",
+    "direccion": "Calle 753",
+    "localidad": "Quilmes",
+    "provincia": "Buenos Aires",
+    "pais": "Argentina",
+    "acepta_mascotas": false,
+    "tipo_mascota_permitida": "gatos",
+    "metros_cuadrados_total": "454.00",
+    "metros_cuadrados_cubierta": "135.00",
+    "dormitorios": 1,
+    "banios": 2,
+    "cocheras": 0,
+    "antiguedad": 30,
+    "amenidades": "Seguridad 24hs, Gimnasio",
+    "imagen_principal": "propiedades/imagenes_principal/59_principal.webp",
+    "is_destacada": true,
+    "estado_publicacion": "publicada",
+    "fecha_creacion": "2025-08-13T14:28:00.044Z",
+    "fecha_actualizacion": "2025-08-13T14:28:00.201Z"
+  }
+},
+{
+  "model": "propiedades.propiedad",
+  "pk": 60,
+  "fields": {
+    "titulo": "Galpón industrial",
+    "descripcion": "Galpón industrial. Los datos mostrados son ilustrativos y solo para pruebas. Esta publicación es de ejemplo.",
+    "tipo": "apartamento",
+    "tipo_operacion": "alquiler",
+    "precio_usd": "587.00",
+    "precio_pesos": null,
+    "direccion": "Calle 119",
+    "localidad": "Ezpeleta",
+    "provincia": "Buenos Aires",
+    "pais": "Argentina",
+    "acepta_mascotas": true,
+    "tipo_mascota_permitida": "perros",
+    "metros_cuadrados_total": "345.00",
+    "metros_cuadrados_cubierta": "213.00",
+    "dormitorios": 5,
+    "banios": 1,
+    "cocheras": 1,
+    "antiguedad": 48,
+    "amenidades": "Terraza, Gimnasio, Seguridad 24hs",
+    "imagen_principal": "propiedades/imagenes_principal/60_principal.webp",
+    "is_destacada": true,
+    "estado_publicacion": "publicada",
+    "fecha_creacion": "2025-08-13T14:28:01.177Z",
+    "fecha_actualizacion": "2025-08-13T14:28:01.283Z"
+  }
+},
+{
+  "model": "propiedades.propiedad",
+  "pk": 61,
+  "fields": {
+    "titulo": "Casa quinta con pileta",
+    "descripcion": "Casa quinta con pileta. Los datos mostrados son ilustrativos y solo para pruebas. Esta publicación es de ejemplo.",
+    "tipo": "deposito",
+    "tipo_operacion": "venta",
+    "precio_usd": "991.00",
+    "precio_pesos": null,
+    "direccion": "Calle 524",
+    "localidad": "Lanús",
+    "provincia": "Buenos Aires",
+    "pais": "Argentina",
+    "acepta_mascotas": false,
+    "tipo_mascota_permitida": "otros",
+    "metros_cuadrados_total": "143.00",
+    "metros_cuadrados_cubierta": "452.00",
+    "dormitorios": 5,
+    "banios": 3,
+    "cocheras": 2,
+    "antiguedad": 22,
+    "amenidades": "Parque, Terraza",
+    "imagen_principal": "propiedades/imagenes_principal/61_principal.webp",
+    "is_destacada": true,
+    "estado_publicacion": "publicada",
+    "fecha_creacion": "2025-08-13T14:28:01.959Z",
+    "fecha_actualizacion": "2025-08-13T14:28:02.067Z"
+  }
+},
+{
+  "model": "propiedades.propiedad",
+  "pk": 62,
+  "fields": {
+    "titulo": "Terreno ideal para inversión",
+    "descripcion": "Terreno ideal para inversión. Los datos mostrados son ilustrativos y solo para pruebas. Esta publicación es de ejemplo.",
+    "tipo": "otro",
+    "tipo_operacion": "alquiler",
+    "precio_usd": null,
+    "precio_pesos": "1152000.00",
+    "direccion": "Calle 324",
+    "localidad": "Avellaneda",
+    "provincia": "Buenos Aires",
+    "pais": "Argentina",
+    "acepta_mascotas": false,
+    "tipo_mascota_permitida": "perros",
+    "metros_cuadrados_total": "449.00",
+    "metros_cuadrados_cubierta": "199.00",
+    "dormitorios": 3,
+    "banios": 1,
+    "cocheras": 2,
+    "antiguedad": 29,
+    "amenidades": "Parrilla, Pileta, Parque, Seguridad 24hs, Terraza",
+    "imagen_principal": "propiedades/imagenes_principal/62_principal.webp",
+    "is_destacada": true,
+    "estado_publicacion": "publicada",
+    "fecha_creacion": "2025-08-13T14:28:02.352Z",
+    "fecha_actualizacion": "2025-08-13T14:28:02.467Z"
+  }
+},
+{
+  "model": "propiedades.propiedad",
+  "pk": 63,
+  "fields": {
+    "titulo": "Galpón industrial",
+    "descripcion": "Galpón industrial. Los datos mostrados son ilustrativos y solo para pruebas. Esta publicación es de ejemplo.",
+    "tipo": "deposito",
+    "tipo_operacion": "venta",
+    "precio_usd": null,
+    "precio_pesos": "239754000.00",
+    "direccion": "Calle 999",
+    "localidad": "Quilmes",
+    "provincia": "Buenos Aires",
+    "pais": "Argentina",
+    "acepta_mascotas": false,
+    "tipo_mascota_permitida": "no_especificado",
+    "metros_cuadrados_total": "294.00",
+    "metros_cuadrados_cubierta": "161.00",
+    "dormitorios": 2,
+    "banios": 2,
+    "cocheras": 0,
+    "antiguedad": 31,
+    "amenidades": "Terraza, Pileta",
+    "imagen_principal": "propiedades/imagenes_principal/63_principal.webp",
+    "is_destacada": true,
+    "estado_publicacion": "publicada",
+    "fecha_creacion": "2025-08-13T14:28:02.749Z",
+    "fecha_actualizacion": "2025-08-13T14:28:02.857Z"
+  }
+},
+{
+  "model": "propiedades.propiedad",
+  "pk": 64,
+  "fields": {
+    "titulo": "Depósito amplio",
+    "descripcion": "Depósito amplio. Los datos mostrados son ilustrativos y solo para pruebas. Esta publicación es de ejemplo.",
+    "tipo": "deposito",
+    "tipo_operacion": "venta",
+    "precio_usd": "1479.00",
+    "precio_pesos": null,
+    "direccion": "Calle 369",
+    "localidad": "Quilmes",
+    "provincia": "Buenos Aires",
+    "pais": "Argentina",
+    "acepta_mascotas": false,
+    "tipo_mascota_permitida": "perros",
+    "metros_cuadrados_total": "333.00",
+    "metros_cuadrados_cubierta": "495.00",
+    "dormitorios": 5,
+    "banios": 1,
+    "cocheras": 1,
+    "antiguedad": 4,
+    "amenidades": "Seguridad 24hs, Cochera cubierta, Parrilla, Pileta",
+    "imagen_principal": "propiedades/imagenes_principal/64_principal.webp",
+    "is_destacada": false,
+    "estado_publicacion": "publicada",
+    "fecha_creacion": "2025-08-13T14:28:03.650Z",
+    "fecha_actualizacion": "2025-08-13T14:28:03.771Z"
+  }
+},
+{
+  "model": "propiedades.propiedad",
+  "pk": 65,
+  "fields": {
+    "titulo": "Casa en zona céntrica",
+    "descripcion": "Casa en zona céntrica. Los datos mostrados son ilustrativos y solo para pruebas. Esta publicación es de ejemplo.",
+    "tipo": "otro",
+    "tipo_operacion": "alquiler",
+    "precio_usd": null,
+    "precio_pesos": "316000.00",
+    "direccion": "Calle 582",
+    "localidad": "Lomas de Zamora",
+    "provincia": "Buenos Aires",
+    "pais": "Argentina",
+    "acepta_mascotas": true,
+    "tipo_mascota_permitida": "perros",
+    "metros_cuadrados_total": "796.00",
+    "metros_cuadrados_cubierta": "348.00",
+    "dormitorios": 4,
+    "banios": 3,
+    "cocheras": 2,
+    "antiguedad": 27,
+    "amenidades": "Parrilla, Pileta, Parque, Seguridad 24hs, Terraza",
+    "imagen_principal": "propiedades/imagenes_principal/65_principal.webp",
+    "is_destacada": true,
+    "estado_publicacion": "publicada",
+    "fecha_creacion": "2025-08-13T14:28:04.240Z",
+    "fecha_actualizacion": "2025-08-13T14:28:04.580Z"
+  }
+},
+{
+  "model": "propiedades.propiedad",
+  "pk": 66,
+  "fields": {
+    "titulo": "Local comercial sobre avenida principal",
+    "descripcion": "Local comercial sobre avenida principal. Los datos mostrados son ilustrativos y solo para pruebas. Esta publicación es de ejemplo.",
+    "tipo": "casa",
+    "tipo_operacion": "venta",
+    "precio_usd": null,
+    "precio_pesos": "49583000.00",
+    "direccion": "Calle 802",
+    "localidad": "Lanús",
+    "provincia": "Buenos Aires",
+    "pais": "Argentina",
+    "acepta_mascotas": true,
+    "tipo_mascota_permitida": "otros",
+    "metros_cuadrados_total": "563.00",
+    "metros_cuadrados_cubierta": "426.00",
+    "dormitorios": 3,
+    "banios": 2,
+    "cocheras": 1,
+    "antiguedad": 30,
+    "amenidades": "Terraza, Pileta, Parrilla, Cochera cubierta, Seguridad 24hs",
+    "imagen_principal": "propiedades/imagenes_principal/66_principal.webp",
+    "is_destacada": true,
+    "estado_publicacion": "publicada",
+    "fecha_creacion": "2025-08-13T14:28:04.972Z",
+    "fecha_actualizacion": "2025-08-13T14:28:05.296Z"
+  }
+},
+{
+  "model": "propiedades.propiedad",
+  "pk": 67,
+  "fields": {
+    "titulo": "Oficina amoblada en el centro",
+    "descripcion": "Oficina amoblada en el centro. Los datos mostrados son ilustrativos y solo para pruebas. Esta publicación es de ejemplo.",
+    "tipo": "local_comercial",
+    "tipo_operacion": "venta",
+    "precio_usd": null,
+    "precio_pesos": "269568000.00",
+    "direccion": "Calle 418",
+    "localidad": "Avellaneda",
+    "provincia": "Buenos Aires",
+    "pais": "Argentina",
+    "acepta_mascotas": true,
+    "tipo_mascota_permitida": "otros",
+    "metros_cuadrados_total": "828.00",
+    "metros_cuadrados_cubierta": "290.00",
+    "dormitorios": 3,
+    "banios": 2,
+    "cocheras": 2,
+    "antiguedad": 20,
+    "amenidades": "Cochera cubierta, Pileta, Terraza, Parrilla, Seguridad 24hs",
+    "imagen_principal": "propiedades/imagenes_principal/67_principal.webp",
+    "is_destacada": true,
+    "estado_publicacion": "publicada",
+    "fecha_creacion": "2025-08-13T14:28:05.857Z",
+    "fecha_actualizacion": "2025-08-13T14:28:05.979Z"
+  }
+},
+{
+  "model": "propiedades.propiedad",
+  "pk": 68,
+  "fields": {
+    "titulo": "Terreno ideal para inversión",
+    "descripcion": "Terreno ideal para inversión. Los datos mostrados son ilustrativos y solo para pruebas. Esta publicación es de ejemplo.",
+    "tipo": "apartamento",
+    "tipo_operacion": "venta",
+    "precio_usd": "1856.00",
+    "precio_pesos": null,
+    "direccion": "Calle 730",
+    "localidad": "Lomas de Zamora",
+    "provincia": "Buenos Aires",
+    "pais": "Argentina",
+    "acepta_mascotas": false,
+    "tipo_mascota_permitida": "otros",
+    "metros_cuadrados_total": "185.00",
+    "metros_cuadrados_cubierta": "198.00",
+    "dormitorios": 1,
+    "banios": 1,
+    "cocheras": 2,
+    "antiguedad": 4,
+    "amenidades": "Pileta, Parrilla, Gimnasio",
+    "imagen_principal": "propiedades/imagenes_principal/68_principal.webp",
+    "is_destacada": false,
+    "estado_publicacion": "publicada",
+    "fecha_creacion": "2025-08-13T14:28:06.255Z",
+    "fecha_actualizacion": "2025-08-13T14:28:06.362Z"
+  }
+},
+{
+  "model": "propiedades.propiedad",
+  "pk": 69,
+  "fields": {
+    "titulo": "Local comercial sobre avenida principal",
+    "descripcion": "Local comercial sobre avenida principal. Los datos mostrados son ilustrativos y solo para pruebas. Esta publicación es de ejemplo.",
+    "tipo": "deposito",
+    "tipo_operacion": "alquiler",
+    "precio_usd": null,
+    "precio_pesos": "598000.00",
+    "direccion": "Calle 502",
+    "localidad": "Lomas de Zamora",
+    "provincia": "Buenos Aires",
+    "pais": "Argentina",
+    "acepta_mascotas": true,
+    "tipo_mascota_permitida": "perros",
+    "metros_cuadrados_total": "242.00",
+    "metros_cuadrados_cubierta": "59.00",
+    "dormitorios": 1,
+    "banios": 2,
+    "cocheras": 0,
+    "antiguedad": 28,
+    "amenidades": "Seguridad 24hs, Terraza, Parque, Cochera cubierta",
+    "imagen_principal": "propiedades/imagenes_principal/69_principal.webp",
+    "is_destacada": true,
+    "estado_publicacion": "publicada",
+    "fecha_creacion": "2025-08-13T14:28:07.255Z",
+    "fecha_actualizacion": "2025-08-13T14:28:07.365Z"
+  }
+},
+{
+  "model": "propiedades.propiedad",
+  "pk": 70,
+  "fields": {
+    "titulo": "Terreno ideal para inversión",
+    "descripcion": "Terreno ideal para inversión. Los datos mostrados son ilustrativos y solo para pruebas. Esta publicación es de ejemplo.",
+    "tipo": "deposito",
+    "tipo_operacion": "alquiler",
+    "precio_usd": null,
+    "precio_pesos": "774000.00",
+    "direccion": "Calle 467",
+    "localidad": "Ezpeleta",
+    "provincia": "Buenos Aires",
+    "pais": "Argentina",
+    "acepta_mascotas": false,
+    "tipo_mascota_permitida": "otros",
+    "metros_cuadrados_total": "185.00",
+    "metros_cuadrados_cubierta": "330.00",
+    "dormitorios": 3,
+    "banios": 3,
+    "cocheras": 2,
+    "antiguedad": 28,
+    "amenidades": "Terraza, Parque, Gimnasio",
+    "imagen_principal": "propiedades/imagenes_principal/70_principal.webp",
+    "is_destacada": false,
+    "estado_publicacion": "publicada",
+    "fecha_creacion": "2025-08-13T14:28:08.007Z",
+    "fecha_actualizacion": "2025-08-13T14:28:08.127Z"
+  }
+},
+{
+  "model": "propiedades.propiedad",
+  "pk": 71,
+  "fields": {
+    "titulo": "Depósito amplio",
+    "descripcion": "Depósito amplio. Los datos mostrados son ilustrativos y solo para pruebas. Esta publicación es de ejemplo.",
+    "tipo": "galpon",
+    "tipo_operacion": "venta",
+    "precio_usd": null,
+    "precio_pesos": "127017000.00",
+    "direccion": "Calle 6",
+    "localidad": "Lanús",
+    "provincia": "Buenos Aires",
+    "pais": "Argentina",
+    "acepta_mascotas": true,
+    "tipo_mascota_permitida": "no_especificado",
+    "metros_cuadrados_total": "239.00",
+    "metros_cuadrados_cubierta": "55.00",
+    "dormitorios": 5,
+    "banios": 3,
+    "cocheras": 3,
+    "antiguedad": 18,
+    "amenidades": "Terraza, Cochera cubierta, Parrilla, Parque, Seguridad 24hs",
+    "imagen_principal": "propiedades/imagenes_principal/71_principal.webp",
+    "is_destacada": false,
+    "estado_publicacion": "publicada",
+    "fecha_creacion": "2025-08-13T14:28:08.342Z",
+    "fecha_actualizacion": "2025-08-13T14:28:08.461Z"
+  }
+},
+{
+  "model": "propiedades.propiedad",
+  "pk": 72,
+  "fields": {
+    "titulo": "Casa quinta con pileta",
+    "descripcion": "Casa quinta con pileta. Los datos mostrados son ilustrativos y solo para pruebas. Esta publicación es de ejemplo.",
+    "tipo": "local_comercial",
+    "tipo_operacion": "alquiler",
+    "precio_usd": null,
+    "precio_pesos": "326000.00",
+    "direccion": "Calle 206",
+    "localidad": "Lomas de Zamora",
+    "provincia": "Buenos Aires",
+    "pais": "Argentina",
+    "acepta_mascotas": false,
+    "tipo_mascota_permitida": "no_especificado",
+    "metros_cuadrados_total": "177.00",
+    "metros_cuadrados_cubierta": "141.00",
+    "dormitorios": 3,
+    "banios": 1,
+    "cocheras": 3,
+    "antiguedad": 47,
+    "amenidades": "Seguridad 24hs, Cochera cubierta, Pileta",
+    "imagen_principal": "propiedades/imagenes_principal/72_principal.webp",
+    "is_destacada": true,
+    "estado_publicacion": "publicada",
+    "fecha_creacion": "2025-08-13T14:28:09.431Z",
+    "fecha_actualizacion": "2025-08-13T14:28:09.552Z"
+  }
+},
+{
+  "model": "propiedades.propiedad",
+  "pk": 73,
+  "fields": {
+    "titulo": "Departamento moderno con balcón",
+    "descripcion": "Departamento moderno con balcón. Los datos mostrados son ilustrativos y solo para pruebas. Esta publicación es de ejemplo.",
+    "tipo": "casa",
+    "tipo_operacion": "venta",
+    "precio_usd": null,
+    "precio_pesos": "309472000.00",
+    "direccion": "Calle 584",
+    "localidad": "Bernal",
+    "provincia": "Buenos Aires",
+    "pais": "Argentina",
+    "acepta_mascotas": true,
+    "tipo_mascota_permitida": "no_especificado",
+    "metros_cuadrados_total": "593.00",
+    "metros_cuadrados_cubierta": "130.00",
+    "dormitorios": 1,
+    "banios": 3,
+    "cocheras": 3,
+    "antiguedad": 20,
+    "amenidades": "Parrilla, Cochera cubierta, Seguridad 24hs, Parque",
+    "imagen_principal": "propiedades/imagenes_principal/73_principal.webp",
+    "is_destacada": true,
+    "estado_publicacion": "publicada",
+    "fecha_creacion": "2025-08-13T14:28:09.945Z",
+    "fecha_actualizacion": "2025-08-13T14:28:10.183Z"
+  }
+},
+{
+  "model": "propiedades.propiedad",
+  "pk": 74,
+  "fields": {
+    "titulo": "Local comercial sobre avenida principal",
+    "descripcion": "Local comercial sobre avenida principal. Los datos mostrados son ilustrativos y solo para pruebas. Esta publicación es de ejemplo.",
+    "tipo": "galpon",
+    "tipo_operacion": "alquiler",
+    "precio_usd": null,
+    "precio_pesos": "1090500.00",
+    "direccion": "Calle 499",
+    "localidad": "Quilmes",
+    "provincia": "Buenos Aires",
+    "pais": "Argentina",
+    "acepta_mascotas": false,
+    "tipo_mascota_permitida": "otros",
+    "metros_cuadrados_total": "547.00",
+    "metros_cuadrados_cubierta": "54.00",
+    "dormitorios": 1,
+    "banios": 2,
+    "cocheras": 1,
+    "antiguedad": 20,
+    "amenidades": "Pileta, Seguridad 24hs, Parque, Parrilla",
+    "imagen_principal": "propiedades/imagenes_principal/74_principal.webp",
+    "is_destacada": true,
+    "estado_publicacion": "publicada",
+    "fecha_creacion": "2025-08-13T14:28:10.790Z",
+    "fecha_actualizacion": "2025-08-13T14:28:11.129Z"
+  }
+},
+{
+  "model": "propiedades.propiedad",
+  "pk": 75,
+  "fields": {
+    "titulo": "Galpón industrial",
+    "descripcion": "Galpón industrial. Los datos mostrados son ilustrativos y solo para pruebas. Esta publicación es de ejemplo.",
+    "tipo": "galpon",
+    "tipo_operacion": "venta",
+    "precio_usd": null,
+    "precio_pesos": "132831500.00",
+    "direccion": "Calle 670",
+    "localidad": "Quilmes",
+    "provincia": "Buenos Aires",
+    "pais": "Argentina",
+    "acepta_mascotas": false,
+    "tipo_mascota_permitida": "perros",
+    "metros_cuadrados_total": "273.00",
+    "metros_cuadrados_cubierta": "116.00",
+    "dormitorios": 2,
+    "banios": 1,
+    "cocheras": 2,
+    "antiguedad": 21,
+    "amenidades": "Cochera cubierta, Parque, Parrilla, Pileta, Seguridad 24hs",
+    "imagen_principal": "propiedades/imagenes_principal/75_principal.webp",
+    "is_destacada": true,
+    "estado_publicacion": "publicada",
+    "fecha_creacion": "2025-08-13T14:28:11.908Z",
+    "fecha_actualizacion": "2025-08-13T14:28:12.178Z"
+  }
+},
+{
+  "model": "propiedades.propiedad",
+  "pk": 76,
+  "fields": {
+    "titulo": "Terreno ideal para inversión",
+    "descripcion": "Terreno ideal para inversión. Los datos mostrados son ilustrativos y solo para pruebas. Esta publicación es de ejemplo.",
+    "tipo": "casa",
+    "tipo_operacion": "venta",
+    "precio_usd": "1330.00",
+    "precio_pesos": null,
+    "direccion": "Calle 402",
+    "localidad": "Avellaneda",
+    "provincia": "Buenos Aires",
+    "pais": "Argentina",
+    "acepta_mascotas": true,
+    "tipo_mascota_permitida": "gatos",
+    "metros_cuadrados_total": "815.00",
+    "metros_cuadrados_cubierta": "156.00",
+    "dormitorios": 5,
+    "banios": 3,
+    "cocheras": 2,
+    "antiguedad": 27,
+    "amenidades": "Pileta, Parrilla, Seguridad 24hs, Cochera cubierta",
+    "imagen_principal": "propiedades/imagenes_principal/76_principal.webp",
+    "is_destacada": true,
+    "estado_publicacion": "publicada",
+    "fecha_creacion": "2025-08-13T14:28:13.392Z",
+    "fecha_actualizacion": "2025-08-13T14:28:13.713Z"
+  }
+},
+{
+  "model": "propiedades.propiedad",
+  "pk": 77,
+  "fields": {
+    "titulo": "Casa quinta con pileta",
+    "descripcion": "Casa quinta con pileta. Los datos mostrados son ilustrativos y solo para pruebas. Esta publicación es de ejemplo.",
+    "tipo": "galpon",
+    "tipo_operacion": "alquiler",
+    "precio_usd": null,
+    "precio_pesos": "567000.00",
+    "direccion": "Calle 969",
+    "localidad": "Avellaneda",
+    "provincia": "Buenos Aires",
+    "pais": "Argentina",
+    "acepta_mascotas": true,
+    "tipo_mascota_permitida": "no_especificado",
+    "metros_cuadrados_total": "727.00",
+    "metros_cuadrados_cubierta": "135.00",
+    "dormitorios": 1,
+    "banios": 1,
+    "cocheras": 1,
+    "antiguedad": 37,
+    "amenidades": "Parrilla, Gimnasio",
+    "imagen_principal": "propiedades/imagenes_principal/77_principal.webp",
+    "is_destacada": false,
+    "estado_publicacion": "publicada",
+    "fecha_creacion": "2025-08-13T14:28:14.228Z",
+    "fecha_actualizacion": "2025-08-13T14:28:14.552Z"
+  }
+},
+{
+  "model": "propiedades.propiedad",
+  "pk": 78,
+  "fields": {
+    "titulo": "Depósito amplio",
+    "descripcion": "Depósito amplio. Los datos mostrados son ilustrativos y solo para pruebas. Esta publicación es de ejemplo.",
+    "tipo": "galpon",
+    "tipo_operacion": "alquiler",
+    "precio_usd": null,
+    "precio_pesos": "324000.00",
+    "direccion": "Calle 128",
+    "localidad": "Bernal",
+    "provincia": "Buenos Aires",
+    "pais": "Argentina",
+    "acepta_mascotas": true,
+    "tipo_mascota_permitida": "gatos",
+    "metros_cuadrados_total": "397.00",
+    "metros_cuadrados_cubierta": "199.00",
+    "dormitorios": 4,
+    "banios": 3,
+    "cocheras": 1,
+    "antiguedad": 20,
+    "amenidades": "Gimnasio, Seguridad 24hs",
+    "imagen_principal": "propiedades/imagenes_principal/78_principal.webp",
+    "is_destacada": true,
+    "estado_publicacion": "publicada",
+    "fecha_creacion": "2025-08-13T14:28:15.533Z",
+    "fecha_actualizacion": "2025-08-13T14:28:15.871Z"
+  }
+},
+{
+  "model": "propiedades.propiedad",
+  "pk": 79,
+  "fields": {
+    "titulo": "Departamento moderno con balcón",
+    "descripcion": "Departamento moderno con balcón. Los datos mostrados son ilustrativos y solo para pruebas. Esta publicación es de ejemplo.",
+    "tipo": "galpon",
+    "tipo_operacion": "alquiler",
+    "precio_usd": "994.00",
+    "precio_pesos": null,
+    "direccion": "Calle 404",
+    "localidad": "Quilmes",
+    "provincia": "Buenos Aires",
+    "pais": "Argentina",
+    "acepta_mascotas": true,
+    "tipo_mascota_permitida": "gatos",
+    "metros_cuadrados_total": "563.00",
+    "metros_cuadrados_cubierta": "303.00",
+    "dormitorios": 4,
+    "banios": 1,
+    "cocheras": 3,
+    "antiguedad": 33,
+    "amenidades": "Seguridad 24hs, Cochera cubierta",
+    "imagen_principal": "propiedades/imagenes_principal/79_principal.webp",
+    "is_destacada": false,
+    "estado_publicacion": "publicada",
+    "fecha_creacion": "2025-08-13T14:28:16.490Z",
+    "fecha_actualizacion": "2025-08-13T14:28:16.605Z"
+  }
+},
+{
+  "model": "propiedades.propiedad",
+  "pk": 80,
+  "fields": {
+    "titulo": "Casa quinta con pileta",
+    "descripcion": "Casa quinta con pileta. Los datos mostrados son ilustrativos y solo para pruebas. Esta publicación es de ejemplo.",
+    "tipo": "galpon",
+    "tipo_operacion": "alquiler",
+    "precio_usd": "1748.00",
+    "precio_pesos": null,
+    "direccion": "Calle 922",
+    "localidad": "Lanús",
+    "provincia": "Buenos Aires",
+    "pais": "Argentina",
+    "acepta_mascotas": false,
+    "tipo_mascota_permitida": "perros",
+    "metros_cuadrados_total": "291.00",
+    "metros_cuadrados_cubierta": "493.00",
+    "dormitorios": 3,
+    "banios": 2,
+    "cocheras": 1,
+    "antiguedad": 21,
+    "amenidades": "Cochera cubierta, Pileta, Parrilla, Gimnasio",
+    "imagen_principal": "propiedades/imagenes_principal/80_principal.webp",
+    "is_destacada": false,
+    "estado_publicacion": "publicada",
+    "fecha_creacion": "2025-08-13T14:28:16.835Z",
+    "fecha_actualizacion": "2025-08-13T14:28:16.953Z"
+  }
+},
+{
+  "model": "propiedades.propiedad",
+  "pk": 81,
+  "fields": {
+    "titulo": "Galpón industrial",
+    "descripcion": "Galpón industrial. Los datos mostrados son ilustrativos y solo para pruebas. Esta publicación es de ejemplo.",
+    "tipo": "casa",
+    "tipo_operacion": "venta",
+    "precio_usd": null,
+    "precio_pesos": "252880000.00",
+    "direccion": "Calle 824",
+    "localidad": "Lomas de Zamora",
+    "provincia": "Buenos Aires",
+    "pais": "Argentina",
+    "acepta_mascotas": false,
+    "tipo_mascota_permitida": "gatos",
+    "metros_cuadrados_total": "615.00",
+    "metros_cuadrados_cubierta": "172.00",
+    "dormitorios": 5,
+    "banios": 3,
+    "cocheras": 2,
+    "antiguedad": 15,
+    "amenidades": "Pileta, Parque, Gimnasio, Terraza, Seguridad 24hs",
+    "imagen_principal": "propiedades/imagenes_principal/81_principal.webp",
+    "is_destacada": false,
+    "estado_publicacion": "publicada",
+    "fecha_creacion": "2025-08-13T14:28:17.840Z",
+    "fecha_actualizacion": "2025-08-13T14:28:17.967Z"
+  }
+},
+{
+  "model": "propiedades.propiedad",
+  "pk": 82,
+  "fields": {
+    "titulo": "Depósito amplio",
+    "descripcion": "Depósito amplio. Los datos mostrados son ilustrativos y solo para pruebas. Esta publicación es de ejemplo.",
+    "tipo": "deposito",
+    "tipo_operacion": "venta",
+    "precio_usd": "1009.00",
+    "precio_pesos": null,
+    "direccion": "Calle 453",
+    "localidad": "Lomas de Zamora",
+    "provincia": "Buenos Aires",
+    "pais": "Argentina",
+    "acepta_mascotas": false,
+    "tipo_mascota_permitida": "no_especificado",
+    "metros_cuadrados_total": "163.00",
+    "metros_cuadrados_cubierta": "197.00",
+    "dormitorios": 1,
+    "banios": 3,
+    "cocheras": 2,
+    "antiguedad": 30,
+    "amenidades": "Parrilla, Terraza, Gimnasio, Cochera cubierta",
+    "imagen_principal": "propiedades/imagenes_principal/82_principal.webp",
+    "is_destacada": true,
+    "estado_publicacion": "publicada",
+    "fecha_creacion": "2025-08-13T14:28:18.299Z",
+    "fecha_actualizacion": "2025-08-13T14:28:18.418Z"
+  }
+},
+{
+  "model": "propiedades.propiedad",
+  "pk": 83,
+  "fields": {
+    "titulo": "Terreno ideal para inversión",
+    "descripcion": "Terreno ideal para inversión. Los datos mostrados son ilustrativos y solo para pruebas. Esta publicación es de ejemplo.",
+    "tipo": "otro",
+    "tipo_operacion": "alquiler",
+    "precio_usd": null,
+    "precio_pesos": "625500.00",
+    "direccion": "Calle 121",
+    "localidad": "Ezpeleta",
+    "provincia": "Buenos Aires",
+    "pais": "Argentina",
+    "acepta_mascotas": true,
+    "tipo_mascota_permitida": "otros",
+    "metros_cuadrados_total": "694.00",
+    "metros_cuadrados_cubierta": "453.00",
+    "dormitorios": 3,
+    "banios": 2,
+    "cocheras": 1,
+    "antiguedad": 28,
+    "amenidades": "Parque, Cochera cubierta",
+    "imagen_principal": "propiedades/imagenes_principal/83_principal.webp",
+    "is_destacada": false,
+    "estado_publicacion": "publicada",
+    "fecha_creacion": "2025-08-13T14:28:18.799Z",
+    "fecha_actualizacion": "2025-08-13T14:28:18.906Z"
+  }
+},
+{
+  "model": "propiedades.propiedad",
+  "pk": 84,
+  "fields": {
+    "titulo": "Depósito amplio",
+    "descripcion": "Depósito amplio. Los datos mostrados son ilustrativos y solo para pruebas. Esta publicación es de ejemplo.",
+    "tipo": "deposito",
+    "tipo_operacion": "venta",
+    "precio_usd": null,
+    "precio_pesos": "182261500.00",
+    "direccion": "Calle 276",
+    "localidad": "Avellaneda",
+    "provincia": "Buenos Aires",
+    "pais": "Argentina",
+    "acepta_mascotas": true,
+    "tipo_mascota_permitida": "no_especificado",
+    "metros_cuadrados_total": "566.00",
+    "metros_cuadrados_cubierta": "146.00",
+    "dormitorios": 3,
+    "banios": 1,
+    "cocheras": 1,
+    "antiguedad": 50,
+    "amenidades": "Gimnasio, Cochera cubierta, Terraza, Seguridad 24hs",
+    "imagen_principal": "propiedades/imagenes_principal/84_principal.webp",
+    "is_destacada": false,
+    "estado_publicacion": "publicada",
+    "fecha_creacion": "2025-08-13T14:28:19.143Z",
+    "fecha_actualizacion": "2025-08-13T14:28:19.379Z"
+  }
+},
+{
+  "model": "propiedades.propiedad",
+  "pk": 85,
+  "fields": {
+    "titulo": "Casa en zona céntrica",
+    "descripcion": "Casa en zona céntrica. Los datos mostrados son ilustrativos y solo para pruebas. Esta publicación es de ejemplo.",
+    "tipo": "terreno",
+    "tipo_operacion": "alquiler",
+    "precio_usd": null,
+    "precio_pesos": "1001000.00",
+    "direccion": "Calle 830",
+    "localidad": "Avellaneda",
+    "provincia": "Buenos Aires",
+    "pais": "Argentina",
+    "acepta_mascotas": true,
+    "tipo_mascota_permitida": "gatos",
+    "metros_cuadrados_total": "151.00",
+    "metros_cuadrados_cubierta": "253.00",
+    "dormitorios": 5,
+    "banios": 3,
+    "cocheras": 2,
+    "antiguedad": 49,
+    "amenidades": "Parque, Seguridad 24hs, Pileta",
+    "imagen_principal": "propiedades/imagenes_principal/85_principal.webp",
+    "is_destacada": true,
+    "estado_publicacion": "publicada",
+    "fecha_creacion": "2025-08-13T14:28:20.168Z",
+    "fecha_actualizacion": "2025-08-13T14:28:20.489Z"
+  }
+},
+{
+  "model": "propiedades.propiedad",
+  "pk": 86,
+  "fields": {
+    "titulo": "Casa en zona céntrica",
+    "descripcion": "Casa en zona céntrica. Los datos mostrados son ilustrativos y solo para pruebas. Esta publicación es de ejemplo.",
+    "tipo": "deposito",
+    "tipo_operacion": "alquiler",
+    "precio_usd": null,
+    "precio_pesos": "542000.00",
+    "direccion": "Calle 614",
+    "localidad": "Avellaneda",
+    "provincia": "Buenos Aires",
+    "pais": "Argentina",
+    "acepta_mascotas": true,
+    "tipo_mascota_permitida": "gatos",
+    "metros_cuadrados_total": "144.00",
+    "metros_cuadrados_cubierta": "440.00",
+    "dormitorios": 4,
+    "banios": 2,
+    "cocheras": 0,
+    "antiguedad": 27,
+    "amenidades": "Parque, Pileta, Gimnasio, Seguridad 24hs",
+    "imagen_principal": "propiedades/imagenes_principal/86_principal.webp",
+    "is_destacada": false,
+    "estado_publicacion": "publicada",
+    "fecha_creacion": "2025-08-13T14:28:21.402Z",
+    "fecha_actualizacion": "2025-08-13T14:28:21.834Z"
+  }
+},
+{
+  "model": "propiedades.propiedad",
+  "pk": 87,
+  "fields": {
+    "titulo": "Galpón industrial",
+    "descripcion": "Galpón industrial. Los datos mostrados son ilustrativos y solo para pruebas. Esta publicación es de ejemplo.",
+    "tipo": "apartamento",
+    "tipo_operacion": "alquiler",
+    "precio_usd": null,
+    "precio_pesos": "635500.00",
+    "direccion": "Calle 801",
+    "localidad": "Lanús",
+    "provincia": "Buenos Aires",
+    "pais": "Argentina",
+    "acepta_mascotas": false,
+    "tipo_mascota_permitida": "no_especificado",
+    "metros_cuadrados_total": "730.00",
+    "metros_cuadrados_cubierta": "348.00",
+    "dormitorios": 5,
+    "banios": 2,
+    "cocheras": 0,
+    "antiguedad": 45,
+    "amenidades": "Pileta, Gimnasio, Parrilla",
+    "imagen_principal": "propiedades/imagenes_principal/87_principal.webp",
+    "is_destacada": true,
+    "estado_publicacion": "publicada",
+    "fecha_creacion": "2025-08-13T14:28:22.086Z",
+    "fecha_actualizacion": "2025-08-13T14:28:22.322Z"
+  }
+},
+{
+  "model": "propiedades.propiedad",
+  "pk": 88,
+  "fields": {
+    "titulo": "Casa en zona céntrica",
+    "descripcion": "Casa en zona céntrica. Los datos mostrados son ilustrativos y solo para pruebas. Esta publicación es de ejemplo.",
+    "tipo": "local_comercial",
+    "tipo_operacion": "venta",
+    "precio_usd": null,
+    "precio_pesos": "251510000.00",
+    "direccion": "Calle 276",
+    "localidad": "Ezpeleta",
+    "provincia": "Buenos Aires",
+    "pais": "Argentina",
+    "acepta_mascotas": true,
+    "tipo_mascota_permitida": "no_especificado",
+    "metros_cuadrados_total": "209.00",
+    "metros_cuadrados_cubierta": "421.00",
+    "dormitorios": 3,
+    "banios": 3,
+    "cocheras": 0,
+    "antiguedad": 2,
+    "amenidades": "Parrilla, Cochera cubierta, Parque, Terraza",
+    "imagen_principal": "propiedades/imagenes_principal/88_principal.webp",
+    "is_destacada": false,
+    "estado_publicacion": "publicada",
+    "fecha_creacion": "2025-08-13T14:28:22.833Z",
+    "fecha_actualizacion": "2025-08-13T14:28:22.940Z"
+  }
+},
+{
+  "model": "propiedades.propiedad",
+  "pk": 89,
+  "fields": {
+    "titulo": "Terreno ideal para inversión",
+    "descripcion": "Terreno ideal para inversión. Los datos mostrados son ilustrativos y solo para pruebas. Esta publicación es de ejemplo.",
+    "tipo": "local_comercial",
+    "tipo_operacion": "venta",
+    "precio_usd": null,
+    "precio_pesos": "310162000.00",
+    "direccion": "Calle 774",
+    "localidad": "Avellaneda",
+    "provincia": "Buenos Aires",
+    "pais": "Argentina",
+    "acepta_mascotas": true,
+    "tipo_mascota_permitida": "otros",
+    "metros_cuadrados_total": "537.00",
+    "metros_cuadrados_cubierta": "151.00",
+    "dormitorios": 1,
+    "banios": 3,
+    "cocheras": 2,
+    "antiguedad": 31,
+    "amenidades": "Gimnasio, Cochera cubierta",
+    "imagen_principal": "propiedades/imagenes_principal/89_principal.webp",
+    "is_destacada": true,
+    "estado_publicacion": "publicada",
+    "fecha_creacion": "2025-08-13T14:28:23.510Z",
+    "fecha_actualizacion": "2025-08-13T14:28:23.625Z"
+  }
+},
+{
+  "model": "propiedades.propiedad",
+  "pk": 90,
+  "fields": {
+    "titulo": "Local comercial sobre avenida principal",
+    "descripcion": "Local comercial sobre avenida principal. Los datos mostrados son ilustrativos y solo para pruebas. Esta publicación es de ejemplo.",
+    "tipo": "apartamento",
+    "tipo_operacion": "alquiler",
+    "precio_usd": null,
+    "precio_pesos": "1085500.00",
+    "direccion": "Calle 455",
+    "localidad": "Avellaneda",
+    "provincia": "Buenos Aires",
+    "pais": "Argentina",
+    "acepta_mascotas": false,
+    "tipo_mascota_permitida": "no_especificado",
+    "metros_cuadrados_total": "632.00",
+    "metros_cuadrados_cubierta": "73.00",
+    "dormitorios": 1,
+    "banios": 2,
+    "cocheras": 3,
+    "antiguedad": 30,
+    "amenidades": "Gimnasio, Parrilla, Pileta, Seguridad 24hs, Terraza",
+    "imagen_principal": "propiedades/imagenes_principal/90_principal.webp",
+    "is_destacada": true,
+    "estado_publicacion": "publicada",
+    "fecha_creacion": "2025-08-13T14:28:24.345Z",
+    "fecha_actualizacion": "2025-08-13T14:28:24.464Z"
+  }
+},
+{
+  "model": "propiedades.propiedad",
+  "pk": 91,
+  "fields": {
+    "titulo": "Galpón industrial",
+    "descripcion": "Galpón industrial. Los datos mostrados son ilustrativos y solo para pruebas. Esta publicación es de ejemplo.",
+    "tipo": "casa",
+    "tipo_operacion": "alquiler",
+    "precio_usd": null,
+    "precio_pesos": "711000.00",
+    "direccion": "Calle 632",
+    "localidad": "Quilmes",
+    "provincia": "Buenos Aires",
+    "pais": "Argentina",
+    "acepta_mascotas": true,
+    "tipo_mascota_permitida": "no_especificado",
+    "metros_cuadrados_total": "627.00",
+    "metros_cuadrados_cubierta": "89.00",
+    "dormitorios": 3,
+    "banios": 2,
+    "cocheras": 3,
+    "antiguedad": 32,
+    "amenidades": "Parque, Parrilla, Pileta, Gimnasio",
+    "imagen_principal": "propiedades/imagenes_principal/91_principal.webp",
+    "is_destacada": true,
+    "estado_publicacion": "publicada",
+    "fecha_creacion": "2025-08-13T14:28:24.906Z",
+    "fecha_actualizacion": "2025-08-13T14:28:25.340Z"
+  }
+},
+{
+  "model": "propiedades.propiedad",
+  "pk": 92,
+  "fields": {
+    "titulo": "Casa quinta con pileta",
+    "descripcion": "Casa quinta con pileta. Los datos mostrados son ilustrativos y solo para pruebas. Esta publicación es de ejemplo.",
+    "tipo": "oficina",
+    "tipo_operacion": "venta",
+    "precio_usd": "588.00",
+    "precio_pesos": null,
+    "direccion": "Calle 627",
+    "localidad": "Lomas de Zamora",
+    "provincia": "Buenos Aires",
+    "pais": "Argentina",
+    "acepta_mascotas": true,
+    "tipo_mascota_permitida": "otros",
+    "metros_cuadrados_total": "275.00",
+    "metros_cuadrados_cubierta": "164.00",
+    "dormitorios": 1,
+    "banios": 2,
+    "cocheras": 3,
+    "antiguedad": 1,
+    "amenidades": "Parrilla, Seguridad 24hs",
+    "imagen_principal": "propiedades/imagenes_principal/92_principal.webp",
+    "is_destacada": true,
+    "estado_publicacion": "publicada",
+    "fecha_creacion": "2025-08-13T14:28:26.315Z",
+    "fecha_actualizacion": "2025-08-13T14:28:26.551Z"
+  }
+},
+{
+  "model": "propiedades.propiedad",
+  "pk": 93,
+  "fields": {
+    "titulo": "Casa quinta con pileta",
+    "descripcion": "Casa quinta con pileta. Los datos mostrados son ilustrativos y solo para pruebas. Esta publicación es de ejemplo.",
+    "tipo": "terreno",
+    "tipo_operacion": "venta",
+    "precio_usd": "996.00",
+    "precio_pesos": null,
+    "direccion": "Calle 13",
+    "localidad": "Lomas de Zamora",
+    "provincia": "Buenos Aires",
+    "pais": "Argentina",
+    "acepta_mascotas": false,
+    "tipo_mascota_permitida": "no_especificado",
+    "metros_cuadrados_total": "332.00",
+    "metros_cuadrados_cubierta": "109.00",
+    "dormitorios": 5,
+    "banios": 3,
+    "cocheras": 0,
+    "antiguedad": 50,
+    "amenidades": "Parque, Terraza, Seguridad 24hs",
+    "imagen_principal": "propiedades/imagenes_principal/93_principal.webp",
+    "is_destacada": true,
+    "estado_publicacion": "publicada",
+    "fecha_creacion": "2025-08-13T14:28:27.173Z",
+    "fecha_actualizacion": "2025-08-13T14:28:27.499Z"
+  }
+},
+{
+  "model": "propiedades.propiedad",
+  "pk": 94,
+  "fields": {
+    "titulo": "Local comercial sobre avenida principal",
+    "descripcion": "Local comercial sobre avenida principal. Los datos mostrados son ilustrativos y solo para pruebas. Esta publicación es de ejemplo.",
+    "tipo": "terreno",
+    "tipo_operacion": "alquiler",
+    "precio_usd": "416.00",
+    "precio_pesos": null,
+    "direccion": "Calle 177",
+    "localidad": "Bernal",
+    "provincia": "Buenos Aires",
+    "pais": "Argentina",
+    "acepta_mascotas": false,
+    "tipo_mascota_permitida": "perros",
+    "metros_cuadrados_total": "438.00",
+    "metros_cuadrados_cubierta": "131.00",
+    "dormitorios": 2,
+    "banios": 3,
+    "cocheras": 1,
+    "antiguedad": 48,
+    "amenidades": "Gimnasio, Seguridad 24hs, Parque, Cochera cubierta, Parrilla",
+    "imagen_principal": "propiedades/imagenes_principal/94_principal.webp",
+    "is_destacada": false,
+    "estado_publicacion": "publicada",
+    "fecha_creacion": "2025-08-13T14:28:27.714Z",
+    "fecha_actualizacion": "2025-08-13T14:28:28.036Z"
+  }
+},
+{
+  "model": "propiedades.propiedad",
+  "pk": 95,
+  "fields": {
+    "titulo": "Terreno ideal para inversión",
+    "descripcion": "Terreno ideal para inversión. Los datos mostrados son ilustrativos y solo para pruebas. Esta publicación es de ejemplo.",
+    "tipo": "otro",
+    "tipo_operacion": "alquiler",
+    "precio_usd": null,
+    "precio_pesos": "1552000.00",
+    "direccion": "Calle 630",
+    "localidad": "Bernal",
+    "provincia": "Buenos Aires",
+    "pais": "Argentina",
+    "acepta_mascotas": true,
+    "tipo_mascota_permitida": "no_especificado",
+    "metros_cuadrados_total": "858.00",
+    "metros_cuadrados_cubierta": "82.00",
+    "dormitorios": 2,
+    "banios": 1,
+    "cocheras": 1,
+    "antiguedad": 10,
+    "amenidades": "Parrilla, Parque, Terraza, Gimnasio, Cochera cubierta",
+    "imagen_principal": "propiedades/imagenes_principal/95_principal.webp",
+    "is_destacada": false,
+    "estado_publicacion": "publicada",
+    "fecha_creacion": "2025-08-13T14:28:28.494Z",
+    "fecha_actualizacion": "2025-08-13T14:28:28.832Z"
+  }
+},
+{
+  "model": "propiedades.propiedad",
+  "pk": 96,
+  "fields": {
+    "titulo": "Terreno ideal para inversión",
+    "descripcion": "Terreno ideal para inversión. Los datos mostrados son ilustrativos y solo para pruebas. Esta publicación es de ejemplo.",
+    "tipo": "otro",
+    "tipo_operacion": "venta",
+    "precio_usd": null,
+    "precio_pesos": "143997000.00",
+    "direccion": "Calle 469",
+    "localidad": "Lanús",
+    "provincia": "Buenos Aires",
+    "pais": "Argentina",
+    "acepta_mascotas": true,
+    "tipo_mascota_permitida": "perros",
+    "metros_cuadrados_total": "433.00",
+    "metros_cuadrados_cubierta": "491.00",
+    "dormitorios": 5,
+    "banios": 1,
+    "cocheras": 1,
+    "antiguedad": 11,
+    "amenidades": "Parrilla, Terraza, Cochera cubierta, Seguridad 24hs, Gimnasio",
+    "imagen_principal": "propiedades/imagenes_principal/96_principal.webp",
+    "is_destacada": false,
+    "estado_publicacion": "publicada",
+    "fecha_creacion": "2025-08-13T14:28:29.209Z",
+    "fecha_actualizacion": "2025-08-13T14:28:29.318Z"
+  }
+},
+{
+  "model": "propiedades.propiedad",
+  "pk": 97,
+  "fields": {
+    "titulo": "Casa quinta con pileta",
+    "descripcion": "Casa quinta con pileta. Los datos mostrados son ilustrativos y solo para pruebas. Esta publicación es de ejemplo.",
+    "tipo": "apartamento",
+    "tipo_operacion": "alquiler",
+    "precio_usd": null,
+    "precio_pesos": "1248000.00",
+    "direccion": "Calle 140",
+    "localidad": "Lomas de Zamora",
+    "provincia": "Buenos Aires",
+    "pais": "Argentina",
+    "acepta_mascotas": true,
+    "tipo_mascota_permitida": "gatos",
+    "metros_cuadrados_total": "399.00",
+    "metros_cuadrados_cubierta": "255.00",
+    "dormitorios": 5,
+    "banios": 2,
+    "cocheras": 1,
+    "antiguedad": 12,
+    "amenidades": "Terraza, Pileta",
+    "imagen_principal": "propiedades/imagenes_principal/97_principal.webp",
+    "is_destacada": true,
+    "estado_publicacion": "publicada",
+    "fecha_creacion": "2025-08-13T14:28:29.546Z",
+    "fecha_actualizacion": "2025-08-13T14:28:29.781Z"
+  }
+},
+{
+  "model": "propiedades.propiedad",
+  "pk": 98,
+  "fields": {
+    "titulo": "Casa en zona céntrica",
+    "descripcion": "Casa en zona céntrica. Los datos mostrados son ilustrativos y solo para pruebas. Esta publicación es de ejemplo.",
+    "tipo": "galpon",
+    "tipo_operacion": "alquiler",
+    "precio_usd": "757.00",
+    "precio_pesos": null,
+    "direccion": "Calle 284",
+    "localidad": "Ezpeleta",
+    "provincia": "Buenos Aires",
+    "pais": "Argentina",
+    "acepta_mascotas": true,
+    "tipo_mascota_permitida": "no_especificado",
+    "metros_cuadrados_total": "524.00",
+    "metros_cuadrados_cubierta": "95.00",
+    "dormitorios": 3,
+    "banios": 2,
+    "cocheras": 0,
+    "antiguedad": 29,
+    "amenidades": "Cochera cubierta, Parrilla, Seguridad 24hs, Terraza",
+    "imagen_principal": "propiedades/imagenes_principal/98_principal.webp",
+    "is_destacada": false,
+    "estado_publicacion": "publicada",
+    "fecha_creacion": "2025-08-13T14:28:30.293Z",
+    "fecha_actualizacion": "2025-08-13T14:28:30.724Z"
+  }
+},
+{
+  "model": "propiedades.propiedad",
+  "pk": 99,
+  "fields": {
+    "titulo": "Departamento moderno con balcón",
+    "descripcion": "Departamento moderno con balcón. Los datos mostrados son ilustrativos y solo para pruebas. Esta publicación es de ejemplo.",
+    "tipo": "galpon",
+    "tipo_operacion": "venta",
+    "precio_usd": "563.00",
+    "precio_pesos": null,
+    "direccion": "Calle 519",
+    "localidad": "Lomas de Zamora",
+    "provincia": "Buenos Aires",
+    "pais": "Argentina",
+    "acepta_mascotas": false,
+    "tipo_mascota_permitida": "gatos",
+    "metros_cuadrados_total": "377.00",
+    "metros_cuadrados_cubierta": "455.00",
+    "dormitorios": 5,
+    "banios": 3,
+    "cocheras": 3,
+    "antiguedad": 38,
+    "amenidades": "Gimnasio, Parque, Cochera cubierta, Terraza, Seguridad 24hs",
+    "imagen_principal": "propiedades/imagenes_principal/99_principal.webp",
+    "is_destacada": true,
+    "estado_publicacion": "publicada",
+    "fecha_creacion": "2025-08-13T14:28:31.245Z",
+    "fecha_actualizacion": "2025-08-13T14:28:31.367Z"
+  }
+},
+{
+  "model": "propiedades.propiedad",
+  "pk": 100,
+  "fields": {
+    "titulo": "Depósito amplio",
+    "descripcion": "Depósito amplio. Los datos mostrados son ilustrativos y solo para pruebas. Esta publicación es de ejemplo.",
+    "tipo": "galpon",
+    "tipo_operacion": "venta",
+    "precio_usd": null,
+    "precio_pesos": "121507000.00",
+    "direccion": "Calle 412",
+    "localidad": "Lanús",
+    "provincia": "Buenos Aires",
+    "pais": "Argentina",
+    "acepta_mascotas": true,
+    "tipo_mascota_permitida": "otros",
+    "metros_cuadrados_total": "460.00",
+    "metros_cuadrados_cubierta": "196.00",
+    "dormitorios": 3,
+    "banios": 1,
+    "cocheras": 0,
+    "antiguedad": 46,
+    "amenidades": "Parque, Pileta",
+    "imagen_principal": "propiedades/imagenes_principal/100_principal.webp",
+    "is_destacada": false,
+    "estado_publicacion": "publicada",
+    "fecha_creacion": "2025-08-13T14:28:32.279Z",
+    "fecha_actualizacion": "2025-08-13T14:28:32.411Z"
+  }
+},
+{
+  "model": "propiedades.propiedad",
+  "pk": 101,
+  "fields": {
+    "titulo": "Departamento moderno con balcón",
+    "descripcion": "Departamento moderno con balcón. Los datos mostrados son ilustrativos y solo para pruebas. Esta publicación es de ejemplo.",
+    "tipo": "casa",
+    "tipo_operacion": "venta",
+    "precio_usd": null,
+    "precio_pesos": "292046000.00",
+    "direccion": "Calle 609",
+    "localidad": "Lomas de Zamora",
+    "provincia": "Buenos Aires",
+    "pais": "Argentina",
+    "acepta_mascotas": true,
+    "tipo_mascota_permitida": "perros",
+    "metros_cuadrados_total": "818.00",
+    "metros_cuadrados_cubierta": "165.00",
+    "dormitorios": 2,
+    "banios": 3,
+    "cocheras": 3,
+    "antiguedad": 41,
+    "amenidades": "Cochera cubierta, Parque",
+    "imagen_principal": "propiedades/imagenes_principal/101_principal.webp",
+    "is_destacada": false,
+    "estado_publicacion": "publicada",
+    "fecha_creacion": "2025-08-13T14:28:32.922Z",
+    "fecha_actualizacion": "2025-08-13T14:28:33.040Z"
+  }
+},
+{
+  "model": "propiedades.propiedad",
+  "pk": 102,
+  "fields": {
+    "titulo": "Casa en zona céntrica",
+    "descripcion": "Casa en zona céntrica. Los datos mostrados son ilustrativos y solo para pruebas. Esta publicación es de ejemplo.",
+    "tipo": "otro",
+    "tipo_operacion": "venta",
+    "precio_usd": null,
+    "precio_pesos": "218670500.00",
+    "direccion": "Calle 217",
+    "localidad": "Lanús",
+    "provincia": "Buenos Aires",
+    "pais": "Argentina",
+    "acepta_mascotas": true,
+    "tipo_mascota_permitida": "perros",
+    "metros_cuadrados_total": "809.00",
+    "metros_cuadrados_cubierta": "362.00",
+    "dormitorios": 5,
+    "banios": 3,
+    "cocheras": 3,
+    "antiguedad": 32,
+    "amenidades": "Seguridad 24hs, Parque",
+    "imagen_principal": "propiedades/imagenes_principal/102_principal.webp",
+    "is_destacada": false,
+    "estado_publicacion": "publicada",
+    "fecha_creacion": "2025-08-13T14:28:33.546Z",
+    "fecha_actualizacion": "2025-08-13T14:28:33.656Z"
+  }
+},
+{
+  "model": "propiedades.propiedadimagen",
+  "pk": 145,
+  "fields": {
+    "propiedad": 53,
+    "imagen": "propiedades/galeria/53_5827.webp",
+    "descripcion_corta": "Imagen ilustrativa"
+  }
+},
+{
+  "model": "propiedades.propiedadimagen",
+  "pk": 146,
+  "fields": {
+    "propiedad": 53,
+    "imagen": "propiedades/galeria/53_6570.webp",
+    "descripcion_corta": "Imagen ilustrativa"
+  }
+},
+{
+  "model": "propiedades.propiedadimagen",
+  "pk": 147,
+  "fields": {
+    "propiedad": 53,
+    "imagen": "propiedades/galeria/53_1879.webp",
+    "descripcion_corta": "Imagen ilustrativa"
+  }
+},
+{
+  "model": "propiedades.propiedadimagen",
+  "pk": 148,
+  "fields": {
+    "propiedad": 54,
+    "imagen": "propiedades/galeria/54_1012.webp",
+    "descripcion_corta": "Imagen ilustrativa"
+  }
+},
+{
+  "model": "propiedades.propiedadimagen",
+  "pk": 149,
+  "fields": {
+    "propiedad": 54,
+    "imagen": "propiedades/galeria/54_4478.webp",
+    "descripcion_corta": "Imagen ilustrativa"
+  }
+},
+{
+  "model": "propiedades.propiedadimagen",
+  "pk": 150,
+  "fields": {
+    "propiedad": 55,
+    "imagen": "propiedades/galeria/55_2084.webp",
+    "descripcion_corta": "Imagen ilustrativa"
+  }
+},
+{
+  "model": "propiedades.propiedadimagen",
+  "pk": 151,
+  "fields": {
+    "propiedad": 55,
+    "imagen": "propiedades/galeria/55_2455.webp",
+    "descripcion_corta": "Imagen ilustrativa"
+  }
+},
+{
+  "model": "propiedades.propiedadimagen",
+  "pk": 152,
+  "fields": {
+    "propiedad": 55,
+    "imagen": "propiedades/galeria/55_8980.webp",
+    "descripcion_corta": "Imagen ilustrativa"
+  }
+},
+{
+  "model": "propiedades.propiedadimagen",
+  "pk": 153,
+  "fields": {
+    "propiedad": 56,
+    "imagen": "propiedades/galeria/56_1302.webp",
+    "descripcion_corta": "Imagen ilustrativa"
+  }
+},
+{
+  "model": "propiedades.propiedadimagen",
+  "pk": 154,
+  "fields": {
+    "propiedad": 56,
+    "imagen": "propiedades/galeria/56_6943.webp",
+    "descripcion_corta": "Imagen ilustrativa"
+  }
+},
+{
+  "model": "propiedades.propiedadimagen",
+  "pk": 155,
+  "fields": {
+    "propiedad": 56,
+    "imagen": "propiedades/galeria/56_1490.webp",
+    "descripcion_corta": "Imagen ilustrativa"
+  }
+},
+{
+  "model": "propiedades.propiedadimagen",
+  "pk": 156,
+  "fields": {
+    "propiedad": 57,
+    "imagen": "propiedades/galeria/57_1516.webp",
+    "descripcion_corta": "Imagen ilustrativa"
+  }
+},
+{
+  "model": "propiedades.propiedadimagen",
+  "pk": 157,
+  "fields": {
+    "propiedad": 57,
+    "imagen": "propiedades/galeria/57_4891.webp",
+    "descripcion_corta": "Imagen ilustrativa"
+  }
+},
+{
+  "model": "propiedades.propiedadimagen",
+  "pk": 158,
+  "fields": {
+    "propiedad": 57,
+    "imagen": "propiedades/galeria/57_8844.webp",
+    "descripcion_corta": "Imagen ilustrativa"
+  }
+},
+{
+  "model": "propiedades.propiedadimagen",
+  "pk": 159,
+  "fields": {
+    "propiedad": 58,
+    "imagen": "propiedades/galeria/58_1822.webp",
+    "descripcion_corta": "Imagen ilustrativa"
+  }
+},
+{
+  "model": "propiedades.propiedadimagen",
+  "pk": 160,
+  "fields": {
+    "propiedad": 58,
+    "imagen": "propiedades/galeria/58_3036.webp",
+    "descripcion_corta": "Imagen ilustrativa"
+  }
+},
+{
+  "model": "propiedades.propiedadimagen",
+  "pk": 161,
+  "fields": {
+    "propiedad": 58,
+    "imagen": "propiedades/galeria/58_5007.webp",
+    "descripcion_corta": "Imagen ilustrativa"
+  }
+},
+{
+  "model": "propiedades.propiedadimagen",
+  "pk": 162,
+  "fields": {
+    "propiedad": 58,
+    "imagen": "propiedades/galeria/58_4764.webp",
+    "descripcion_corta": "Imagen ilustrativa"
+  }
+},
+{
+  "model": "propiedades.propiedadimagen",
+  "pk": 163,
+  "fields": {
+    "propiedad": 59,
+    "imagen": "propiedades/galeria/59_6429.webp",
+    "descripcion_corta": "Imagen ilustrativa"
+  }
+},
+{
+  "model": "propiedades.propiedadimagen",
+  "pk": 164,
+  "fields": {
+    "propiedad": 59,
+    "imagen": "propiedades/galeria/59_2969.webp",
+    "descripcion_corta": "Imagen ilustrativa"
+  }
+},
+{
+  "model": "propiedades.propiedadimagen",
+  "pk": 165,
+  "fields": {
+    "propiedad": 59,
+    "imagen": "propiedades/galeria/59_6876.webp",
+    "descripcion_corta": "Imagen ilustrativa"
+  }
+},
+{
+  "model": "propiedades.propiedadimagen",
+  "pk": 166,
+  "fields": {
+    "propiedad": 59,
+    "imagen": "propiedades/galeria/59_9087.webp",
+    "descripcion_corta": "Imagen ilustrativa"
+  }
+},
+{
+  "model": "propiedades.propiedadimagen",
+  "pk": 167,
+  "fields": {
+    "propiedad": 60,
+    "imagen": "propiedades/galeria/60_3629.webp",
+    "descripcion_corta": "Imagen ilustrativa"
+  }
+},
+{
+  "model": "propiedades.propiedadimagen",
+  "pk": 168,
+  "fields": {
+    "propiedad": 60,
+    "imagen": "propiedades/galeria/60_7150.webp",
+    "descripcion_corta": "Imagen ilustrativa"
+  }
+},
+{
+  "model": "propiedades.propiedadimagen",
+  "pk": 169,
+  "fields": {
+    "propiedad": 60,
+    "imagen": "propiedades/galeria/60_2762.webp",
+    "descripcion_corta": "Imagen ilustrativa"
+  }
+},
+{
+  "model": "propiedades.propiedadimagen",
+  "pk": 170,
+  "fields": {
+    "propiedad": 60,
+    "imagen": "propiedades/galeria/60_4593.webp",
+    "descripcion_corta": "Imagen ilustrativa"
+  }
+},
+{
+  "model": "propiedades.propiedadimagen",
+  "pk": 171,
+  "fields": {
+    "propiedad": 61,
+    "imagen": "propiedades/galeria/61_2269.webp",
+    "descripcion_corta": "Imagen ilustrativa"
+  }
+},
+{
+  "model": "propiedades.propiedadimagen",
+  "pk": 172,
+  "fields": {
+    "propiedad": 61,
+    "imagen": "propiedades/galeria/61_9147.webp",
+    "descripcion_corta": "Imagen ilustrativa"
+  }
+},
+{
+  "model": "propiedades.propiedadimagen",
+  "pk": 173,
+  "fields": {
+    "propiedad": 62,
+    "imagen": "propiedades/galeria/62_2068.webp",
+    "descripcion_corta": "Imagen ilustrativa"
+  }
+},
+{
+  "model": "propiedades.propiedadimagen",
+  "pk": 174,
+  "fields": {
+    "propiedad": 62,
+    "imagen": "propiedades/galeria/62_6331.webp",
+    "descripcion_corta": "Imagen ilustrativa"
+  }
+},
+{
+  "model": "propiedades.propiedadimagen",
+  "pk": 175,
+  "fields": {
+    "propiedad": 63,
+    "imagen": "propiedades/galeria/63_2645.webp",
+    "descripcion_corta": "Imagen ilustrativa"
+  }
+},
+{
+  "model": "propiedades.propiedadimagen",
+  "pk": 176,
+  "fields": {
+    "propiedad": 63,
+    "imagen": "propiedades/galeria/63_5634.webp",
+    "descripcion_corta": "Imagen ilustrativa"
+  }
+},
+{
+  "model": "propiedades.propiedadimagen",
+  "pk": 177,
+  "fields": {
+    "propiedad": 63,
+    "imagen": "propiedades/galeria/63_5638.webp",
+    "descripcion_corta": "Imagen ilustrativa"
+  }
+},
+{
+  "model": "propiedades.propiedadimagen",
+  "pk": 178,
+  "fields": {
+    "propiedad": 63,
+    "imagen": "propiedades/galeria/63_2773.webp",
+    "descripcion_corta": "Imagen ilustrativa"
+  }
+},
+{
+  "model": "propiedades.propiedadimagen",
+  "pk": 179,
+  "fields": {
+    "propiedad": 64,
+    "imagen": "propiedades/galeria/64_1221.webp",
+    "descripcion_corta": "Imagen ilustrativa"
+  }
+},
+{
+  "model": "propiedades.propiedadimagen",
+  "pk": 180,
+  "fields": {
+    "propiedad": 64,
+    "imagen": "propiedades/galeria/64_4670.webp",
+    "descripcion_corta": "Imagen ilustrativa"
+  }
+},
+{
+  "model": "propiedades.propiedadimagen",
+  "pk": 181,
+  "fields": {
+    "propiedad": 64,
+    "imagen": "propiedades/galeria/64_9326.webp",
+    "descripcion_corta": "Imagen ilustrativa"
+  }
+},
+{
+  "model": "propiedades.propiedadimagen",
+  "pk": 182,
+  "fields": {
+    "propiedad": 65,
+    "imagen": "propiedades/galeria/65_5652.webp",
+    "descripcion_corta": "Imagen ilustrativa"
+  }
+},
+{
+  "model": "propiedades.propiedadimagen",
+  "pk": 183,
+  "fields": {
+    "propiedad": 65,
+    "imagen": "propiedades/galeria/65_2298.webp",
+    "descripcion_corta": "Imagen ilustrativa"
+  }
+},
+{
+  "model": "propiedades.propiedadimagen",
+  "pk": 184,
+  "fields": {
+    "propiedad": 65,
+    "imagen": "propiedades/galeria/65_3595.webp",
+    "descripcion_corta": "Imagen ilustrativa"
+  }
+},
+{
+  "model": "propiedades.propiedadimagen",
+  "pk": 185,
+  "fields": {
+    "propiedad": 66,
+    "imagen": "propiedades/galeria/66_6874.webp",
+    "descripcion_corta": "Imagen ilustrativa"
+  }
+},
+{
+  "model": "propiedades.propiedadimagen",
+  "pk": 186,
+  "fields": {
+    "propiedad": 66,
+    "imagen": "propiedades/galeria/66_7725.webp",
+    "descripcion_corta": "Imagen ilustrativa"
+  }
+},
+{
+  "model": "propiedades.propiedadimagen",
+  "pk": 187,
+  "fields": {
+    "propiedad": 66,
+    "imagen": "propiedades/galeria/66_9535.webp",
+    "descripcion_corta": "Imagen ilustrativa"
+  }
+},
+{
+  "model": "propiedades.propiedadimagen",
+  "pk": 188,
+  "fields": {
+    "propiedad": 67,
+    "imagen": "propiedades/galeria/67_1090.webp",
+    "descripcion_corta": "Imagen ilustrativa"
+  }
+},
+{
+  "model": "propiedades.propiedadimagen",
+  "pk": 189,
+  "fields": {
+    "propiedad": 67,
+    "imagen": "propiedades/galeria/67_2337.webp",
+    "descripcion_corta": "Imagen ilustrativa"
+  }
+},
+{
+  "model": "propiedades.propiedadimagen",
+  "pk": 190,
+  "fields": {
+    "propiedad": 68,
+    "imagen": "propiedades/galeria/68_4239.webp",
+    "descripcion_corta": "Imagen ilustrativa"
+  }
+},
+{
+  "model": "propiedades.propiedadimagen",
+  "pk": 191,
+  "fields": {
+    "propiedad": 68,
+    "imagen": "propiedades/galeria/68_2790.webp",
+    "descripcion_corta": "Imagen ilustrativa"
+  }
+},
+{
+  "model": "propiedades.propiedadimagen",
+  "pk": 192,
+  "fields": {
+    "propiedad": 68,
+    "imagen": "propiedades/galeria/68_5234.webp",
+    "descripcion_corta": "Imagen ilustrativa"
+  }
+},
+{
+  "model": "propiedades.propiedadimagen",
+  "pk": 193,
+  "fields": {
+    "propiedad": 68,
+    "imagen": "propiedades/galeria/68_3624.webp",
+    "descripcion_corta": "Imagen ilustrativa"
+  }
+},
+{
+  "model": "propiedades.propiedadimagen",
+  "pk": 194,
+  "fields": {
+    "propiedad": 69,
+    "imagen": "propiedades/galeria/69_2615.webp",
+    "descripcion_corta": "Imagen ilustrativa"
+  }
+},
+{
+  "model": "propiedades.propiedadimagen",
+  "pk": 195,
+  "fields": {
+    "propiedad": 69,
+    "imagen": "propiedades/galeria/69_7668.webp",
+    "descripcion_corta": "Imagen ilustrativa"
+  }
+},
+{
+  "model": "propiedades.propiedadimagen",
+  "pk": 196,
+  "fields": {
+    "propiedad": 69,
+    "imagen": "propiedades/galeria/69_3405.webp",
+    "descripcion_corta": "Imagen ilustrativa"
+  }
+},
+{
+  "model": "propiedades.propiedadimagen",
+  "pk": 197,
+  "fields": {
+    "propiedad": 70,
+    "imagen": "propiedades/galeria/70_4000.webp",
+    "descripcion_corta": "Imagen ilustrativa"
+  }
+},
+{
+  "model": "propiedades.propiedadimagen",
+  "pk": 198,
+  "fields": {
+    "propiedad": 70,
+    "imagen": "propiedades/galeria/70_1121.webp",
+    "descripcion_corta": "Imagen ilustrativa"
+  }
+},
+{
+  "model": "propiedades.propiedadimagen",
+  "pk": 199,
+  "fields": {
+    "propiedad": 71,
+    "imagen": "propiedades/galeria/71_7327.webp",
+    "descripcion_corta": "Imagen ilustrativa"
+  }
+},
+{
+  "model": "propiedades.propiedadimagen",
+  "pk": 200,
+  "fields": {
+    "propiedad": 71,
+    "imagen": "propiedades/galeria/71_5274.webp",
+    "descripcion_corta": "Imagen ilustrativa"
+  }
+},
+{
+  "model": "propiedades.propiedadimagen",
+  "pk": 201,
+  "fields": {
+    "propiedad": 71,
+    "imagen": "propiedades/galeria/71_1522.webp",
+    "descripcion_corta": "Imagen ilustrativa"
+  }
+},
+{
+  "model": "propiedades.propiedadimagen",
+  "pk": 202,
+  "fields": {
+    "propiedad": 71,
+    "imagen": "propiedades/galeria/71_3363.webp",
+    "descripcion_corta": "Imagen ilustrativa"
+  }
+},
+{
+  "model": "propiedades.propiedadimagen",
+  "pk": 203,
+  "fields": {
+    "propiedad": 72,
+    "imagen": "propiedades/galeria/72_1042.webp",
+    "descripcion_corta": "Imagen ilustrativa"
+  }
+},
+{
+  "model": "propiedades.propiedadimagen",
+  "pk": 204,
+  "fields": {
+    "propiedad": 72,
+    "imagen": "propiedades/galeria/72_1922.webp",
+    "descripcion_corta": "Imagen ilustrativa"
+  }
+},
+{
+  "model": "propiedades.propiedadimagen",
+  "pk": 205,
+  "fields": {
+    "propiedad": 72,
+    "imagen": "propiedades/galeria/72_9969.webp",
+    "descripcion_corta": "Imagen ilustrativa"
+  }
+},
+{
+  "model": "propiedades.propiedadimagen",
+  "pk": 206,
+  "fields": {
+    "propiedad": 73,
+    "imagen": "propiedades/galeria/73_9497.webp",
+    "descripcion_corta": "Imagen ilustrativa"
+  }
+},
+{
+  "model": "propiedades.propiedadimagen",
+  "pk": 207,
+  "fields": {
+    "propiedad": 73,
+    "imagen": "propiedades/galeria/73_2565.webp",
+    "descripcion_corta": "Imagen ilustrativa"
+  }
+},
+{
+  "model": "propiedades.propiedadimagen",
+  "pk": 208,
+  "fields": {
+    "propiedad": 73,
+    "imagen": "propiedades/galeria/73_7467.webp",
+    "descripcion_corta": "Imagen ilustrativa"
+  }
+},
+{
+  "model": "propiedades.propiedadimagen",
+  "pk": 209,
+  "fields": {
+    "propiedad": 74,
+    "imagen": "propiedades/galeria/74_3173.webp",
+    "descripcion_corta": "Imagen ilustrativa"
+  }
+},
+{
+  "model": "propiedades.propiedadimagen",
+  "pk": 210,
+  "fields": {
+    "propiedad": 74,
+    "imagen": "propiedades/galeria/74_7681.webp",
+    "descripcion_corta": "Imagen ilustrativa"
+  }
+},
+{
+  "model": "propiedades.propiedadimagen",
+  "pk": 211,
+  "fields": {
+    "propiedad": 74,
+    "imagen": "propiedades/galeria/74_8417.webp",
+    "descripcion_corta": "Imagen ilustrativa"
+  }
+},
+{
+  "model": "propiedades.propiedadimagen",
+  "pk": 212,
+  "fields": {
+    "propiedad": 74,
+    "imagen": "propiedades/galeria/74_56.webp",
+    "descripcion_corta": "Imagen ilustrativa"
+  }
+},
+{
+  "model": "propiedades.propiedadimagen",
+  "pk": 213,
+  "fields": {
+    "propiedad": 75,
+    "imagen": "propiedades/galeria/75_8788.webp",
+    "descripcion_corta": "Imagen ilustrativa"
+  }
+},
+{
+  "model": "propiedades.propiedadimagen",
+  "pk": 214,
+  "fields": {
+    "propiedad": 75,
+    "imagen": "propiedades/galeria/75_6331.webp",
+    "descripcion_corta": "Imagen ilustrativa"
+  }
+},
+{
+  "model": "propiedades.propiedadimagen",
+  "pk": 215,
+  "fields": {
+    "propiedad": 75,
+    "imagen": "propiedades/galeria/75_4348.webp",
+    "descripcion_corta": "Imagen ilustrativa"
+  }
+},
+{
+  "model": "propiedades.propiedadimagen",
+  "pk": 216,
+  "fields": {
+    "propiedad": 75,
+    "imagen": "propiedades/galeria/75_5199.webp",
+    "descripcion_corta": "Imagen ilustrativa"
+  }
+},
+{
+  "model": "propiedades.propiedadimagen",
+  "pk": 217,
+  "fields": {
+    "propiedad": 76,
+    "imagen": "propiedades/galeria/76_5303.webp",
+    "descripcion_corta": "Imagen ilustrativa"
+  }
+},
+{
+  "model": "propiedades.propiedadimagen",
+  "pk": 218,
+  "fields": {
+    "propiedad": 76,
+    "imagen": "propiedades/galeria/76_1833.webp",
+    "descripcion_corta": "Imagen ilustrativa"
+  }
+},
+{
+  "model": "propiedades.propiedadimagen",
+  "pk": 219,
+  "fields": {
+    "propiedad": 76,
+    "imagen": "propiedades/galeria/76_7340.webp",
+    "descripcion_corta": "Imagen ilustrativa"
+  }
+},
+{
+  "model": "propiedades.propiedadimagen",
+  "pk": 220,
+  "fields": {
+    "propiedad": 76,
+    "imagen": "propiedades/galeria/76_6896.webp",
+    "descripcion_corta": "Imagen ilustrativa"
+  }
+},
+{
+  "model": "propiedades.propiedadimagen",
+  "pk": 221,
+  "fields": {
+    "propiedad": 77,
+    "imagen": "propiedades/galeria/77_3339.webp",
+    "descripcion_corta": "Imagen ilustrativa"
+  }
+},
+{
+  "model": "propiedades.propiedadimagen",
+  "pk": 222,
+  "fields": {
+    "propiedad": 77,
+    "imagen": "propiedades/galeria/77_815.webp",
+    "descripcion_corta": "Imagen ilustrativa"
+  }
+},
+{
+  "model": "propiedades.propiedadimagen",
+  "pk": 223,
+  "fields": {
+    "propiedad": 77,
+    "imagen": "propiedades/galeria/77_4196.webp",
+    "descripcion_corta": "Imagen ilustrativa"
+  }
+},
+{
+  "model": "propiedades.propiedadimagen",
+  "pk": 224,
+  "fields": {
+    "propiedad": 77,
+    "imagen": "propiedades/galeria/77_9010.webp",
+    "descripcion_corta": "Imagen ilustrativa"
+  }
+},
+{
+  "model": "propiedades.propiedadimagen",
+  "pk": 225,
+  "fields": {
+    "propiedad": 78,
+    "imagen": "propiedades/galeria/78_4986.webp",
+    "descripcion_corta": "Imagen ilustrativa"
+  }
+},
+{
+  "model": "propiedades.propiedadimagen",
+  "pk": 226,
+  "fields": {
+    "propiedad": 78,
+    "imagen": "propiedades/galeria/78_3381.webp",
+    "descripcion_corta": "Imagen ilustrativa"
+  }
+},
+{
+  "model": "propiedades.propiedadimagen",
+  "pk": 227,
+  "fields": {
+    "propiedad": 78,
+    "imagen": "propiedades/galeria/78_1267.webp",
+    "descripcion_corta": "Imagen ilustrativa"
+  }
+},
+{
+  "model": "propiedades.propiedadimagen",
+  "pk": 228,
+  "fields": {
+    "propiedad": 78,
+    "imagen": "propiedades/galeria/78_5562.webp",
+    "descripcion_corta": "Imagen ilustrativa"
+  }
+},
+{
+  "model": "propiedades.propiedadimagen",
+  "pk": 229,
+  "fields": {
+    "propiedad": 79,
+    "imagen": "propiedades/galeria/79_2771.webp",
+    "descripcion_corta": "Imagen ilustrativa"
+  }
+},
+{
+  "model": "propiedades.propiedadimagen",
+  "pk": 230,
+  "fields": {
+    "propiedad": 79,
+    "imagen": "propiedades/galeria/79_1578.webp",
+    "descripcion_corta": "Imagen ilustrativa"
+  }
+},
+{
+  "model": "propiedades.propiedadimagen",
+  "pk": 231,
+  "fields": {
+    "propiedad": 80,
+    "imagen": "propiedades/galeria/80_6265.webp",
+    "descripcion_corta": "Imagen ilustrativa"
+  }
+},
+{
+  "model": "propiedades.propiedadimagen",
+  "pk": 232,
+  "fields": {
+    "propiedad": 80,
+    "imagen": "propiedades/galeria/80_3309.webp",
+    "descripcion_corta": "Imagen ilustrativa"
+  }
+},
+{
+  "model": "propiedades.propiedadimagen",
+  "pk": 233,
+  "fields": {
+    "propiedad": 80,
+    "imagen": "propiedades/galeria/80_9009.webp",
+    "descripcion_corta": "Imagen ilustrativa"
+  }
+},
+{
+  "model": "propiedades.propiedadimagen",
+  "pk": 234,
+  "fields": {
+    "propiedad": 80,
+    "imagen": "propiedades/galeria/80_39.webp",
+    "descripcion_corta": "Imagen ilustrativa"
+  }
+},
+{
+  "model": "propiedades.propiedadimagen",
+  "pk": 235,
+  "fields": {
+    "propiedad": 81,
+    "imagen": "propiedades/galeria/81_8636.webp",
+    "descripcion_corta": "Imagen ilustrativa"
+  }
+},
+{
+  "model": "propiedades.propiedadimagen",
+  "pk": 236,
+  "fields": {
+    "propiedad": 81,
+    "imagen": "propiedades/galeria/81_1014.webp",
+    "descripcion_corta": "Imagen ilustrativa"
+  }
+},
+{
+  "model": "propiedades.propiedadimagen",
+  "pk": 237,
+  "fields": {
+    "propiedad": 81,
+    "imagen": "propiedades/galeria/81_9681.webp",
+    "descripcion_corta": "Imagen ilustrativa"
+  }
+},
+{
+  "model": "propiedades.propiedadimagen",
+  "pk": 238,
+  "fields": {
+    "propiedad": 82,
+    "imagen": "propiedades/galeria/82_6139.webp",
+    "descripcion_corta": "Imagen ilustrativa"
+  }
+},
+{
+  "model": "propiedades.propiedadimagen",
+  "pk": 239,
+  "fields": {
+    "propiedad": 82,
+    "imagen": "propiedades/galeria/82_4144.webp",
+    "descripcion_corta": "Imagen ilustrativa"
+  }
+},
+{
+  "model": "propiedades.propiedadimagen",
+  "pk": 240,
+  "fields": {
+    "propiedad": 83,
+    "imagen": "propiedades/galeria/83_1810.webp",
+    "descripcion_corta": "Imagen ilustrativa"
+  }
+},
+{
+  "model": "propiedades.propiedadimagen",
+  "pk": 241,
+  "fields": {
+    "propiedad": 83,
+    "imagen": "propiedades/galeria/83_3249.webp",
+    "descripcion_corta": "Imagen ilustrativa"
+  }
+},
+{
+  "model": "propiedades.propiedadimagen",
+  "pk": 242,
+  "fields": {
+    "propiedad": 84,
+    "imagen": "propiedades/galeria/84_4117.webp",
+    "descripcion_corta": "Imagen ilustrativa"
+  }
+},
+{
+  "model": "propiedades.propiedadimagen",
+  "pk": 243,
+  "fields": {
+    "propiedad": 84,
+    "imagen": "propiedades/galeria/84_3540.webp",
+    "descripcion_corta": "Imagen ilustrativa"
+  }
+},
+{
+  "model": "propiedades.propiedadimagen",
+  "pk": 244,
+  "fields": {
+    "propiedad": 84,
+    "imagen": "propiedades/galeria/84_409.webp",
+    "descripcion_corta": "Imagen ilustrativa"
+  }
+},
+{
+  "model": "propiedades.propiedadimagen",
+  "pk": 245,
+  "fields": {
+    "propiedad": 85,
+    "imagen": "propiedades/galeria/85_8788.webp",
+    "descripcion_corta": "Imagen ilustrativa"
+  }
+},
+{
+  "model": "propiedades.propiedadimagen",
+  "pk": 246,
+  "fields": {
+    "propiedad": 85,
+    "imagen": "propiedades/galeria/85_9710.webp",
+    "descripcion_corta": "Imagen ilustrativa"
+  }
+},
+{
+  "model": "propiedades.propiedadimagen",
+  "pk": 247,
+  "fields": {
+    "propiedad": 85,
+    "imagen": "propiedades/galeria/85_713.webp",
+    "descripcion_corta": "Imagen ilustrativa"
+  }
+},
+{
+  "model": "propiedades.propiedadimagen",
+  "pk": 248,
+  "fields": {
+    "propiedad": 85,
+    "imagen": "propiedades/galeria/85_2300.webp",
+    "descripcion_corta": "Imagen ilustrativa"
+  }
+},
+{
+  "model": "propiedades.propiedadimagen",
+  "pk": 249,
+  "fields": {
+    "propiedad": 86,
+    "imagen": "propiedades/galeria/86_1004.webp",
+    "descripcion_corta": "Imagen ilustrativa"
+  }
+},
+{
+  "model": "propiedades.propiedadimagen",
+  "pk": 250,
+  "fields": {
+    "propiedad": 86,
+    "imagen": "propiedades/galeria/86_1968.webp",
+    "descripcion_corta": "Imagen ilustrativa"
+  }
+},
+{
+  "model": "propiedades.propiedadimagen",
+  "pk": 251,
+  "fields": {
+    "propiedad": 87,
+    "imagen": "propiedades/galeria/87_6344.webp",
+    "descripcion_corta": "Imagen ilustrativa"
+  }
+},
+{
+  "model": "propiedades.propiedadimagen",
+  "pk": 252,
+  "fields": {
+    "propiedad": 87,
+    "imagen": "propiedades/galeria/87_1922.webp",
+    "descripcion_corta": "Imagen ilustrativa"
+  }
+},
+{
+  "model": "propiedades.propiedadimagen",
+  "pk": 253,
+  "fields": {
+    "propiedad": 87,
+    "imagen": "propiedades/galeria/87_7815.webp",
+    "descripcion_corta": "Imagen ilustrativa"
+  }
+},
+{
+  "model": "propiedades.propiedadimagen",
+  "pk": 254,
+  "fields": {
+    "propiedad": 87,
+    "imagen": "propiedades/galeria/87_6538.webp",
+    "descripcion_corta": "Imagen ilustrativa"
+  }
+},
+{
+  "model": "propiedades.propiedadimagen",
+  "pk": 255,
+  "fields": {
+    "propiedad": 88,
+    "imagen": "propiedades/galeria/88_7779.webp",
+    "descripcion_corta": "Imagen ilustrativa"
+  }
+},
+{
+  "model": "propiedades.propiedadimagen",
+  "pk": 256,
+  "fields": {
+    "propiedad": 88,
+    "imagen": "propiedades/galeria/88_7557.webp",
+    "descripcion_corta": "Imagen ilustrativa"
+  }
+},
+{
+  "model": "propiedades.propiedadimagen",
+  "pk": 257,
+  "fields": {
+    "propiedad": 88,
+    "imagen": "propiedades/galeria/88_2665.webp",
+    "descripcion_corta": "Imagen ilustrativa"
+  }
+},
+{
+  "model": "propiedades.propiedadimagen",
+  "pk": 258,
+  "fields": {
+    "propiedad": 88,
+    "imagen": "propiedades/galeria/88_8129.webp",
+    "descripcion_corta": "Imagen ilustrativa"
+  }
+},
+{
+  "model": "propiedades.propiedadimagen",
+  "pk": 259,
+  "fields": {
+    "propiedad": 89,
+    "imagen": "propiedades/galeria/89_4966.webp",
+    "descripcion_corta": "Imagen ilustrativa"
+  }
+},
+{
+  "model": "propiedades.propiedadimagen",
+  "pk": 260,
+  "fields": {
+    "propiedad": 89,
+    "imagen": "propiedades/galeria/89_502.webp",
+    "descripcion_corta": "Imagen ilustrativa"
+  }
+},
+{
+  "model": "propiedades.propiedadimagen",
+  "pk": 261,
+  "fields": {
+    "propiedad": 89,
+    "imagen": "propiedades/galeria/89_7986.webp",
+    "descripcion_corta": "Imagen ilustrativa"
+  }
+},
+{
+  "model": "propiedades.propiedadimagen",
+  "pk": 262,
+  "fields": {
+    "propiedad": 89,
+    "imagen": "propiedades/galeria/89_1531.webp",
+    "descripcion_corta": "Imagen ilustrativa"
+  }
+},
+{
+  "model": "propiedades.propiedadimagen",
+  "pk": 263,
+  "fields": {
+    "propiedad": 90,
+    "imagen": "propiedades/galeria/90_6928.webp",
+    "descripcion_corta": "Imagen ilustrativa"
+  }
+},
+{
+  "model": "propiedades.propiedadimagen",
+  "pk": 264,
+  "fields": {
+    "propiedad": 90,
+    "imagen": "propiedades/galeria/90_4469.webp",
+    "descripcion_corta": "Imagen ilustrativa"
+  }
+},
+{
+  "model": "propiedades.propiedadimagen",
+  "pk": 265,
+  "fields": {
+    "propiedad": 91,
+    "imagen": "propiedades/galeria/91_6987.webp",
+    "descripcion_corta": "Imagen ilustrativa"
+  }
+},
+{
+  "model": "propiedades.propiedadimagen",
+  "pk": 266,
+  "fields": {
+    "propiedad": 91,
+    "imagen": "propiedades/galeria/91_9092.webp",
+    "descripcion_corta": "Imagen ilustrativa"
+  }
+},
+{
+  "model": "propiedades.propiedadimagen",
+  "pk": 267,
+  "fields": {
+    "propiedad": 91,
+    "imagen": "propiedades/galeria/91_283.webp",
+    "descripcion_corta": "Imagen ilustrativa"
+  }
+},
+{
+  "model": "propiedades.propiedadimagen",
+  "pk": 268,
+  "fields": {
+    "propiedad": 91,
+    "imagen": "propiedades/galeria/91_8606.webp",
+    "descripcion_corta": "Imagen ilustrativa"
+  }
+},
+{
+  "model": "propiedades.propiedadimagen",
+  "pk": 269,
+  "fields": {
+    "propiedad": 92,
+    "imagen": "propiedades/galeria/92_8877.webp",
+    "descripcion_corta": "Imagen ilustrativa"
+  }
+},
+{
+  "model": "propiedades.propiedadimagen",
+  "pk": 270,
+  "fields": {
+    "propiedad": 92,
+    "imagen": "propiedades/galeria/92_5931.webp",
+    "descripcion_corta": "Imagen ilustrativa"
+  }
+},
+{
+  "model": "propiedades.propiedadimagen",
+  "pk": 271,
+  "fields": {
+    "propiedad": 92,
+    "imagen": "propiedades/galeria/92_8630.webp",
+    "descripcion_corta": "Imagen ilustrativa"
+  }
+},
+{
+  "model": "propiedades.propiedadimagen",
+  "pk": 272,
+  "fields": {
+    "propiedad": 92,
+    "imagen": "propiedades/galeria/92_5572.webp",
+    "descripcion_corta": "Imagen ilustrativa"
+  }
+},
+{
+  "model": "propiedades.propiedadimagen",
+  "pk": 273,
+  "fields": {
+    "propiedad": 93,
+    "imagen": "propiedades/galeria/93_3711.webp",
+    "descripcion_corta": "Imagen ilustrativa"
+  }
+},
+{
+  "model": "propiedades.propiedadimagen",
+  "pk": 274,
+  "fields": {
+    "propiedad": 93,
+    "imagen": "propiedades/galeria/93_2244.webp",
+    "descripcion_corta": "Imagen ilustrativa"
+  }
+},
+{
+  "model": "propiedades.propiedadimagen",
+  "pk": 275,
+  "fields": {
+    "propiedad": 94,
+    "imagen": "propiedades/galeria/94_9216.webp",
+    "descripcion_corta": "Imagen ilustrativa"
+  }
+},
+{
+  "model": "propiedades.propiedadimagen",
+  "pk": 276,
+  "fields": {
+    "propiedad": 94,
+    "imagen": "propiedades/galeria/94_2286.webp",
+    "descripcion_corta": "Imagen ilustrativa"
+  }
+},
+{
+  "model": "propiedades.propiedadimagen",
+  "pk": 277,
+  "fields": {
+    "propiedad": 94,
+    "imagen": "propiedades/galeria/94_2747.webp",
+    "descripcion_corta": "Imagen ilustrativa"
+  }
+},
+{
+  "model": "propiedades.propiedadimagen",
+  "pk": 278,
+  "fields": {
+    "propiedad": 95,
+    "imagen": "propiedades/galeria/95_2962.webp",
+    "descripcion_corta": "Imagen ilustrativa"
+  }
+},
+{
+  "model": "propiedades.propiedadimagen",
+  "pk": 279,
+  "fields": {
+    "propiedad": 95,
+    "imagen": "propiedades/galeria/95_5302.webp",
+    "descripcion_corta": "Imagen ilustrativa"
+  }
+},
+{
+  "model": "propiedades.propiedadimagen",
+  "pk": 280,
+  "fields": {
+    "propiedad": 96,
+    "imagen": "propiedades/galeria/96_9168.webp",
+    "descripcion_corta": "Imagen ilustrativa"
+  }
+},
+{
+  "model": "propiedades.propiedadimagen",
+  "pk": 281,
+  "fields": {
+    "propiedad": 96,
+    "imagen": "propiedades/galeria/96_3754.webp",
+    "descripcion_corta": "Imagen ilustrativa"
+  }
+},
+{
+  "model": "propiedades.propiedadimagen",
+  "pk": 282,
+  "fields": {
+    "propiedad": 97,
+    "imagen": "propiedades/galeria/97_6559.webp",
+    "descripcion_corta": "Imagen ilustrativa"
+  }
+},
+{
+  "model": "propiedades.propiedadimagen",
+  "pk": 283,
+  "fields": {
+    "propiedad": 97,
+    "imagen": "propiedades/galeria/97_8059.webp",
+    "descripcion_corta": "Imagen ilustrativa"
+  }
+},
+{
+  "model": "propiedades.propiedadimagen",
+  "pk": 284,
+  "fields": {
+    "propiedad": 97,
+    "imagen": "propiedades/galeria/97_5713.webp",
+    "descripcion_corta": "Imagen ilustrativa"
+  }
+},
+{
+  "model": "propiedades.propiedadimagen",
+  "pk": 285,
+  "fields": {
+    "propiedad": 97,
+    "imagen": "propiedades/galeria/97_7136.webp",
+    "descripcion_corta": "Imagen ilustrativa"
+  }
+},
+{
+  "model": "propiedades.propiedadimagen",
+  "pk": 286,
+  "fields": {
+    "propiedad": 98,
+    "imagen": "propiedades/galeria/98_5367.webp",
+    "descripcion_corta": "Imagen ilustrativa"
+  }
+},
+{
+  "model": "propiedades.propiedadimagen",
+  "pk": 287,
+  "fields": {
+    "propiedad": 98,
+    "imagen": "propiedades/galeria/98_8441.webp",
+    "descripcion_corta": "Imagen ilustrativa"
+  }
+},
+{
+  "model": "propiedades.propiedadimagen",
+  "pk": 288,
+  "fields": {
+    "propiedad": 98,
+    "imagen": "propiedades/galeria/98_350.webp",
+    "descripcion_corta": "Imagen ilustrativa"
+  }
+},
+{
+  "model": "propiedades.propiedadimagen",
+  "pk": 289,
+  "fields": {
+    "propiedad": 99,
+    "imagen": "propiedades/galeria/99_1329.webp",
+    "descripcion_corta": "Imagen ilustrativa"
+  }
+},
+{
+  "model": "propiedades.propiedadimagen",
+  "pk": 290,
+  "fields": {
+    "propiedad": 99,
+    "imagen": "propiedades/galeria/99_1455.webp",
+    "descripcion_corta": "Imagen ilustrativa"
+  }
+},
+{
+  "model": "propiedades.propiedadimagen",
+  "pk": 291,
+  "fields": {
+    "propiedad": 99,
+    "imagen": "propiedades/galeria/99_3480.webp",
+    "descripcion_corta": "Imagen ilustrativa"
+  }
+},
+{
+  "model": "propiedades.propiedadimagen",
+  "pk": 292,
+  "fields": {
+    "propiedad": 99,
+    "imagen": "propiedades/galeria/99_3633.webp",
+    "descripcion_corta": "Imagen ilustrativa"
+  }
+},
+{
+  "model": "propiedades.propiedadimagen",
+  "pk": 293,
+  "fields": {
+    "propiedad": 100,
+    "imagen": "propiedades/galeria/100_8901.webp",
+    "descripcion_corta": "Imagen ilustrativa"
+  }
+},
+{
+  "model": "propiedades.propiedadimagen",
+  "pk": 294,
+  "fields": {
+    "propiedad": 100,
+    "imagen": "propiedades/galeria/100_9870.webp",
+    "descripcion_corta": "Imagen ilustrativa"
+  }
+},
+{
+  "model": "propiedades.propiedadimagen",
+  "pk": 295,
+  "fields": {
+    "propiedad": 100,
+    "imagen": "propiedades/galeria/100_2402.webp",
+    "descripcion_corta": "Imagen ilustrativa"
+  }
+},
+{
+  "model": "propiedades.propiedadimagen",
+  "pk": 296,
+  "fields": {
+    "propiedad": 100,
+    "imagen": "propiedades/galeria/100_5173.webp",
+    "descripcion_corta": "Imagen ilustrativa"
+  }
+},
+{
+  "model": "propiedades.propiedadimagen",
+  "pk": 297,
+  "fields": {
+    "propiedad": 101,
+    "imagen": "propiedades/galeria/101_2285.webp",
+    "descripcion_corta": "Imagen ilustrativa"
+  }
+},
+{
+  "model": "propiedades.propiedadimagen",
+  "pk": 298,
+  "fields": {
+    "propiedad": 101,
+    "imagen": "propiedades/galeria/101_3938.webp",
+    "descripcion_corta": "Imagen ilustrativa"
+  }
+},
+{
+  "model": "propiedades.propiedadimagen",
+  "pk": 299,
+  "fields": {
+    "propiedad": 101,
+    "imagen": "propiedades/galeria/101_7459.webp",
+    "descripcion_corta": "Imagen ilustrativa"
+  }
+},
+{
+  "model": "propiedades.propiedadimagen",
+  "pk": 300,
+  "fields": {
+    "propiedad": 101,
+    "imagen": "propiedades/galeria/101_1516.webp",
+    "descripcion_corta": "Imagen ilustrativa"
+  }
+},
+{
+  "model": "propiedades.propiedadimagen",
+  "pk": 301,
+  "fields": {
+    "propiedad": 102,
+    "imagen": "propiedades/galeria/102_6302.webp",
+    "descripcion_corta": "Imagen ilustrativa"
+  }
+},
+{
+  "model": "propiedades.propiedadimagen",
+  "pk": 302,
+  "fields": {
+    "propiedad": 102,
+    "imagen": "propiedades/galeria/102_1701.webp",
+    "descripcion_corta": "Imagen ilustrativa"
+  }
+},
+{
+  "model": "propiedades.propiedadimagen",
+  "pk": 303,
+  "fields": {
+    "propiedad": 102,
+    "imagen": "propiedades/galeria/102_8782.webp",
+    "descripcion_corta": "Imagen ilustrativa"
+  }
+},
+{
+  "model": "propiedades.propiedadimagen",
+  "pk": 304,
+  "fields": {
+    "propiedad": 102,
+    "imagen": "propiedades/galeria/102_1964.webp",
+    "descripcion_corta": "Imagen ilustrativa"
+  }
+}
+]

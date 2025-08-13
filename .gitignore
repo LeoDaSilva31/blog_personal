@@ -19,8 +19,14 @@ ENV/
 # Base de datos local (si usás SQLite)
 db.sqlite3
 
-# Archivos/media subidos por usuarios
-media/
+# Ignorar todo media por defecto
+media/*
+
+# Mantener SOLO estas dos subcarpetas y su contenido
+!media/propiedades/imagenes_principal/
+!media/propiedades/imagenes_principal/**
+!media/propiedades/galeria/
+!media/propiedades/galeria/**
 
 # Static de compilación/colecta (ajustá al nombre de tu STATIC_ROOT si lo usás)
 staticfiles/

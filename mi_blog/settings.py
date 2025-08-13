@@ -12,7 +12,6 @@ https://docs.djangoproject.com/en/5.2/ref/settings/
 
 from pathlib import Path
 
-# Build paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = Path(__file__).resolve().parent.parent
 
 
@@ -45,8 +44,10 @@ INSTALLED_APPS = [
     'django.contrib.humanize',
 ]
 
+# --- MIDDLEWARE ---
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',
+    'whitenoise.middleware.WhiteNoiseMiddleware',  
     'django.contrib.sessions.middleware.SessionMiddleware',
     'django.middleware.common.CommonMiddleware',
     'django.middleware.csrf.CsrfViewMiddleware',
@@ -54,6 +55,9 @@ MIDDLEWARE = [
     'django.contrib.messages.middleware.MessageMiddleware',
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
 ]
+
+STATICFILES_STORAGE = "whitenoise.storage.CompressedManifestStaticFilesStorage"
+
 
 ROOT_URLCONF = 'mi_blog.urls'
 
@@ -105,23 +109,17 @@ AUTH_PASSWORD_VALIDATORS = [
 ]
 
 
-# Internationalization
-# https://docs.djangoproject.com/en/5.2/topics/i18n/
-
 LANGUAGE_CODE = 'es-ar'
-
-TIME_ZONE = 'UTC'
-
-USE_I18N = True
-
+TIME_ZONE = 'America/Argentina/Buenos_Aires'
 USE_TZ = True
 
 
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/5.2/howto/static-files/
 
-STATIC_URL = 'static/'
-
+# --- STATIC ---
+STATIC_URL = "/static/"
+STATIC_ROOT = BASE_DIR / "staticfiles"
 # Default primary key field type
 # https://docs.djangoproject.com/en/5.2/ref/settings/#default-auto-field
 
@@ -130,9 +128,9 @@ DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 # Static files
 STATIC_URL = 'static/'
 
-# 👇 MEDIA: archivos subidos por usuarios (imágenes de propiedades)
-MEDIA_URL = '/media/'
-MEDIA_ROOT = BASE_DIR / 'media'  # carpeta donde se guardan
+# --- MEDIA ---
+MEDIA_URL = "/media/"
+MEDIA_ROOT = BASE_DIR / "media"
 
 # (opcional en dev) si tenés una carpeta de estáticos propios:
 # from pathlib import Path

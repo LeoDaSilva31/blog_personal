@@ -2,6 +2,10 @@
 from pathlib import Path
 import environ
 
+
+import dj_database_url
+
+
 # === RUTAS BASE ===
 BASE_DIR = Path(__file__).resolve().parent.parent
 
@@ -88,9 +92,11 @@ TEMPLATES = [
 #   DJANGO_DATABASE_URL=sqlite:///db.sqlite3
 #   o Postgres: DJANGO_DATABASE_URL=postgres://USER:PASS@HOST:PORT/DB
 DATABASES = {
-    "default": env.db(
-        "DJANGO_DATABASE_URL",
-        default=f"sqlite:///{BASE_DIR / 'db.sqlite3'}"
+    "default": dj_database_url.config(
+        # Lee DATABASE_URL automáticamente.
+        # Si no existe (por ej. en tu PC), usa SQLite local.
+        default=f"sqlite:///{BASE_DIR / 'db.sqlite3'}",
+        conn_max_age=600,
     )
 }
 

@@ -1,11 +1,3 @@
-"""
-Django settings for mi_blog project.
-
-Configurado para:
-- Cargar secretos/flags desde .env (django-environ)
-- Servir estáticos con WhiteNoise (ideal para Render o similar)
-- Mantener MEDIA para archivos subidos (imágenes de propiedades)
-"""
 
 from pathlib import Path
 import environ
@@ -40,6 +32,8 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+
+    'django.contrib.postgres',
 
     # Terceros
     'django.contrib.humanize',

@@ -198,6 +198,13 @@
         <div class="mt-4">
           <h3 class="text-base font-semibold text-gray-900">Descripción</h3>
           <p class="mt-2 text-gray-700 leading-relaxed">{{ propiedad.descripcion }}</p>
+          <a
+            class="inline-flex items-center px-4 py-2 rounded bg-blue-600 text-white hover:bg-blue-700"
+            href="{% url 'propiedades:contacto' %}?propiedad_id={{ propiedad.id }}&propiedad_titulo={{ propiedad.titulo|urlencode }}&propiedad_direccion={{ propiedad.direccion|urlencode }}&propiedad_localidad={{ propiedad.localidad|urlencode }}">
+            Más info de esta propiedad
+          </a>
+
+
         </div>
       </div>
     </div>

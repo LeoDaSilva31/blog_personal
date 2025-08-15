@@ -1,4 +1,7 @@
+import random
+import string
 from django.db import models
+
 
 class Propiedad(models.Model):
     """
@@ -20,6 +23,19 @@ class Propiedad(models.Model):
     TIPO_OPERACION_CHOICES = [
         ('venta', 'Venta'),
         ('alquiler', 'Alquiler'),
+    ]
+
+    TIPO_MASCOTA_CHOICES = [
+        ('no_especificado', 'No especificado'),
+        ('perros', 'Perros'),
+        ('gatos', 'Gatos'),
+        ('otros', 'Otros'),
+    ]
+
+    ESTADO_PUBLICACION_CHOICES = [
+        ('borrador', 'Borrador'),
+        ('publicada', 'Publicada'),
+        ('archivada', 'Archivada'),
     ]
 
     titulo = models.CharField(
@@ -77,22 +93,13 @@ class Propiedad(models.Model):
         default=False,
         help_text="Indica si la propiedad acepta mascotas.",
     )
-
-    TIPO_MASCOTA_CHOICES = [
-        ('no_especificado', 'No especificado'),
-        ('perros', 'Perros'),
-        ('gatos', 'Gatos'),
-        ('otros', 'Otros'),
-    ]
-
     tipo_mascota_permitida = models.CharField(
         max_length=20,
         choices=TIPO_MASCOTA_CHOICES,
         default='no_especificado',
         help_text="Tipo de mascota permitida en la propiedad.",
     )
-    
-    
+
     metros_cuadrados_total = models.DecimalField(
         max_digits=8,
         decimal_places=2,
@@ -144,11 +151,6 @@ class Propiedad(models.Model):
         help_text="Marcar para destacar esta propiedad en la página principal.",
     )
 
-    ESTADO_PUBLICACION_CHOICES = [
-        ('borrador', 'Borrador'),
-        ('publicada', 'Publicada'),
-        ('archivada', 'Archivada'),
-    ]
     estado_publicacion = models.CharField(
         max_length=20,
         choices=ESTADO_PUBLICACION_CHOICES,
@@ -156,11 +158,38 @@ class Propiedad(models.Model):
         help_text="Estado actual de publicación de la propiedad.",
     )
 
+    # Campo oculto: código interno único
+    codigo_unico = models.CharField(
+        max_length=6,
+        unique=True,
+        editable=False,  # No editable en admin
+        blank=True,
+        null=True,
+        help_text="Código interno de 3 letras y 3 números, generado automáticamente.",
+    )
+
     fecha_creacion = models.DateTimeField(auto_now_add=True)
     fecha_actualizacion = models.DateTimeField(auto_now=True)
 
+    def save(self, *args, **kwargs):
+        if not self.codigo_unico:
+            self.codigo_unico = self._generar_codigo_unico()
+        super().save(*args, **kwargs)
+
+    def _generar_codigo_unico(self):
+        letras = ''.join(random.choices(string.ascii_uppercase, k=3))
+        numeros = ''.join(random.choices(string.digits, k=3))
+        codigo = letras + numeros
+
+        while Propiedad.objects.filter(codigo_unico=codigo).exists():
+            letras = ''.join(random.choices(string.ascii_uppercase, k=3))
+            numeros = ''.join(random.choices(string.digits, k=3))
+            codigo = letras + numeros
+        return codigo
+
     def __str__(self):
         return f"{self.titulo} ({self.tipo}) - {self.localidad}"
+
 
 class PropiedadImagen(models.Model):
     """

@@ -1,3 +1,5 @@
+#management/commands/seed_propiedades.py
+
 import random
 from decimal import Decimal, ROUND_HALF_UP
 from pathlib import Path

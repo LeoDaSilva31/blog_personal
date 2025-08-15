@@ -37,6 +37,7 @@ INSTALLED_APPS = [
 
     # Terceros
     'django.contrib.humanize',
+    'storages',
 
     # Apps propias
     'blog',
@@ -118,6 +119,40 @@ STATIC_ROOT = BASE_DIR / "staticfiles"   # destino de collectstatic
 MEDIA_URL = "/media/"
 MEDIA_ROOT = BASE_DIR / "media"
 
+# === MEDIA / S3 ===
+USE_S3_MEDIA = env.bool("USE_S3_MEDIA", default=False)
+
+if USE_S3_MEDIA:
+    AWS_ACCESS_KEY_ID = env("AWS_ACCESS_KEY_ID")
+    AWS_SECRET_ACCESS_KEY = env("AWS_SECRET_ACCESS_KEY")
+    AWS_STORAGE_BUCKET_NAME = env("AWS_STORAGE_BUCKET_NAME")
+    AWS_S3_REGION_NAME = env("AWS_S3_REGION_NAME", default=None)
+
+    # Firma v4
+    AWS_S3_SIGNATURE_VERSION = "s3v4"
+    AWS_S3_ADDRESSING_STYLE = "virtual"  # bucket.s3.amazonaws.com
+
+    # Objetos privados + URLs firmadas y expirables
+    AWS_DEFAULT_ACL = None
+    AWS_QUERYSTRING_AUTH = True  # <--- URL firmada (por defecto ya es True, lo explicitamos)
+    AWS_QUERYSTRING_EXPIRE = env.int("AWS_QUERYSTRING_EXPIRE", default=86400)  # 24h
+
+    # Cache agresiva en objetos (útil cuando la misma URL firmada se reutiliza por un tiempo)
+    AWS_S3_OBJECT_PARAMETERS = {
+        "CacheControl": "public, max-age=31536000, s-maxage=31536000, immutable"
+    }
+
+    # Storage por defecto SOLO para MEDIA
+    DEFAULT_FILE_STORAGE = "mi_blog.storages.MediaRootS3Boto3Storage"
+
+    # No seteamos MEDIA_URL fija: django-storages generará pre-signed URLs dinámicas
+    # (Si definís MEDIA_URL, igual se ignorará porque .url() devuelve la URL firmada completa)
+else:
+    MEDIA_URL = "/media/"
+    MEDIA_ROOT = BASE_DIR / "media"
+
+
+
 # === DEFAULT PK FIELD ===
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
@@ -129,3 +164,14 @@ CSRF_COOKIE_SECURE   = env.bool("DJANGO_CSRF_COOKIE_SECURE", default=False)
 # SECURE_HSTS_SECONDS = env.int("DJANGO_SECURE_HSTS_SECONDS", default=0)
 # SECURE_HSTS_INCLUDE_SUBDOMAINS = env.bool("DJANGO_SECURE_HSTS_INCLUDE_SUBDOMAINS", default=False)
 # SECURE_HSTS_PRELOAD = env.bool("DJANGO_SECURE_HSTS_PRELOAD", default=False)
+
+
+# === EMAILJS ===
+EMAILJS_PUBLIC_KEY   = env("EMAILJS_PUBLIC_KEY", default="")
+EMAILJS_SERVICE_ID   = env("EMAILJS_SERVICE_ID", default="")
+EMAILJS_TEMPLATE_ID  = env("EMAILJS_TEMPLATE_ID", default="")
+
+# habilitar nuestro context processor
+TEMPLATES[0]["OPTIONS"]["context_processors"] += [
+    "propiedades.context_processors.emailjs_keys",
+]

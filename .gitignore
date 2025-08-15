@@ -7,6 +7,11 @@ __pycache__/
 *.pyc
 *.pyo
 *.pyd
+*.sqlite3
+*.db
+*.tmp
+*.swp
+*.swo
 
 # Virtualenv
 env/
@@ -16,19 +21,17 @@ ENV/
 .env
 *.env
 
-# Base de datos local (si usás SQLite)
+# Base de datos local
 db.sqlite3
 
 # Ignorar todo media por defecto
 media/*
-
-# Mantener SOLO estas dos subcarpetas y su contenido
 !media/propiedades/imagenes_principal/
 !media/propiedades/imagenes_principal/**
 !media/propiedades/galeria/
 !media/propiedades/galeria/**
 
-# Static de compilación/colecta (ajustá al nombre de tu STATIC_ROOT si lo usás)
+# Static de compilación/colecta
 staticfiles/
 static_root/
 
@@ -39,7 +42,29 @@ static_root/
 .DS_Store
 Thumbs.db
 
-# Node / build (si existiera)
+# Node / build
 node_modules/
 dist/
 build/
+
+# Tests y coverage
+.coverage
+.coverage.*
+htmlcov/
+*.cover
+*.py,cover
+.cache
+.pytest_cache/
+nosetests.xml
+coverage.xml
+test_output/
+
+# Configuración local y secrets
+secrets.json
+config.json
+*.pem
+*.crt
+*.key
+
+
+PENDIENTES.txt

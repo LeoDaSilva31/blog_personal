@@ -177,3 +177,24 @@ CSRF_COOKIE_SECURE = env.bool("DJANGO_CSRF_COOKIE_SECURE", default=False)
 EMAILJS_PUBLIC_KEY  = env("EMAILJS_PUBLIC_KEY", default="")
 EMAILJS_SERVICE_ID  = env("EMAILJS_SERVICE_ID", default="")
 EMAILJS_TEMPLATE_ID = env("EMAILJS_TEMPLATE_ID", default="")
+
+
+
+if not DEBUG:
+    LOGGING = {
+        "version": 1,
+        "disable_existing_loggers": False,
+        "handlers": {"console": {"class": "logging.StreamHandler"}},
+        "loggers": {
+            "django.request": {  # excepciones de vistas
+                "handlers": ["console"],
+                "level": "ERROR",
+                "propagate": False,
+            },
+            "django.template": {  # errores de plantillas
+                "handlers": ["console"],
+                "level": "ERROR",
+                "propagate": False,
+            },
+        },
+    }

@@ -1,0 +1,1145 @@
+=== STATIC SNAPSHOT ===
+pwd: /c/Users/imill/Desktop/blog/blog/static
+date: 2025-08-16T11:08:13-03:00
+
+--- Summary (counts) ---
+directories: 24
+files:       546
+
+--- By extension ---
+    258 gz
+    172 js
+     42 svg
+     34 css
+     24 png
+      7 txt
+      4 md
+      2 jpg
+      1 sh
+      1 2c54f4e1ca1c
+      1 ./admin/img/license
+
+--- Tree ---
+(tree no está instalado; usando find)
+.
+  admin
+    css
+      autocomplete.css
+      autocomplete.css.gz
+      autocomplete.d24f10bdee41.css
+      autocomplete.d24f10bdee41.css.gz
+      base.96c479cedf7a.css
+      base.96c479cedf7a.css.gz
+      base.css
+      base.css.gz
+      changelists.59465e72d1ef.css
+      changelists.59465e72d1ef.css.gz
+      changelists.css
+      changelists.css.gz
+      dark_mode.1215cee25eaa.css
+      dark_mode.1215cee25eaa.css.gz
+      dark_mode.css
+      dark_mode.css.gz
+      dashboard.css
+      dashboard.css.gz
+      dashboard.e90f2068217b.css
+      dashboard.e90f2068217b.css.gz
+      forms.ce1314886a7b.css
+      forms.ce1314886a7b.css.gz
+      forms.css
+      forms.css.gz
+      login.a3b47c458e5d.css
+      login.a3b47c458e5d.css.gz
+      login.css
+      login.css.gz
+      nav_sidebar.css
+      nav_sidebar.css.gz
+      nav_sidebar.dd925738f4cc.css
+      nav_sidebar.dd925738f4cc.css.gz
+      responsive.80b7f3c4f68f.css
+      responsive.80b7f3c4f68f.css.gz
+      responsive.css
+      responsive.css.gz
+      responsive_rtl.011e68bec437.css
+      responsive_rtl.011e68bec437.css.gz
+      responsive_rtl.css
+      responsive_rtl.css.gz
+      rtl.66af67f66f09.css
+      rtl.66af67f66f09.css.gz
+      rtl.css
+      rtl.css.gz
+      unusable_password_field.b433f2a95fba.css
+      unusable_password_field.b433f2a95fba.css.gz
+      unusable_password_field.css
+      unusable_password_field.css.gz
+      vendor
+        select2
+          LICENSE-SELECT2.f94142512c91.md
+          LICENSE-SELECT2.f94142512c91.md.gz
+          LICENSE-SELECT2.md
+          LICENSE-SELECT2.md.gz
+          select2.a2194c262648.css
+          select2.a2194c262648.css.gz
+          select2.css
+          select2.css.gz
+          select2.min.9f54e6414f87.css
+          select2.min.9f54e6414f87.css.gz
+          select2.min.css
+          select2.min.css.gz
+      widgets.308c8f8831d6.css
+      widgets.308c8f8831d6.css.gz
+      widgets.css
+      widgets.css.gz
+    img
+      calendar-icons.93ab098d1ac1.svg
+      calendar-icons.93ab098d1ac1.svg.gz
+      calendar-icons.svg
+      calendar-icons.svg.gz
+      gis
+        move_vertex_off.7a23bf31ef8a.svg
+        move_vertex_off.7a23bf31ef8a.svg.gz
+        move_vertex_off.svg
+        move_vertex_off.svg.gz
+        move_vertex_on.0047eba25b67.svg
+        move_vertex_on.0047eba25b67.svg.gz
+        move_vertex_on.svg
+        move_vertex_on.svg.gz
+      icon-addlink.073aeb1feda7.svg
+      icon-addlink.073aeb1feda7.svg.gz
+      icon-addlink.svg
+      icon-addlink.svg.gz
+      icon-alert.034cc7d8a67f.svg
+      icon-alert.034cc7d8a67f.svg.gz
+      icon-alert.svg
+      icon-alert.svg.gz
+      icon-calendar.ac7aea671bea.svg
+      icon-calendar.ac7aea671bea.svg.gz
+      icon-calendar.svg
+      icon-calendar.svg.gz
+      icon-changelink.7eddb320e61f.svg
+      icon-changelink.7eddb320e61f.svg.gz
+      icon-changelink.svg
+      icon-changelink.svg.gz
+      icon-clock.e1d4dfac3f2b.svg
+      icon-clock.e1d4dfac3f2b.svg.gz
+      icon-clock.svg
+      icon-clock.svg.gz
+      icon-deletelink.564ef9dc3854.svg
+      icon-deletelink.564ef9dc3854.svg.gz
+      icon-deletelink.svg
+      icon-deletelink.svg.gz
+      icon-hidelink.8d245a995e18.svg
+      icon-hidelink.8d245a995e18.svg.gz
+      icon-hidelink.svg
+      icon-hidelink.svg.gz
+      icon-no.439e821418cd.svg
+      icon-no.439e821418cd.svg.gz
+      icon-no.svg
+      icon-no.svg.gz
+      icon-unknown-alt.81536e128bb6.svg
+      icon-unknown-alt.81536e128bb6.svg.gz
+      icon-unknown-alt.svg
+      icon-unknown-alt.svg.gz
+      icon-unknown.a18cb4398978.svg
+      icon-unknown.a18cb4398978.svg.gz
+      icon-unknown.svg
+      icon-unknown.svg.gz
+      icon-viewlink.41eb31f7826e.svg
+      icon-viewlink.41eb31f7826e.svg.gz
+      icon-viewlink.svg
+      icon-viewlink.svg.gz
+      icon-yes.d2f9f035226a.svg
+      icon-yes.d2f9f035226a.svg.gz
+      icon-yes.svg
+      icon-yes.svg.gz
+      inline-delete.358e965fe3e7.svg
+      inline-delete.358e965fe3e7.svg.gz
+      inline-delete.svg
+      inline-delete.svg.gz
+      LICENSE
+      LICENSE.2c54f4e1ca1c
+      LICENSE.2c54f4e1ca1c.gz
+      LICENSE.gz
+      README.9849248c9207.txt
+      README.9849248c9207.txt.gz
+      README.txt
+      README.txt.gz
+      search.7cf54ff789c6.svg
+      search.7cf54ff789c6.svg.gz
+      search.svg
+      search.svg.gz
+      selector-icons.b4555096cea2.svg
+      selector-icons.b4555096cea2.svg.gz
+      selector-icons.svg
+      selector-icons.svg.gz
+      sorting-icons.3a097b59f104.svg
+      sorting-icons.3a097b59f104.svg.gz
+      sorting-icons.svg
+      sorting-icons.svg.gz
+      tooltag-add.e59d620a9742.svg
+      tooltag-add.e59d620a9742.svg.gz
+      tooltag-add.svg
+      tooltag-add.svg.gz
+      tooltag-arrowright.bbfb788a849e.svg
+      tooltag-arrowright.bbfb788a849e.svg.gz
+      tooltag-arrowright.svg
+      tooltag-arrowright.svg.gz
+    js
+      actions.f1d5653edb59.js
+      actions.f1d5653edb59.js.gz
+      actions.js
+      actions.js.gz
+      admin
+        DateTimeShortcuts.9f6e209cebca.js
+        DateTimeShortcuts.9f6e209cebca.js.gz
+        DateTimeShortcuts.js
+        DateTimeShortcuts.js.gz
+        RelatedObjectLookups.ed6240809a40.js
+        RelatedObjectLookups.ed6240809a40.js.gz
+        RelatedObjectLookups.js
+        RelatedObjectLookups.js.gz
+      autocomplete.01591ab27be7.js
+      autocomplete.01591ab27be7.js.gz
+      autocomplete.js
+      autocomplete.js.gz
+      calendar.d64496bbf46d.js
+      calendar.d64496bbf46d.js.gz
+      calendar.js
+      calendar.js.gz
+      cancel.ecc4c5ca7b32.js
+      cancel.ecc4c5ca7b32.js.gz
+      cancel.js
+      cancel.js.gz
+      change_form.9d8ca4f96b75.js
+      change_form.9d8ca4f96b75.js.gz
+      change_form.js
+      change_form.js.gz
+      core.7e257fdf56dc.js
+      core.7e257fdf56dc.js.gz
+      core.js
+      core.js.gz
+      filters.0e360b7a9f80.js
+      filters.0e360b7a9f80.js.gz
+      filters.js
+      filters.js.gz
+      inlines.89b3c627c5dc.js
+      inlines.89b3c627c5dc.js.gz
+      inlines.js
+      inlines.js.gz
+      jquery.init.b7781a0897fc.js
+      jquery.init.b7781a0897fc.js.gz
+      jquery.init.js
+      jquery.init.js.gz
+      nav_sidebar.3b9190d420b1.js
+      nav_sidebar.3b9190d420b1.js.gz
+      nav_sidebar.js
+      nav_sidebar.js.gz
+      popup_response.96190d343c22.js
+      popup_response.96190d343c22.js.gz
+      popup_response.js
+      popup_response.js.gz
+      prepopulate.bd2361dfd64d.js
+      prepopulate.bd2361dfd64d.js.gz
+      prepopulate.js
+      prepopulate.js.gz
+      prepopulate_init.6cac7f3105b8.js
+      prepopulate_init.6cac7f3105b8.js.gz
+      prepopulate_init.js
+      prepopulate_init.js.gz
+      SelectBox.7d3ce5a98007.js
+      SelectBox.7d3ce5a98007.js.gz
+      SelectBox.js
+      SelectBox.js.gz
+      SelectFilter2.58388953117f.js
+      SelectFilter2.58388953117f.js.gz
+      SelectFilter2.js
+      SelectFilter2.js.gz
+      theme.91cf832f559e.js
+      theme.91cf832f559e.js.gz
+      theme.js
+      theme.js.gz
+      unusable_password_field.017ea86b6ae4.js
+      unusable_password_field.017ea86b6ae4.js.gz
+      unusable_password_field.js
+      unusable_password_field.js.gz
+      urlify.ae970a820212.js
+      urlify.ae970a820212.js.gz
+      urlify.js
+      urlify.js.gz
+      vendor
+        jquery
+          jquery.12e87d2f3a4c.js
+          jquery.12e87d2f3a4c.js.gz
+          jquery.js
+          jquery.js.gz
+          jquery.min.2c872dbe60f4.js
+          jquery.min.2c872dbe60f4.js.gz
+          jquery.min.js
+          jquery.min.js.gz
+          LICENSE.de877aa6d744.txt
+          LICENSE.de877aa6d744.txt.gz
+          LICENSE.txt
+          LICENSE.txt.gz
+        select2
+          i18n
+            af.4f6fcd73488c.js
+            af.4f6fcd73488c.js.gz
+            af.js
+            af.js.gz
+            ar.65aa8e36bf5d.js
+            ar.65aa8e36bf5d.js.gz
+            ar.js
+            ar.js.gz
+            az.270c257daf81.js
+            az.270c257daf81.js.gz
+            az.js
+            az.js.gz
+            bg.39b8be30d4f0.js
+            bg.39b8be30d4f0.js.gz
+            bg.js
+            bg.js.gz
+            bn.6d42b4dd5665.js
+            bn.6d42b4dd5665.js.gz
+            bn.js
+            bn.js.gz
+            bs.91624382358e.js
+            bs.91624382358e.js.gz
+            bs.js
+            bs.js.gz
+            ca.a166b745933a.js
+            ca.a166b745933a.js.gz
+            ca.js
+            ca.js.gz
+            cs.4f43e8e7d33a.js
+            cs.4f43e8e7d33a.js.gz
+            cs.js
+            cs.js.gz
+            da.766346afe4dd.js
+            da.766346afe4dd.js.gz
+            da.js
+            da.js.gz
+            de.8a1c222b0204.js
+            de.8a1c222b0204.js.gz
+            de.js
+            de.js.gz
+            dsb.56372c92d2f1.js
+            dsb.56372c92d2f1.js.gz
+            dsb.js
+            dsb.js.gz
+            el.27097f071856.js
+            el.27097f071856.js.gz
+            el.js
+            el.js.gz
+            en.cf932ba09a98.js
+            en.cf932ba09a98.js.gz
+            en.js
+            en.js.gz
+            es.66dbc2652fb1.js
+            es.66dbc2652fb1.js.gz
+            es.js
+            es.js.gz
+            et.2b96fd98289d.js
+            et.2b96fd98289d.js.gz
+            et.js
+            et.js.gz
+            eu.adfe5c97b72c.js
+            eu.adfe5c97b72c.js.gz
+            eu.js
+            eu.js.gz
+            fa.3b5bd1961cfd.js
+            fa.3b5bd1961cfd.js.gz
+            fa.js
+            fa.js.gz
+            fi.614ec42aa9ba.js
+            fi.614ec42aa9ba.js.gz
+            fi.js
+            fi.js.gz
+            fr.05e0542fcfe6.js
+            fr.05e0542fcfe6.js.gz
+            fr.js
+            fr.js.gz
+            gl.d99b1fedaa86.js
+            gl.d99b1fedaa86.js.gz
+            gl.js
+            gl.js.gz
+            he.e420ff6cd3ed.js
+            he.e420ff6cd3ed.js.gz
+            he.js
+            he.js.gz
+            hi.70640d41628f.js
+            hi.70640d41628f.js.gz
+            hi.js
+            hi.js.gz
+            hr.a2b092cc1147.js
+            hr.a2b092cc1147.js.gz
+            hr.js
+            hr.js.gz
+            hsb.fa3b55265efe.js
+            hsb.fa3b55265efe.js.gz
+            hsb.js
+            hsb.js.gz
+            hu.6ec6039cb8a3.js
+            hu.6ec6039cb8a3.js.gz
+            hu.js
+            hu.js.gz
+            hy.c7babaeef5a6.js
+            hy.c7babaeef5a6.js.gz
+            hy.js
+            hy.js.gz
+            id.04debded514d.js
+            id.04debded514d.js.gz
+            id.js
+            id.js.gz
+            is.3ddd9a6a97e9.js
+            is.3ddd9a6a97e9.js.gz
+            is.js
+            is.js.gz
+            it.be4fe8d365b5.js
+            it.be4fe8d365b5.js.gz
+            it.js
+            it.js.gz
+            ja.170ae885d74f.js
+            ja.170ae885d74f.js.gz
+            ja.js
+            ja.js.gz
+            ka.2083264a54f0.js
+            ka.2083264a54f0.js.gz
+            ka.js
+            ka.js.gz
+            km.c23089cb06ca.js
+            km.c23089cb06ca.js.gz
+            km.js
+            km.js.gz
+            ko.e7be6c20e673.js
+            ko.e7be6c20e673.js.gz
+            ko.js
+            ko.js.gz
+            lt.23c7ce903300.js
+            lt.23c7ce903300.js.gz
+            lt.js
+            lt.js.gz
+            lv.08e62128eac1.js
+            lv.08e62128eac1.js.gz
+            lv.js
+            lv.js.gz
+            mk.dabbb9087130.js
+            mk.dabbb9087130.js.gz
+            mk.js
+            mk.js.gz
+            ms.4ba82c9a51ce.js
+            ms.4ba82c9a51ce.js.gz
+            ms.js
+            ms.js.gz
+            nb.da2fce143f27.js
+            nb.da2fce143f27.js.gz
+            nb.js
+            nb.js.gz
+            ne.3d79fd3f08db.js
+            ne.3d79fd3f08db.js.gz
+            ne.js
+            ne.js.gz
+            nl.997868a37ed8.js
+            nl.997868a37ed8.js.gz
+            nl.js
+            nl.js.gz
+            pl.6031b4f16452.js
+            pl.6031b4f16452.js.gz
+            pl.js
+            pl.js.gz
+            ps.38dfa47af9e0.js
+            ps.38dfa47af9e0.js.gz
+            ps.js
+            ps.js.gz
+            pt-BR.e1b294433e7f.js
+            pt-BR.e1b294433e7f.js.gz
+            pt-BR.js
+            pt-BR.js.gz
+            pt.33b4a3b44d43.js
+            pt.33b4a3b44d43.js.gz
+            pt.js
+            pt.js.gz
+            ro.f75cb460ec3b.js
+            ro.f75cb460ec3b.js.gz
+            ro.js
+            ro.js.gz
+            ru.934aa95f5b5f.js
+            ru.934aa95f5b5f.js.gz
+            ru.js
+            ru.js.gz
+            sk.33d02cef8d11.js
+            sk.33d02cef8d11.js.gz
+            sk.js
+            sk.js.gz
+            sl.131a78bc0752.js
+            sl.131a78bc0752.js.gz
+            sl.js
+            sl.js.gz
+            sq.5636b60d29c9.js
+            sq.5636b60d29c9.js.gz
+            sq.js
+            sq.js.gz
+            sr-Cyrl.f254bb8c4c7c.js
+            sr-Cyrl.f254bb8c4c7c.js.gz
+            sr-Cyrl.js
+            sr-Cyrl.js.gz
+            sr.5ed85a48f483.js
+            sr.5ed85a48f483.js.gz
+            sr.js
+            sr.js.gz
+            sv.7a9c2f71e777.js
+            sv.7a9c2f71e777.js.gz
+            sv.js
+            sv.js.gz
+            th.f38c20b0221b.js
+            th.f38c20b0221b.js.gz
+            th.js
+            th.js.gz
+            tk.7c572a68c78f.js
+            tk.7c572a68c78f.js.gz
+            tk.js
+            tk.js.gz
+            tr.b5a0643d1545.js
+            tr.b5a0643d1545.js.gz
+            tr.js
+            tr.js.gz
+            uk.8cede7f4803c.js
+            uk.8cede7f4803c.js.gz
+            uk.js
+            uk.js.gz
+            vi.097a5b75b3e1.js
+            vi.097a5b75b3e1.js.gz
+            vi.js
+            vi.js.gz
+            zh-CN.2cff662ec5f9.js
+            zh-CN.2cff662ec5f9.js.gz
+            zh-CN.js
+            zh-CN.js.gz
+            zh-TW.04554a227c2b.js
+            zh-TW.04554a227c2b.js.gz
+            zh-TW.js
+            zh-TW.js.gz
+          LICENSE.f94142512c91.md
+          LICENSE.f94142512c91.md.gz
+          LICENSE.md
+          LICENSE.md.gz
+          select2.full.c2afdeda3058.js
+          select2.full.c2afdeda3058.js.gz
+          select2.full.js
+          select2.full.js.gz
+          select2.full.min.fcd7500d8e13.js
+          select2.full.min.fcd7500d8e13.js.gz
+          select2.full.min.js
+          select2.full.min.js.gz
+        xregexp
+          LICENSE.b6fd2ceea8d3.txt
+          LICENSE.b6fd2ceea8d3.txt.gz
+          LICENSE.txt
+          LICENSE.txt.gz
+          xregexp.a7e08b0ce686.js
+          xregexp.a7e08b0ce686.js.gz
+          xregexp.js
+          xregexp.js.gz
+          xregexp.min.f1ae4617847c.js
+          xregexp.min.f1ae4617847c.js.gz
+          xregexp.min.js
+          xregexp.min.js.gz
+  blog
+    img
+      favicon.png
+      propiedades_card.d20fc453fa72.png
+      propiedades_card.png
+      tu_logo.png
+  landingpage
+    css
+      styles.1526dbbf893a.css
+      styles.1526dbbf893a.css.gz
+      styles.css
+      styles.css.gz
+    img
+      serv_web.8b49caf8bf0c.jpg
+      serv_web.jpg
+    js
+      main.ecdb77bad2ab.js
+      main.js
+  propiedades
+    css
+      theme.2add18b43959.css
+      theme.2add18b43959.css.gz
+      theme.css
+      theme.css.gz
+    icons
+      amenities.1ab729668130.png
+      amenities.png
+      area-covered.c577ec392083.png
+      area-covered.png
+      area-total.e83f11054047.png
+      area-total.png
+      bath.ccec8e919adf.png
+      bath.png
+      bed.5bc687df222b.png
+      bed.png
+      clock.bc1a7515d660.png
+      clock.png
+      garage.8f628b189806.png
+      garage.png
+      location.1dd9f11d721a.png
+      location.png
+      money.3674450decff.png
+      money.png
+      pet.95d623fe26ba.png
+      pet.png
+    img
+  snapshot_static.sh
+  static_snapshot_20250816_110813.txt
+
+--- Files (size, mtime, path) ---
+       904  2025-08-16 10:54  ./blog/img/favicon.png
+     13136  2025-08-16 10:54  ./blog/img/tu_logo.png
+      1592  2025-08-16 11:08  ./snapshot_static.sh
+     15996  2025-08-16 11:08  ./static_snapshot_20250816_110813.txt
+      9185  2025-08-15 13:00  ./admin/css/autocomplete.css
+      1159  2025-08-15 13:00  ./admin/css/autocomplete.css.gz
+      9185  2025-08-15 13:00  ./admin/css/autocomplete.d24f10bdee41.css
+      1159  2025-08-15 13:00  ./admin/css/autocomplete.d24f10bdee41.css.gz
+     22285  2025-08-15 13:00  ./admin/css/base.96c479cedf7a.css
+      5078  2025-08-15 13:00  ./admin/css/base.96c479cedf7a.css.gz
+     22120  2025-08-15 13:00  ./admin/css/base.css
+      4950  2025-08-15 13:00  ./admin/css/base.css.gz
+      6878  2025-08-15 13:00  ./admin/css/changelists.59465e72d1ef.css
+      1633  2025-08-15 13:00  ./admin/css/changelists.59465e72d1ef.css.gz
+      6878  2025-08-15 13:00  ./admin/css/changelists.css
+      1633  2025-08-15 13:00  ./admin/css/changelists.css.gz
+      2808  2025-08-15 13:00  ./admin/css/dark_mode.1215cee25eaa.css
+       792  2025-08-15 13:00  ./admin/css/dark_mode.1215cee25eaa.css.gz
+      2808  2025-08-15 13:00  ./admin/css/dark_mode.css
+       792  2025-08-15 13:00  ./admin/css/dark_mode.css.gz
+       441  2025-08-15 13:00  ./admin/css/dashboard.css
+       267  2025-08-15 13:00  ./admin/css/dashboard.css.gz
+       441  2025-08-15 13:00  ./admin/css/dashboard.e90f2068217b.css
+       267  2025-08-15 13:00  ./admin/css/dashboard.e90f2068217b.css.gz
+      8553  2025-08-15 13:00  ./admin/css/forms.ce1314886a7b.css
+      2184  2025-08-15 13:00  ./admin/css/forms.ce1314886a7b.css.gz
+      8525  2025-08-15 13:00  ./admin/css/forms.css
+      2158  2025-08-15 13:00  ./admin/css/forms.css.gz
+       951  2025-08-15 13:00  ./admin/css/login.a3b47c458e5d.css
+       417  2025-08-15 13:00  ./admin/css/login.a3b47c458e5d.css.gz
+       951  2025-08-15 13:00  ./admin/css/login.css
+       417  2025-08-15 13:00  ./admin/css/login.css.gz
+      2810  2025-08-15 13:00  ./admin/css/nav_sidebar.css
+       811  2025-08-15 13:00  ./admin/css/nav_sidebar.css.gz
+      2810  2025-08-15 13:00  ./admin/css/nav_sidebar.dd925738f4cc.css
+       811  2025-08-15 13:00  ./admin/css/nav_sidebar.dd925738f4cc.css.gz
+     16565  2025-08-15 13:00  ./admin/css/responsive.80b7f3c4f68f.css
+      3319  2025-08-15 13:00  ./admin/css/responsive.80b7f3c4f68f.css.gz
+     16565  2025-08-15 13:00  ./admin/css/responsive.css
+      3319  2025-08-15 13:00  ./admin/css/responsive.css.gz
+      1991  2025-08-15 13:00  ./admin/css/responsive_rtl.011e68bec437.css
+       559  2025-08-15 13:00  ./admin/css/responsive_rtl.011e68bec437.css.gz
+      1991  2025-08-15 13:00  ./admin/css/responsive_rtl.css
+       559  2025-08-15 13:00  ./admin/css/responsive_rtl.css.gz
+      4862  2025-08-15 13:00  ./admin/css/rtl.66af67f66f09.css
+      1275  2025-08-15 13:00  ./admin/css/rtl.66af67f66f09.css.gz
+      4772  2025-08-15 13:00  ./admin/css/rtl.css
+      1249  2025-08-15 13:00  ./admin/css/rtl.css.gz
+       663  2025-08-15 13:00  ./admin/css/unusable_password_field.b433f2a95fba.css
+       228  2025-08-15 13:00  ./admin/css/unusable_password_field.b433f2a95fba.css.gz
+       663  2025-08-15 13:00  ./admin/css/unusable_password_field.css
+       228  2025-08-15 13:00  ./admin/css/unusable_password_field.css.gz
+      1124  2025-08-15 13:00  ./admin/css/vendor/select2/LICENSE-SELECT2.f94142512c91.md
+       685  2025-08-15 13:00  ./admin/css/vendor/select2/LICENSE-SELECT2.f94142512c91.md.gz
+      1124  2025-08-15 13:00  ./admin/css/vendor/select2/LICENSE-SELECT2.md
+       685  2025-08-15 13:00  ./admin/css/vendor/select2/LICENSE-SELECT2.md.gz
+     17358  2025-08-15 13:00  ./admin/css/vendor/select2/select2.a2194c262648.css
+      2232  2025-08-15 13:00  ./admin/css/vendor/select2/select2.a2194c262648.css.gz
+     17358  2025-08-15 13:00  ./admin/css/vendor/select2/select2.css
+      2232  2025-08-15 13:00  ./admin/css/vendor/select2/select2.css.gz
+     14966  2025-08-15 13:00  ./admin/css/vendor/select2/select2.min.9f54e6414f87.css
+      1978  2025-08-15 13:00  ./admin/css/vendor/select2/select2.min.9f54e6414f87.css.gz
+     14966  2025-08-15 13:00  ./admin/css/vendor/select2/select2.min.css
+      1978  2025-08-15 13:00  ./admin/css/vendor/select2/select2.min.css.gz
+     12201  2025-08-15 13:00  ./admin/css/widgets.308c8f8831d6.css
+      2553  2025-08-15 13:00  ./admin/css/widgets.308c8f8831d6.css.gz
+     11991  2025-08-15 13:00  ./admin/css/widgets.css
+      2467  2025-08-15 13:00  ./admin/css/widgets.css.gz
+      1081  2025-08-15 13:00  ./admin/img/LICENSE
+      1081  2025-08-15 13:00  ./admin/img/LICENSE.2c54f4e1ca1c
+       656  2025-08-15 13:00  ./admin/img/LICENSE.2c54f4e1ca1c.gz
+       656  2025-08-15 13:00  ./admin/img/LICENSE.gz
+       321  2025-08-15 13:00  ./admin/img/README.9849248c9207.txt
+       212  2025-08-15 13:00  ./admin/img/README.9849248c9207.txt.gz
+       321  2025-08-15 13:00  ./admin/img/README.txt
+       212  2025-08-15 13:00  ./admin/img/README.txt.gz
+      2455  2025-08-15 13:00  ./admin/img/calendar-icons.93ab098d1ac1.svg
+       910  2025-08-15 13:00  ./admin/img/calendar-icons.93ab098d1ac1.svg.gz
+      2455  2025-08-15 13:00  ./admin/img/calendar-icons.svg
+       910  2025-08-15 13:00  ./admin/img/calendar-icons.svg.gz
+      1129  2025-08-15 13:00  ./admin/img/gis/move_vertex_off.7a23bf31ef8a.svg
+       470  2025-08-15 13:00  ./admin/img/gis/move_vertex_off.7a23bf31ef8a.svg.gz
+      1129  2025-08-15 13:00  ./admin/img/gis/move_vertex_off.svg
+       470  2025-08-15 13:00  ./admin/img/gis/move_vertex_off.svg.gz
+      1129  2025-08-15 13:00  ./admin/img/gis/move_vertex_on.0047eba25b67.svg
+       472  2025-08-15 13:00  ./admin/img/gis/move_vertex_on.0047eba25b67.svg.gz
+      1129  2025-08-15 13:00  ./admin/img/gis/move_vertex_on.svg
+       472  2025-08-15 13:00  ./admin/img/gis/move_vertex_on.svg.gz
+       331  2025-08-15 13:00  ./admin/img/icon-addlink.073aeb1feda7.svg
+       207  2025-08-15 13:00  ./admin/img/icon-addlink.073aeb1feda7.svg.gz
+       331  2025-08-15 13:00  ./admin/img/icon-addlink.svg
+       207  2025-08-15 13:00  ./admin/img/icon-addlink.svg.gz
+       504  2025-08-15 13:00  ./admin/img/icon-alert.034cc7d8a67f.svg
+       329  2025-08-15 13:00  ./admin/img/icon-alert.034cc7d8a67f.svg.gz
+       504  2025-08-15 13:00  ./admin/img/icon-alert.svg
+       329  2025-08-15 13:00  ./admin/img/icon-alert.svg.gz
+      1086  2025-08-15 13:00  ./admin/img/icon-calendar.ac7aea671bea.svg
+       438  2025-08-15 13:00  ./admin/img/icon-calendar.ac7aea671bea.svg.gz
+      1086  2025-08-15 13:00  ./admin/img/icon-calendar.svg
+       438  2025-08-15 13:00  ./admin/img/icon-calendar.svg.gz
+       380  2025-08-15 13:00  ./admin/img/icon-changelink.7eddb320e61f.svg
+       269  2025-08-15 13:00  ./admin/img/icon-changelink.7eddb320e61f.svg.gz
+       380  2025-08-15 13:00  ./admin/img/icon-changelink.svg
+       269  2025-08-15 13:00  ./admin/img/icon-changelink.svg.gz
+       677  2025-08-15 13:00  ./admin/img/icon-clock.e1d4dfac3f2b.svg
+       357  2025-08-15 13:00  ./admin/img/icon-clock.e1d4dfac3f2b.svg.gz
+       677  2025-08-15 13:00  ./admin/img/icon-clock.svg
+       357  2025-08-15 13:00  ./admin/img/icon-clock.svg.gz
+       392  2025-08-15 13:00  ./admin/img/icon-deletelink.564ef9dc3854.svg
+       221  2025-08-15 13:00  ./admin/img/icon-deletelink.564ef9dc3854.svg.gz
+       392  2025-08-15 13:00  ./admin/img/icon-deletelink.svg
+       221  2025-08-15 13:00  ./admin/img/icon-deletelink.svg.gz
+       784  2025-08-15 13:00  ./admin/img/icon-hidelink.8d245a995e18.svg
+       495  2025-08-15 13:00  ./admin/img/icon-hidelink.8d245a995e18.svg.gz
+       784  2025-08-15 13:00  ./admin/img/icon-hidelink.svg
+       495  2025-08-15 13:00  ./admin/img/icon-hidelink.svg.gz
+       560  2025-08-15 13:00  ./admin/img/icon-no.439e821418cd.svg
+       297  2025-08-15 13:00  ./admin/img/icon-no.439e821418cd.svg.gz
+       560  2025-08-15 13:00  ./admin/img/icon-no.svg
+       297  2025-08-15 13:00  ./admin/img/icon-no.svg.gz
+       655  2025-08-15 13:00  ./admin/img/icon-unknown-alt.81536e128bb6.svg
+       377  2025-08-15 13:00  ./admin/img/icon-unknown-alt.81536e128bb6.svg.gz
+       655  2025-08-15 13:00  ./admin/img/icon-unknown-alt.svg
+       377  2025-08-15 13:00  ./admin/img/icon-unknown-alt.svg.gz
+       655  2025-08-15 13:00  ./admin/img/icon-unknown.a18cb4398978.svg
+       377  2025-08-15 13:00  ./admin/img/icon-unknown.a18cb4398978.svg.gz
+       655  2025-08-15 13:00  ./admin/img/icon-unknown.svg
+       377  2025-08-15 13:00  ./admin/img/icon-unknown.svg.gz
+       581  2025-08-15 13:00  ./admin/img/icon-viewlink.41eb31f7826e.svg
+       346  2025-08-15 13:00  ./admin/img/icon-viewlink.41eb31f7826e.svg.gz
+       581  2025-08-15 13:00  ./admin/img/icon-viewlink.svg
+       346  2025-08-15 13:00  ./admin/img/icon-viewlink.svg.gz
+       436  2025-08-15 13:00  ./admin/img/icon-yes.d2f9f035226a.svg
+       266  2025-08-15 13:00  ./admin/img/icon-yes.d2f9f035226a.svg.gz
+       436  2025-08-15 13:00  ./admin/img/icon-yes.svg
+       266  2025-08-15 13:00  ./admin/img/icon-yes.svg.gz
+       537  2025-08-15 13:00  ./admin/img/inline-delete.358e965fe3e7.svg
+       280  2025-08-15 13:00  ./admin/img/inline-delete.358e965fe3e7.svg.gz
+       537  2025-08-15 13:00  ./admin/img/inline-delete.svg
+       280  2025-08-15 13:00  ./admin/img/inline-delete.svg.gz
+       458  2025-08-15 13:00  ./admin/img/search.7cf54ff789c6.svg
+       264  2025-08-15 13:00  ./admin/img/search.7cf54ff789c6.svg.gz
+       458  2025-08-15 13:00  ./admin/img/search.svg
+       264  2025-08-15 13:00  ./admin/img/search.svg.gz
+      3291  2025-08-15 13:00  ./admin/img/selector-icons.b4555096cea2.svg
+       770  2025-08-15 13:00  ./admin/img/selector-icons.b4555096cea2.svg.gz
+      3291  2025-08-15 13:00  ./admin/img/selector-icons.svg
+       770  2025-08-15 13:00  ./admin/img/selector-icons.svg.gz
+      1097  2025-08-15 13:00  ./admin/img/sorting-icons.3a097b59f104.svg
+       366  2025-08-15 13:00  ./admin/img/sorting-icons.3a097b59f104.svg.gz
+      1097  2025-08-15 13:00  ./admin/img/sorting-icons.svg
+       366  2025-08-15 13:00  ./admin/img/sorting-icons.svg.gz
+       331  2025-08-15 13:00  ./admin/img/tooltag-add.e59d620a9742.svg
+       203  2025-08-15 13:00  ./admin/img/tooltag-add.e59d620a9742.svg.gz
+       331  2025-08-15 13:00  ./admin/img/tooltag-add.svg
+       203  2025-08-15 13:00  ./admin/img/tooltag-add.svg.gz
+       280  2025-08-15 13:00  ./admin/img/tooltag-arrowright.bbfb788a849e.svg
+       194  2025-08-15 13:00  ./admin/img/tooltag-arrowright.bbfb788a849e.svg.gz
+       280  2025-08-15 13:00  ./admin/img/tooltag-arrowright.svg
+       194  2025-08-15 13:00  ./admin/img/tooltag-arrowright.svg.gz
+      4530  2025-08-15 13:00  ./admin/js/SelectBox.7d3ce5a98007.js
+      1025  2025-08-15 13:00  ./admin/js/SelectBox.7d3ce5a98007.js.gz
+      4530  2025-08-15 13:00  ./admin/js/SelectBox.js
+      1025  2025-08-15 13:00  ./admin/js/SelectBox.js.gz
+     15845  2025-08-15 13:00  ./admin/js/SelectFilter2.58388953117f.js
+      2975  2025-08-15 13:00  ./admin/js/SelectFilter2.58388953117f.js.gz
+     15845  2025-08-15 13:00  ./admin/js/SelectFilter2.js
+      2975  2025-08-15 13:00  ./admin/js/SelectFilter2.js.gz
+      8076  2025-08-15 13:00  ./admin/js/actions.f1d5653edb59.js
+      1941  2025-08-15 13:00  ./admin/js/actions.f1d5653edb59.js.gz
+      8076  2025-08-15 13:00  ./admin/js/actions.js
+      1941  2025-08-15 13:00  ./admin/js/actions.js.gz
+     19319  2025-08-15 13:00  ./admin/js/admin/DateTimeShortcuts.9f6e209cebca.js
+      3645  2025-08-15 13:00  ./admin/js/admin/DateTimeShortcuts.9f6e209cebca.js.gz
+     19319  2025-08-15 13:00  ./admin/js/admin/DateTimeShortcuts.js
+      3645  2025-08-15 13:00  ./admin/js/admin/DateTimeShortcuts.js.gz
+      9777  2025-08-15 13:00  ./admin/js/admin/RelatedObjectLookups.ed6240809a40.js
+      2509  2025-08-15 13:00  ./admin/js/admin/RelatedObjectLookups.ed6240809a40.js.gz
+      9777  2025-08-15 13:00  ./admin/js/admin/RelatedObjectLookups.js
+      2509  2025-08-15 13:00  ./admin/js/admin/RelatedObjectLookups.js.gz
+      1060  2025-08-15 13:00  ./admin/js/autocomplete.01591ab27be7.js
+       425  2025-08-15 13:00  ./admin/js/autocomplete.01591ab27be7.js.gz
+      1060  2025-08-15 13:00  ./admin/js/autocomplete.js
+       425  2025-08-15 13:00  ./admin/js/autocomplete.js.gz
+      9141  2025-08-15 13:00  ./admin/js/calendar.d64496bbf46d.js
+      2278  2025-08-15 13:00  ./admin/js/calendar.d64496bbf46d.js.gz
+      9141  2025-08-15 13:00  ./admin/js/calendar.js
+      2278  2025-08-15 13:00  ./admin/js/calendar.js.gz
+       884  2025-08-15 13:00  ./admin/js/cancel.ecc4c5ca7b32.js
+       430  2025-08-15 13:00  ./admin/js/cancel.ecc4c5ca7b32.js.gz
+       884  2025-08-15 13:00  ./admin/js/cancel.js
+       430  2025-08-15 13:00  ./admin/js/cancel.js.gz
+       606  2025-08-15 13:00  ./admin/js/change_form.9d8ca4f96b75.js
+       322  2025-08-15 13:00  ./admin/js/change_form.9d8ca4f96b75.js.gz
+       606  2025-08-15 13:00  ./admin/js/change_form.js
+       322  2025-08-15 13:00  ./admin/js/change_form.js.gz
+      6208  2025-08-15 13:00  ./admin/js/core.7e257fdf56dc.js
+      1550  2025-08-15 13:00  ./admin/js/core.7e257fdf56dc.js.gz
+      6208  2025-08-15 13:00  ./admin/js/core.js
+      1550  2025-08-15 13:00  ./admin/js/core.js.gz
+       978  2025-08-15 13:00  ./admin/js/filters.0e360b7a9f80.js
+       502  2025-08-15 13:00  ./admin/js/filters.0e360b7a9f80.js.gz
+       978  2025-08-15 13:00  ./admin/js/filters.js
+       502  2025-08-15 13:00  ./admin/js/filters.js.gz
+     15628  2025-08-15 13:00  ./admin/js/inlines.89b3c627c5dc.js
+      3762  2025-08-15 13:00  ./admin/js/inlines.89b3c627c5dc.js.gz
+     15628  2025-08-15 13:00  ./admin/js/inlines.js
+      3762  2025-08-15 13:00  ./admin/js/inlines.js.gz
+       347  2025-08-15 13:00  ./admin/js/jquery.init.b7781a0897fc.js
+       236  2025-08-15 13:00  ./admin/js/jquery.init.b7781a0897fc.js.gz
+       347  2025-08-15 13:00  ./admin/js/jquery.init.js
+       236  2025-08-15 13:00  ./admin/js/jquery.init.js.gz
+      3063  2025-08-15 13:00  ./admin/js/nav_sidebar.3b9190d420b1.js
+       845  2025-08-15 13:00  ./admin/js/nav_sidebar.3b9190d420b1.js.gz
+      3063  2025-08-15 13:00  ./admin/js/nav_sidebar.js
+       845  2025-08-15 13:00  ./admin/js/nav_sidebar.js.gz
+       532  2025-08-15 13:00  ./admin/js/popup_response.96190d343c22.js
+       258  2025-08-15 13:00  ./admin/js/popup_response.96190d343c22.js.gz
+       532  2025-08-15 13:00  ./admin/js/popup_response.js
+       258  2025-08-15 13:00  ./admin/js/popup_response.js.gz
+      1531  2025-08-15 13:00  ./admin/js/prepopulate.bd2361dfd64d.js
+       536  2025-08-15 13:00  ./admin/js/prepopulate.bd2361dfd64d.js.gz
+      1531  2025-08-15 13:00  ./admin/js/prepopulate.js
+       536  2025-08-15 13:00  ./admin/js/prepopulate.js.gz
+       586  2025-08-15 13:00  ./admin/js/prepopulate_init.6cac7f3105b8.js
+       277  2025-08-15 13:00  ./admin/js/prepopulate_init.6cac7f3105b8.js.gz
+       586  2025-08-15 13:00  ./admin/js/prepopulate_init.js
+       277  2025-08-15 13:00  ./admin/js/prepopulate_init.js.gz
+      1653  2025-08-15 13:00  ./admin/js/theme.91cf832f559e.js
+       564  2025-08-15 13:00  ./admin/js/theme.91cf832f559e.js.gz
+      1653  2025-08-15 13:00  ./admin/js/theme.js
+       564  2025-08-15 13:00  ./admin/js/theme.js.gz
+      1480  2025-08-15 13:00  ./admin/js/unusable_password_field.017ea86b6ae4.js
+       580  2025-08-15 13:00  ./admin/js/unusable_password_field.017ea86b6ae4.js.gz
+      1480  2025-08-15 13:00  ./admin/js/unusable_password_field.js
+       580  2025-08-15 13:00  ./admin/js/unusable_password_field.js.gz
+      7887  2025-08-15 13:00  ./admin/js/urlify.ae970a820212.js
+      2578  2025-08-15 13:00  ./admin/js/urlify.ae970a820212.js.gz
+      7887  2025-08-15 13:00  ./admin/js/urlify.js
+      2578  2025-08-15 13:00  ./admin/js/urlify.js.gz
+      1097  2025-08-15 13:00  ./admin/js/vendor/jquery/LICENSE.de877aa6d744.txt
+       656  2025-08-15 13:00  ./admin/js/vendor/jquery/LICENSE.de877aa6d744.txt.gz
+      1097  2025-08-15 13:00  ./admin/js/vendor/jquery/LICENSE.txt
+       656  2025-08-15 13:00  ./admin/js/vendor/jquery/LICENSE.txt.gz
+    285314  2025-08-15 13:00  ./admin/js/vendor/jquery/jquery.12e87d2f3a4c.js
+     83619  2025-08-15 13:00  ./admin/js/vendor/jquery/jquery.12e87d2f3a4c.js.gz
+    285314  2025-08-15 13:00  ./admin/js/vendor/jquery/jquery.js
+     83619  2025-08-15 13:00  ./admin/js/vendor/jquery/jquery.js.gz
+     87533  2025-08-15 13:00  ./admin/js/vendor/jquery/jquery.min.2c872dbe60f4.js
+     30336  2025-08-15 13:00  ./admin/js/vendor/jquery/jquery.min.2c872dbe60f4.js.gz
+     87533  2025-08-15 13:00  ./admin/js/vendor/jquery/jquery.min.js
+     30336  2025-08-15 13:00  ./admin/js/vendor/jquery/jquery.min.js.gz
+      1124  2025-08-15 13:00  ./admin/js/vendor/select2/LICENSE.f94142512c91.md
+       685  2025-08-15 13:00  ./admin/js/vendor/select2/LICENSE.f94142512c91.md.gz
+      1124  2025-08-15 13:00  ./admin/js/vendor/select2/LICENSE.md
+       685  2025-08-15 13:00  ./admin/js/vendor/select2/LICENSE.md.gz
+       866  2025-08-15 13:00  ./admin/js/vendor/select2/i18n/af.4f6fcd73488c.js
+       460  2025-08-15 13:00  ./admin/js/vendor/select2/i18n/af.4f6fcd73488c.js.gz
+       866  2025-08-15 13:00  ./admin/js/vendor/select2/i18n/af.js
+       460  2025-08-15 13:00  ./admin/js/vendor/select2/i18n/af.js.gz
+       905  2025-08-15 13:00  ./admin/js/vendor/select2/i18n/ar.65aa8e36bf5d.js
+       498  2025-08-15 13:00  ./admin/js/vendor/select2/i18n/ar.65aa8e36bf5d.js.gz
+       905  2025-08-15 13:00  ./admin/js/vendor/select2/i18n/ar.js
+       498  2025-08-15 13:00  ./admin/js/vendor/select2/i18n/ar.js.gz
+       721  2025-08-15 13:00  ./admin/js/vendor/select2/i18n/az.270c257daf81.js
+       413  2025-08-15 13:00  ./admin/js/vendor/select2/i18n/az.270c257daf81.js.gz
+       721  2025-08-15 13:00  ./admin/js/vendor/select2/i18n/az.js
+       413  2025-08-15 13:00  ./admin/js/vendor/select2/i18n/az.js.gz
+       968  2025-08-15 13:00  ./admin/js/vendor/select2/i18n/bg.39b8be30d4f0.js
+       541  2025-08-15 13:00  ./admin/js/vendor/select2/i18n/bg.39b8be30d4f0.js.gz
+       968  2025-08-15 13:00  ./admin/js/vendor/select2/i18n/bg.js
+       541  2025-08-15 13:00  ./admin/js/vendor/select2/i18n/bg.js.gz
+      1291  2025-08-15 13:00  ./admin/js/vendor/select2/i18n/bn.6d42b4dd5665.js
+       553  2025-08-15 13:00  ./admin/js/vendor/select2/i18n/bn.6d42b4dd5665.js.gz
+      1291  2025-08-15 13:00  ./admin/js/vendor/select2/i18n/bn.js
+       553  2025-08-15 13:00  ./admin/js/vendor/select2/i18n/bn.js.gz
+       965  2025-08-15 13:00  ./admin/js/vendor/select2/i18n/bs.91624382358e.js
+       523  2025-08-15 13:00  ./admin/js/vendor/select2/i18n/bs.91624382358e.js.gz
+       965  2025-08-15 13:00  ./admin/js/vendor/select2/i18n/bs.js
+       523  2025-08-15 13:00  ./admin/js/vendor/select2/i18n/bs.js.gz
+       900  2025-08-15 13:00  ./admin/js/vendor/select2/i18n/ca.a166b745933a.js
+       470  2025-08-15 13:00  ./admin/js/vendor/select2/i18n/ca.a166b745933a.js.gz
+       900  2025-08-15 13:00  ./admin/js/vendor/select2/i18n/ca.js
+       470  2025-08-15 13:00  ./admin/js/vendor/select2/i18n/ca.js.gz
+      1292  2025-08-15 13:00  ./admin/js/vendor/select2/i18n/cs.4f43e8e7d33a.js
+       623  2025-08-15 13:00  ./admin/js/vendor/select2/i18n/cs.4f43e8e7d33a.js.gz
+      1292  2025-08-15 13:00  ./admin/js/vendor/select2/i18n/cs.js
+       623  2025-08-15 13:00  ./admin/js/vendor/select2/i18n/cs.js.gz
+       828  2025-08-15 13:00  ./admin/js/vendor/select2/i18n/da.766346afe4dd.js
+       441  2025-08-15 13:00  ./admin/js/vendor/select2/i18n/da.766346afe4dd.js.gz
+       828  2025-08-15 13:00  ./admin/js/vendor/select2/i18n/da.js
+       441  2025-08-15 13:00  ./admin/js/vendor/select2/i18n/da.js.gz
+       866  2025-08-15 13:00  ./admin/js/vendor/select2/i18n/de.8a1c222b0204.js
+       467  2025-08-15 13:00  ./admin/js/vendor/select2/i18n/de.8a1c222b0204.js.gz
+       866  2025-08-15 13:00  ./admin/js/vendor/select2/i18n/de.js
+       467  2025-08-15 13:00  ./admin/js/vendor/select2/i18n/de.js.gz
+      1017  2025-08-15 13:00  ./admin/js/vendor/select2/i18n/dsb.56372c92d2f1.js
+       551  2025-08-15 13:00  ./admin/js/vendor/select2/i18n/dsb.56372c92d2f1.js.gz
+      1017  2025-08-15 13:00  ./admin/js/vendor/select2/i18n/dsb.js
+       551  2025-08-15 13:00  ./admin/js/vendor/select2/i18n/dsb.js.gz
+      1182  2025-08-15 13:00  ./admin/js/vendor/select2/i18n/el.27097f071856.js
+       644  2025-08-15 13:00  ./admin/js/vendor/select2/i18n/el.27097f071856.js.gz
+      1182  2025-08-15 13:00  ./admin/js/vendor/select2/i18n/el.js
+       644  2025-08-15 13:00  ./admin/js/vendor/select2/i18n/el.js.gz
+       844  2025-08-15 13:00  ./admin/js/vendor/select2/i18n/en.cf932ba09a98.js
+       447  2025-08-15 13:00  ./admin/js/vendor/select2/i18n/en.cf932ba09a98.js.gz
+       844  2025-08-15 13:00  ./admin/js/vendor/select2/i18n/en.js
+       447  2025-08-15 13:00  ./admin/js/vendor/select2/i18n/en.js.gz
+       922  2025-08-15 13:00  ./admin/js/vendor/select2/i18n/es.66dbc2652fb1.js
+       474  2025-08-15 13:00  ./admin/js/vendor/select2/i18n/es.66dbc2652fb1.js.gz
+       922  2025-08-15 13:00  ./admin/js/vendor/select2/i18n/es.js
+       474  2025-08-15 13:00  ./admin/js/vendor/select2/i18n/es.js.gz
+       801  2025-08-15 13:00  ./admin/js/vendor/select2/i18n/et.2b96fd98289d.js
+       432  2025-08-15 13:00  ./admin/js/vendor/select2/i18n/et.2b96fd98289d.js.gz
+       801  2025-08-15 13:00  ./admin/js/vendor/select2/i18n/et.js
+       432  2025-08-15 13:00  ./admin/js/vendor/select2/i18n/et.js.gz
+       868  2025-08-15 13:00  ./admin/js/vendor/select2/i18n/eu.adfe5c97b72c.js
+       450  2025-08-15 13:00  ./admin/js/vendor/select2/i18n/eu.adfe5c97b72c.js.gz
+       868  2025-08-15 13:00  ./admin/js/vendor/select2/i18n/eu.js
+       450  2025-08-15 13:00  ./admin/js/vendor/select2/i18n/eu.js.gz
+      1023  2025-08-15 13:00  ./admin/js/vendor/select2/i18n/fa.3b5bd1961cfd.js
+       538  2025-08-15 13:00  ./admin/js/vendor/select2/i18n/fa.3b5bd1961cfd.js.gz
+      1023  2025-08-15 13:00  ./admin/js/vendor/select2/i18n/fa.js
+       538  2025-08-15 13:00  ./admin/js/vendor/select2/i18n/fa.js.gz
+       803  2025-08-15 13:00  ./admin/js/vendor/select2/i18n/fi.614ec42aa9ba.js
+       429  2025-08-15 13:00  ./admin/js/vendor/select2/i18n/fi.614ec42aa9ba.js.gz
+       803  2025-08-15 13:00  ./admin/js/vendor/select2/i18n/fi.js
+       429  2025-08-15 13:00  ./admin/js/vendor/select2/i18n/fi.js.gz
+       924  2025-08-15 13:00  ./admin/js/vendor/select2/i18n/fr.05e0542fcfe6.js
+       484  2025-08-15 13:00  ./admin/js/vendor/select2/i18n/fr.05e0542fcfe6.js.gz
+       924  2025-08-15 13:00  ./admin/js/vendor/select2/i18n/fr.js
+       484  2025-08-15 13:00  ./admin/js/vendor/select2/i18n/fr.js.gz
+       924  2025-08-15 13:00  ./admin/js/vendor/select2/i18n/gl.d99b1fedaa86.js
+       465  2025-08-15 13:00  ./admin/js/vendor/select2/i18n/gl.d99b1fedaa86.js.gz
+       924  2025-08-15 13:00  ./admin/js/vendor/select2/i18n/gl.js
+       465  2025-08-15 13:00  ./admin/js/vendor/select2/i18n/gl.js.gz
+       984  2025-08-15 13:00  ./admin/js/vendor/select2/i18n/he.e420ff6cd3ed.js
+       518  2025-08-15 13:00  ./admin/js/vendor/select2/i18n/he.e420ff6cd3ed.js.gz
+       984  2025-08-15 13:00  ./admin/js/vendor/select2/i18n/he.js
+       518  2025-08-15 13:00  ./admin/js/vendor/select2/i18n/he.js.gz
+      1175  2025-08-15 13:00  ./admin/js/vendor/select2/i18n/hi.70640d41628f.js
+       572  2025-08-15 13:00  ./admin/js/vendor/select2/i18n/hi.70640d41628f.js.gz
+      1175  2025-08-15 13:00  ./admin/js/vendor/select2/i18n/hi.js
+       572  2025-08-15 13:00  ./admin/js/vendor/select2/i18n/hi.js.gz
+       852  2025-08-15 13:00  ./admin/js/vendor/select2/i18n/hr.a2b092cc1147.js
+       477  2025-08-15 13:00  ./admin/js/vendor/select2/i18n/hr.a2b092cc1147.js.gz
+       852  2025-08-15 13:00  ./admin/js/vendor/select2/i18n/hr.js
+       477  2025-08-15 13:00  ./admin/js/vendor/select2/i18n/hr.js.gz
+      1018  2025-08-15 13:00  ./admin/js/vendor/select2/i18n/hsb.fa3b55265efe.js
+       556  2025-08-15 13:00  ./admin/js/vendor/select2/i18n/hsb.fa3b55265efe.js.gz
+      1018  2025-08-15 13:00  ./admin/js/vendor/select2/i18n/hsb.js
+       556  2025-08-15 13:00  ./admin/js/vendor/select2/i18n/hsb.js.gz
+       831  2025-08-15 13:00  ./admin/js/vendor/select2/i18n/hu.6ec6039cb8a3.js
+       467  2025-08-15 13:00  ./admin/js/vendor/select2/i18n/hu.6ec6039cb8a3.js.gz
+       831  2025-08-15 13:00  ./admin/js/vendor/select2/i18n/hu.js
+       467  2025-08-15 13:00  ./admin/js/vendor/select2/i18n/hu.js.gz
+      1028  2025-08-15 13:00  ./admin/js/vendor/select2/i18n/hy.c7babaeef5a6.js
+       530  2025-08-15 13:00  ./admin/js/vendor/select2/i18n/hy.c7babaeef5a6.js.gz
+      1028  2025-08-15 13:00  ./admin/js/vendor/select2/i18n/hy.js
+       530  2025-08-15 13:00  ./admin/js/vendor/select2/i18n/hy.js.gz
+       768  2025-08-15 13:00  ./admin/js/vendor/select2/i18n/id.04debded514d.js
+       416  2025-08-15 13:00  ./admin/js/vendor/select2/i18n/id.04debded514d.js.gz
+       768  2025-08-15 13:00  ./admin/js/vendor/select2/i18n/id.js
+       416  2025-08-15 13:00  ./admin/js/vendor/select2/i18n/id.js.gz
+       807  2025-08-15 13:00  ./admin/js/vendor/select2/i18n/is.3ddd9a6a97e9.js
+       465  2025-08-15 13:00  ./admin/js/vendor/select2/i18n/is.3ddd9a6a97e9.js.gz
+       807  2025-08-15 13:00  ./admin/js/vendor/select2/i18n/is.js
+       465  2025-08-15 13:00  ./admin/js/vendor/select2/i18n/is.js.gz
+       897  2025-08-15 13:00  ./admin/js/vendor/select2/i18n/it.be4fe8d365b5.js
+       488  2025-08-15 13:00  ./admin/js/vendor/select2/i18n/it.be4fe8d365b5.js.gz
+       897  2025-08-15 13:00  ./admin/js/vendor/select2/i18n/it.js
+       488  2025-08-15 13:00  ./admin/js/vendor/select2/i18n/it.js.gz
+       862  2025-08-15 13:00  ./admin/js/vendor/select2/i18n/ja.170ae885d74f.js
+       511  2025-08-15 13:00  ./admin/js/vendor/select2/i18n/ja.170ae885d74f.js.gz
+       862  2025-08-15 13:00  ./admin/js/vendor/select2/i18n/ja.js
+       511  2025-08-15 13:00  ./admin/js/vendor/select2/i18n/ja.js.gz
+      1195  2025-08-15 13:00  ./admin/js/vendor/select2/i18n/ka.2083264a54f0.js
+       533  2025-08-15 13:00  ./admin/js/vendor/select2/i18n/ka.2083264a54f0.js.gz
+      1195  2025-08-15 13:00  ./admin/js/vendor/select2/i18n/ka.js
+       533  2025-08-15 13:00  ./admin/js/vendor/select2/i18n/ka.js.gz
+      1088  2025-08-15 13:00  ./admin/js/vendor/select2/i18n/km.c23089cb06ca.js
+       540  2025-08-15 13:00  ./admin/js/vendor/select2/i18n/km.c23089cb06ca.js.gz
+      1088  2025-08-15 13:00  ./admin/js/vendor/select2/i18n/km.js
+       540  2025-08-15 13:00  ./admin/js/vendor/select2/i18n/km.js.gz
+       855  2025-08-15 13:00  ./admin/js/vendor/select2/i18n/ko.e7be6c20e673.js
+       506  2025-08-15 13:00  ./admin/js/vendor/select2/i18n/ko.e7be6c20e673.js.gz
+       855  2025-08-15 13:00  ./admin/js/vendor/select2/i18n/ko.js
+       506  2025-08-15 13:00  ./admin/js/vendor/select2/i18n/ko.js.gz
+       944  2025-08-15 13:00  ./admin/js/vendor/select2/i18n/lt.23c7ce903300.js
+       521  2025-08-15 13:00  ./admin/js/vendor/select2/i18n/lt.23c7ce903300.js.gz
+       944  2025-08-15 13:00  ./admin/js/vendor/select2/i18n/lt.js
+       521  2025-08-15 13:00  ./admin/js/vendor/select2/i18n/lt.js.gz
+       900  2025-08-15 13:00  ./admin/js/vendor/select2/i18n/lv.08e62128eac1.js
+       505  2025-08-15 13:00  ./admin/js/vendor/select2/i18n/lv.08e62128eac1.js.gz
+       900  2025-08-15 13:00  ./admin/js/vendor/select2/i18n/lv.js
+       505  2025-08-15 13:00  ./admin/js/vendor/select2/i18n/lv.js.gz
+      1038  2025-08-15 13:00  ./admin/js/vendor/select2/i18n/mk.dabbb9087130.js
+       557  2025-08-15 13:00  ./admin/js/vendor/select2/i18n/mk.dabbb9087130.js.gz
+      1038  2025-08-15 13:00  ./admin/js/vendor/select2/i18n/mk.js
+       557  2025-08-15 13:00  ./admin/js/vendor/select2/i18n/mk.js.gz
+       811  2025-08-15 13:00  ./admin/js/vendor/select2/i18n/ms.4ba82c9a51ce.js
+       436  2025-08-15 13:00  ./admin/js/vendor/select2/i18n/ms.4ba82c9a51ce.js.gz
+       811  2025-08-15 13:00  ./admin/js/vendor/select2/i18n/ms.js
+       436  2025-08-15 13:00  ./admin/js/vendor/select2/i18n/ms.js.gz
+       778  2025-08-15 13:00  ./admin/js/vendor/select2/i18n/nb.da2fce143f27.js
+       413  2025-08-15 13:00  ./admin/js/vendor/select2/i18n/nb.da2fce143f27.js.gz
+       778  2025-08-15 13:00  ./admin/js/vendor/select2/i18n/nb.js
+       413  2025-08-15 13:00  ./admin/js/vendor/select2/i18n/nb.js.gz
+      1357  2025-08-15 13:00  ./admin/js/vendor/select2/i18n/ne.3d79fd3f08db.js
+       591  2025-08-15 13:00  ./admin/js/vendor/select2/i18n/ne.3d79fd3f08db.js.gz
+      1357  2025-08-15 13:00  ./admin/js/vendor/select2/i18n/ne.js
+       591  2025-08-15 13:00  ./admin/js/vendor/select2/i18n/ne.js.gz
+       904  2025-08-15 13:00  ./admin/js/vendor/select2/i18n/nl.997868a37ed8.js
+       469  2025-08-15 13:00  ./admin/js/vendor/select2/i18n/nl.997868a37ed8.js.gz
+       904  2025-08-15 13:00  ./admin/js/vendor/select2/i18n/nl.js
+       469  2025-08-15 13:00  ./admin/js/vendor/select2/i18n/nl.js.gz
+       947  2025-08-15 13:00  ./admin/js/vendor/select2/i18n/pl.6031b4f16452.js
+       524  2025-08-15 13:00  ./admin/js/vendor/select2/i18n/pl.6031b4f16452.js.gz
+       947  2025-08-15 13:00  ./admin/js/vendor/select2/i18n/pl.js
+       524  2025-08-15 13:00  ./admin/js/vendor/select2/i18n/pl.js.gz
+      1049  2025-08-15 13:00  ./admin/js/vendor/select2/i18n/ps.38dfa47af9e0.js
+       587  2025-08-15 13:00  ./admin/js/vendor/select2/i18n/ps.38dfa47af9e0.js.gz
+      1049  2025-08-15 13:00  ./admin/js/vendor/select2/i18n/ps.js
+       587  2025-08-15 13:00  ./admin/js/vendor/select2/i18n/ps.js.gz
+       876  2025-08-15 13:00  ./admin/js/vendor/select2/i18n/pt-BR.e1b294433e7f.js
+       486  2025-08-15 13:00  ./admin/js/vendor/select2/i18n/pt-BR.e1b294433e7f.js.gz
+       876  2025-08-15 13:00  ./admin/js/vendor/select2/i18n/pt-BR.js
+       486  2025-08-15 13:00  ./admin/js/vendor/select2/i18n/pt-BR.js.gz
+       878  2025-08-15 13:00  ./admin/js/vendor/select2/i18n/pt.33b4a3b44d43.js
+       470  2025-08-15 13:00  ./admin/js/vendor/select2/i18n/pt.33b4a3b44d43.js.gz
+       878  2025-08-15 13:00  ./admin/js/vendor/select2/i18n/pt.js
+       470  2025-08-15 13:00  ./admin/js/vendor/select2/i18n/pt.js.gz
+       938  2025-08-15 13:00  ./admin/js/vendor/select2/i18n/ro.f75cb460ec3b.js
+       511  2025-08-15 13:00  ./admin/js/vendor/select2/i18n/ro.f75cb460ec3b.js.gz
+       938  2025-08-15 13:00  ./admin/js/vendor/select2/i18n/ro.js
+       511  2025-08-15 13:00  ./admin/js/vendor/select2/i18n/ro.js.gz
+      1171  2025-08-15 13:00  ./admin/js/vendor/select2/i18n/ru.934aa95f5b5f.js
+       632  2025-08-15 13:00  ./admin/js/vendor/select2/i18n/ru.934aa95f5b5f.js.gz
+      1171  2025-08-15 13:00  ./admin/js/vendor/select2/i18n/ru.js
+       632  2025-08-15 13:00  ./admin/js/vendor/select2/i18n/ru.js.gz
+      1306  2025-08-15 13:00  ./admin/js/vendor/select2/i18n/sk.33d02cef8d11.js
+       617  2025-08-15 13:00  ./admin/js/vendor/select2/i18n/sk.33d02cef8d11.js.gz
+      1306  2025-08-15 13:00  ./admin/js/vendor/select2/i18n/sk.js
+       617  2025-08-15 13:00  ./admin/js/vendor/select2/i18n/sk.js.gz
+       925  2025-08-15 13:00  ./admin/js/vendor/select2/i18n/sl.131a78bc0752.js
+       487  2025-08-15 13:00  ./admin/js/vendor/select2/i18n/sl.131a78bc0752.js.gz
+       925  2025-08-15 13:00  ./admin/js/vendor/select2/i18n/sl.js
+       487  2025-08-15 13:00  ./admin/js/vendor/select2/i18n/sl.js.gz
+       903  2025-08-15 13:00  ./admin/js/vendor/select2/i18n/sq.5636b60d29c9.js
+       490  2025-08-15 13:00  ./admin/js/vendor/select2/i18n/sq.5636b60d29c9.js.gz
+       903  2025-08-15 13:00  ./admin/js/vendor/select2/i18n/sq.js
+       490  2025-08-15 13:00  ./admin/js/vendor/select2/i18n/sq.js.gz
+      1109  2025-08-15 13:00  ./admin/js/vendor/select2/i18n/sr-Cyrl.f254bb8c4c7c.js
+       608  2025-08-15 13:00  ./admin/js/vendor/select2/i18n/sr-Cyrl.f254bb8c4c7c.js.gz
+      1109  2025-08-15 13:00  ./admin/js/vendor/select2/i18n/sr-Cyrl.js
+       608  2025-08-15 13:00  ./admin/js/vendor/select2/i18n/sr-Cyrl.js.gz
+       980  2025-08-15 13:00  ./admin/js/vendor/select2/i18n/sr.5ed85a48f483.js
+       552  2025-08-15 13:00  ./admin/js/vendor/select2/i18n/sr.5ed85a48f483.js.gz
+       980  2025-08-15 13:00  ./admin/js/vendor/select2/i18n/sr.js
+       552  2025-08-15 13:00  ./admin/js/vendor/select2/i18n/sr.js.gz
+       786  2025-08-15 13:00  ./admin/js/vendor/select2/i18n/sv.7a9c2f71e777.js
+       429  2025-08-15 13:00  ./admin/js/vendor/select2/i18n/sv.7a9c2f71e777.js.gz
+       786  2025-08-15 13:00  ./admin/js/vendor/select2/i18n/sv.js
+       429  2025-08-15 13:00  ./admin/js/vendor/select2/i18n/sv.js.gz
+      1074  2025-08-15 13:00  ./admin/js/vendor/select2/i18n/th.f38c20b0221b.js
+       515  2025-08-15 13:00  ./admin/js/vendor/select2/i18n/th.f38c20b0221b.js.gz
+      1074  2025-08-15 13:00  ./admin/js/vendor/select2/i18n/th.js
+       515  2025-08-15 13:00  ./admin/js/vendor/select2/i18n/th.js.gz
+       771  2025-08-15 13:00  ./admin/js/vendor/select2/i18n/tk.7c572a68c78f.js
+       434  2025-08-15 13:00  ./admin/js/vendor/select2/i18n/tk.7c572a68c78f.js.gz
+       771  2025-08-15 13:00  ./admin/js/vendor/select2/i18n/tk.js
+       434  2025-08-15 13:00  ./admin/js/vendor/select2/i18n/tk.js.gz
+       775  2025-08-15 13:00  ./admin/js/vendor/select2/i18n/tr.b5a0643d1545.js
+       423  2025-08-15 13:00  ./admin/js/vendor/select2/i18n/tr.b5a0643d1545.js.gz
+       775  2025-08-15 13:00  ./admin/js/vendor/select2/i18n/tr.js
+       423  2025-08-15 13:00  ./admin/js/vendor/select2/i18n/tr.js.gz
+      1156  2025-08-15 13:00  ./admin/js/vendor/select2/i18n/uk.8cede7f4803c.js
+       626  2025-08-15 13:00  ./admin/js/vendor/select2/i18n/uk.8cede7f4803c.js.gz
+      1156  2025-08-15 13:00  ./admin/js/vendor/select2/i18n/uk.js
+       626  2025-08-15 13:00  ./admin/js/vendor/select2/i18n/uk.js.gz
+       796  2025-08-15 13:00  ./admin/js/vendor/select2/i18n/vi.097a5b75b3e1.js
+       479  2025-08-15 13:00  ./admin/js/vendor/select2/i18n/vi.097a5b75b3e1.js.gz
+       796  2025-08-15 13:00  ./admin/js/vendor/select2/i18n/vi.js
+       479  2025-08-15 13:00  ./admin/js/vendor/select2/i18n/vi.js.gz
+       768  2025-08-15 13:00  ./admin/js/vendor/select2/i18n/zh-CN.2cff662ec5f9.js
+       468  2025-08-15 13:00  ./admin/js/vendor/select2/i18n/zh-CN.2cff662ec5f9.js.gz
+       768  2025-08-15 13:00  ./admin/js/vendor/select2/i18n/zh-CN.js
+       468  2025-08-15 13:00  ./admin/js/vendor/select2/i18n/zh-CN.js.gz
+       707  2025-08-15 13:00  ./admin/js/vendor/select2/i18n/zh-TW.04554a227c2b.js
+       451  2025-08-15 13:00  ./admin/js/vendor/select2/i18n/zh-TW.04554a227c2b.js.gz
+       707  2025-08-15 13:00  ./admin/js/vendor/select2/i18n/zh-TW.js
+       451  2025-08-15 13:00  ./admin/js/vendor/select2/i18n/zh-TW.js.gz
+    173566  2025-08-15 13:00  ./admin/js/vendor/select2/select2.full.c2afdeda3058.js
+     37925  2025-08-15 13:00  ./admin/js/vendor/select2/select2.full.c2afdeda3058.js.gz
+    173566  2025-08-15 13:00  ./admin/js/vendor/select2/select2.full.js
+     37925  2025-08-15 13:00  ./admin/js/vendor/select2/select2.full.js.gz
+     79212  2025-08-15 13:00  ./admin/js/vendor/select2/select2.full.min.fcd7500d8e13.js
+     21986  2025-08-15 13:00  ./admin/js/vendor/select2/select2.full.min.fcd7500d8e13.js.gz
+     79212  2025-08-15 13:00  ./admin/js/vendor/select2/select2.full.min.js
+     21986  2025-08-15 13:00  ./admin/js/vendor/select2/select2.full.min.js.gz
+      1106  2025-08-15 13:00  ./admin/js/vendor/xregexp/LICENSE.b6fd2ceea8d3.txt
+       678  2025-08-15 13:00  ./admin/js/vendor/xregexp/LICENSE.b6fd2ceea8d3.txt.gz
+      1106  2025-08-15 13:00  ./admin/js/vendor/xregexp/LICENSE.txt
+       678  2025-08-15 13:00  ./admin/js/vendor/xregexp/LICENSE.txt.gz
+    325171  2025-08-15 13:00  ./admin/js/vendor/xregexp/xregexp.a7e08b0ce686.js
+     76137  2025-08-15 13:00  ./admin/js/vendor/xregexp/xregexp.a7e08b0ce686.js.gz
+    325171  2025-08-15 13:00  ./admin/js/vendor/xregexp/xregexp.js
+     76137  2025-08-15 13:00  ./admin/js/vendor/xregexp/xregexp.js.gz
+    163184  2025-08-15 13:00  ./admin/js/vendor/xregexp/xregexp.min.f1ae4617847c.js
+     46360  2025-08-15 13:00  ./admin/js/vendor/xregexp/xregexp.min.f1ae4617847c.js.gz
+    163184  2025-08-15 13:00  ./admin/js/vendor/xregexp/xregexp.min.js
+     46360  2025-08-15 13:00  ./admin/js/vendor/xregexp/xregexp.min.js.gz
+   2051731  2025-08-15 13:00  ./blog/img/propiedades_card.d20fc453fa72.png
+       217  2025-08-15 13:00  ./landingpage/css/styles.1526dbbf893a.css
+       173  2025-08-15 13:00  ./landingpage/css/styles.1526dbbf893a.css.gz
+   2535522  2025-08-15 13:00  ./landingpage/img/serv_web.8b49caf8bf0c.jpg
+   2535522  2025-08-15 13:00  ./landingpage/img/serv_web.jpg
+       106  2025-08-15 13:00  ./landingpage/js/main.ecdb77bad2ab.js
+      5008  2025-08-15 13:00  ./propiedades/css/theme.2add18b43959.css
+      1860  2025-08-15 13:00  ./propiedades/css/theme.2add18b43959.css.gz
+     34091  2025-08-15 13:00  ./propiedades/icons/amenities.1ab729668130.png
+      9051  2025-08-15 13:00  ./propiedades/icons/area-covered.c577ec392083.png
+     26756  2025-08-15 13:00  ./propiedades/icons/area-total.e83f11054047.png
+     17261  2025-08-15 13:00  ./propiedades/icons/bath.ccec8e919adf.png
+     12470  2025-08-15 13:00  ./propiedades/icons/bed.5bc687df222b.png
+     30663  2025-08-15 13:00  ./propiedades/icons/clock.bc1a7515d660.png
+     17295  2025-08-15 13:00  ./propiedades/icons/garage.8f628b189806.png
+     37248  2025-08-15 13:00  ./propiedades/icons/location.1dd9f11d721a.png
+     27663  2025-08-15 13:00  ./propiedades/icons/money.3674450decff.png
+     16988  2025-08-15 13:00  ./propiedades/icons/pet.95d623fe26ba.png
+   2051731  2025-08-13 13:10  ./blog/img/propiedades_card.png
+       217  2025-08-13 13:10  ./landingpage/css/styles.css
+       173  2025-08-13 13:10  ./landingpage/css/styles.css.gz
+       106  2025-08-13 13:10  ./landingpage/js/main.js
+      5008  2025-08-13 13:10  ./propiedades/css/theme.css
+      1860  2025-08-13 13:10  ./propiedades/css/theme.css.gz
+     34091  2025-08-13 13:10  ./propiedades/icons/amenities.png
+      9051  2025-08-13 13:10  ./propiedades/icons/area-covered.png
+     26756  2025-08-13 13:10  ./propiedades/icons/area-total.png
+     17261  2025-08-13 13:10  ./propiedades/icons/bath.png
+     12470  2025-08-13 13:10  ./propiedades/icons/bed.png
+     30663  2025-08-13 13:10  ./propiedades/icons/clock.png
+     17295  2025-08-13 13:10  ./propiedades/icons/garage.png
+     37248  2025-08-13 13:10  ./propiedades/icons/location.png
+     27663  2025-08-13 13:10  ./propiedades/icons/money.png
+     16988  2025-08-13 13:10  ./propiedades/icons/pet.png
+
+--- Expected assets check ---
+[MISS] img/tu_logo.png (no existe en esta carpeta)
+[MISS] img/favicon.png (no existe en esta carpeta)

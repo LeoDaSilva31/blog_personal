@@ -1,0 +1,83 @@
+id,titulo,field,name,exists,url,related_model,related_pk
+22,Local comercial sobre avenida,imagen_principal,propiedades/imagenes_principal/22_principal.webp,True,/media/propiedades/imagenes_principal/22_principal.webp,,
+22,Local comercial sobre avenida,imagen,propiedades/galeria/22_9089.webp,True,/media/propiedades/galeria/22_9089.webp,PropiedadImagen,2
+22,Local comercial sobre avenida,imagen,propiedades/galeria/22_1995.webp,True,/media/propiedades/galeria/22_1995.webp,PropiedadImagen,3
+22,Local comercial sobre avenida,imagen,propiedades/galeria/22_7559.webp,True,/media/propiedades/galeria/22_7559.webp,PropiedadImagen,4
+22,Local comercial sobre avenida,imagen,propiedades/galeria/22_4865.webp,True,/media/propiedades/galeria/22_4865.webp,PropiedadImagen,5
+23,Galpón con doble altura,imagen_principal,propiedades/imagenes_principal/23_principal.webp,True,/media/propiedades/imagenes_principal/23_principal.webp,,
+23,Galpón con doble altura,imagen,propiedades/galeria/23_649.webp,True,/media/propiedades/galeria/23_649.webp,PropiedadImagen,6
+23,Galpón con doble altura,imagen,propiedades/galeria/23_7846.webp,True,/media/propiedades/galeria/23_7846.webp,PropiedadImagen,7
+23,Galpón con doble altura,imagen,propiedades/galeria/23_4114.webp,True,/media/propiedades/galeria/23_4114.webp,PropiedadImagen,8
+24,Local comercial sobre avenida,imagen_principal,propiedades/imagenes_principal/24_principal.webp,True,/media/propiedades/imagenes_principal/24_principal.webp,,
+24,Local comercial sobre avenida,imagen,propiedades/galeria/24_1218.webp,True,/media/propiedades/galeria/24_1218.webp,PropiedadImagen,9
+24,Local comercial sobre avenida,imagen,propiedades/galeria/24_7403.webp,True,/media/propiedades/galeria/24_7403.webp,PropiedadImagen,10
+24,Local comercial sobre avenida,imagen,propiedades/galeria/24_5666.webp,True,/media/propiedades/galeria/24_5666.webp,PropiedadImagen,11
+24,Local comercial sobre avenida,imagen,propiedades/galeria/24_8502.webp,True,/media/propiedades/galeria/24_8502.webp,PropiedadImagen,12
+25,Casa quinta con pileta,imagen_principal,propiedades/imagenes_principal/25_principal.webp,True,/media/propiedades/imagenes_principal/25_principal.webp,,
+25,Casa quinta con pileta,imagen,propiedades/galeria/25_1118.webp,True,/media/propiedades/galeria/25_1118.webp,PropiedadImagen,13
+25,Casa quinta con pileta,imagen,propiedades/galeria/25_2221.webp,True,/media/propiedades/galeria/25_2221.webp,PropiedadImagen,14
+25,Casa quinta con pileta,imagen,propiedades/galeria/25_542.webp,True,/media/propiedades/galeria/25_542.webp,PropiedadImagen,15
+25,Casa quinta con pileta,imagen,propiedades/galeria/25_4747.webp,True,/media/propiedades/galeria/25_4747.webp,PropiedadImagen,16
+26,Local comercial sobre avenida,imagen_principal,propiedades/imagenes_principal/26_principal.webp,True,/media/propiedades/imagenes_principal/26_principal.webp,,
+26,Local comercial sobre avenida,imagen,propiedades/galeria/26_2866.webp,True,/media/propiedades/galeria/26_2866.webp,PropiedadImagen,17
+26,Local comercial sobre avenida,imagen,propiedades/galeria/26_9309.webp,True,/media/propiedades/galeria/26_9309.webp,PropiedadImagen,18
+26,Local comercial sobre avenida,imagen,propiedades/galeria/26_9250.webp,True,/media/propiedades/galeria/26_9250.webp,PropiedadImagen,19
+27,Local comercial sobre avenida,imagen_principal,propiedades/imagenes_principal/27_principal.webp,True,/media/propiedades/imagenes_principal/27_principal.webp,,
+27,Local comercial sobre avenida,imagen,propiedades/galeria/27_3107.webp,True,/media/propiedades/galeria/27_3107.webp,PropiedadImagen,20
+27,Local comercial sobre avenida,imagen,propiedades/galeria/27_7640.webp,True,/media/propiedades/galeria/27_7640.webp,PropiedadImagen,21
+28,Departamento con balcón y luz natural,imagen_principal,propiedades/imagenes_principal/28_principal.webp,True,/media/propiedades/imagenes_principal/28_principal.webp,,
+28,Departamento con balcón y luz natural,imagen,propiedades/galeria/28_9111.webp,True,/media/propiedades/galeria/28_9111.webp,PropiedadImagen,22
+28,Departamento con balcón y luz natural,imagen,propiedades/galeria/28_4021.webp,True,/media/propiedades/galeria/28_4021.webp,PropiedadImagen,23
+28,Departamento con balcón y luz natural,imagen,propiedades/galeria/28_2416.webp,True,/media/propiedades/galeria/28_2416.webp,PropiedadImagen,24
+28,Departamento con balcón y luz natural,imagen,propiedades/galeria/28_7813.webp,True,/media/propiedades/galeria/28_7813.webp,PropiedadImagen,25
+29,Local comercial sobre avenida,imagen_principal,propiedades/imagenes_principal/29_principal.webp,True,/media/propiedades/imagenes_principal/29_principal.webp,,
+29,Local comercial sobre avenida,imagen,propiedades/galeria/29_2234.webp,True,/media/propiedades/galeria/29_2234.webp,PropiedadImagen,26
+29,Local comercial sobre avenida,imagen,propiedades/galeria/29_579.webp,True,/media/propiedades/galeria/29_579.webp,PropiedadImagen,27
+29,Local comercial sobre avenida,imagen,propiedades/galeria/29_3114.webp,True,/media/propiedades/galeria/29_3114.webp,PropiedadImagen,28
+29,Local comercial sobre avenida,imagen,propiedades/galeria/29_698.webp,True,/media/propiedades/galeria/29_698.webp,PropiedadImagen,29
+30,Departamento con balcón y luz natural,imagen_principal,propiedades/imagenes_principal/30_principal.webp,True,/media/propiedades/imagenes_principal/30_principal.webp,,
+30,Departamento con balcón y luz natural,imagen,propiedades/galeria/30_289.webp,True,/media/propiedades/galeria/30_289.webp,PropiedadImagen,30
+30,Departamento con balcón y luz natural,imagen,propiedades/galeria/30_3763.webp,True,/media/propiedades/galeria/30_3763.webp,PropiedadImagen,31
+30,Departamento con balcón y luz natural,imagen,propiedades/galeria/30_2600.webp,True,/media/propiedades/galeria/30_2600.webp,PropiedadImagen,32
+31,Depósito con dock de carga,imagen_principal,propiedades/imagenes_principal/31_principal.webp,True,/media/propiedades/imagenes_principal/31_principal.webp,,
+31,Depósito con dock de carga,imagen,propiedades/galeria/31_3257.webp,True,/media/propiedades/galeria/31_3257.webp,PropiedadImagen,33
+31,Depósito con dock de carga,imagen,propiedades/galeria/31_2899.webp,True,/media/propiedades/galeria/31_2899.webp,PropiedadImagen,34
+31,Depósito con dock de carga,imagen,propiedades/galeria/31_1338.webp,True,/media/propiedades/galeria/31_1338.webp,PropiedadImagen,35
+32,Departamento con balcón y luz natural,imagen_principal,propiedades/imagenes_principal/32_principal.webp,True,/media/propiedades/imagenes_principal/32_principal.webp,,
+32,Departamento con balcón y luz natural,imagen,propiedades/galeria/32_6055.webp,True,/media/propiedades/galeria/32_6055.webp,PropiedadImagen,36
+32,Departamento con balcón y luz natural,imagen,propiedades/galeria/32_3416.webp,True,/media/propiedades/galeria/32_3416.webp,PropiedadImagen,37
+32,Departamento con balcón y luz natural,imagen,propiedades/galeria/32_6173.webp,True,/media/propiedades/galeria/32_6173.webp,PropiedadImagen,38
+33,Departamento con balcón y luz natural,imagen_principal,propiedades/imagenes_principal/33_principal.webp,True,/media/propiedades/imagenes_principal/33_principal.webp,,
+33,Departamento con balcón y luz natural,imagen,propiedades/galeria/33_6610.webp,True,/media/propiedades/galeria/33_6610.webp,PropiedadImagen,39
+33,Departamento con balcón y luz natural,imagen,propiedades/galeria/33_8402.webp,True,/media/propiedades/galeria/33_8402.webp,PropiedadImagen,40
+33,Departamento con balcón y luz natural,imagen,propiedades/galeria/33_3727.webp,True,/media/propiedades/galeria/33_3727.webp,PropiedadImagen,41
+33,Departamento con balcón y luz natural,imagen,propiedades/galeria/33_91.webp,True,/media/propiedades/galeria/33_91.webp,PropiedadImagen,42
+34,Casa en zona residencial,imagen_principal,propiedades/imagenes_principal/34_principal.webp,True,/media/propiedades/imagenes_principal/34_principal.webp,,
+34,Casa en zona residencial,imagen,propiedades/galeria/34_115.webp,True,/media/propiedades/galeria/34_115.webp,PropiedadImagen,43
+34,Casa en zona residencial,imagen,propiedades/galeria/34_7520.webp,True,/media/propiedades/galeria/34_7520.webp,PropiedadImagen,44
+35,Galpón con doble altura,imagen_principal,propiedades/imagenes_principal/35_principal.webp,True,/media/propiedades/imagenes_principal/35_principal.webp,,
+35,Galpón con doble altura,imagen,propiedades/galeria/35_3476.webp,True,/media/propiedades/galeria/35_3476.webp,PropiedadImagen,45
+35,Galpón con doble altura,imagen,propiedades/galeria/35_9798.webp,True,/media/propiedades/galeria/35_9798.webp,PropiedadImagen,46
+36,Terreno ideal inversión,imagen_principal,propiedades/imagenes_principal/36_principal.webp,True,/media/propiedades/imagenes_principal/36_principal.webp,,
+36,Terreno ideal inversión,imagen,propiedades/galeria/36_3219.webp,True,/media/propiedades/galeria/36_3219.webp,PropiedadImagen,47
+36,Terreno ideal inversión,imagen,propiedades/galeria/36_2589.webp,True,/media/propiedades/galeria/36_2589.webp,PropiedadImagen,48
+36,Terreno ideal inversión,imagen,propiedades/galeria/36_4777.webp,True,/media/propiedades/galeria/36_4777.webp,PropiedadImagen,49
+36,Terreno ideal inversión,imagen,propiedades/galeria/36_7129.webp,True,/media/propiedades/galeria/36_7129.webp,PropiedadImagen,50
+37,Galpón con doble altura,imagen_principal,propiedades/imagenes_principal/37_principal.webp,True,/media/propiedades/imagenes_principal/37_principal.webp,,
+37,Galpón con doble altura,imagen,propiedades/galeria/37_2792.webp,True,/media/propiedades/galeria/37_2792.webp,PropiedadImagen,51
+37,Galpón con doble altura,imagen,propiedades/galeria/37_8590.webp,True,/media/propiedades/galeria/37_8590.webp,PropiedadImagen,52
+37,Galpón con doble altura,imagen,propiedades/galeria/37_3881.webp,True,/media/propiedades/galeria/37_3881.webp,PropiedadImagen,53
+37,Galpón con doble altura,imagen,propiedades/galeria/37_5271.webp,True,/media/propiedades/galeria/37_5271.webp,PropiedadImagen,54
+38,Galpón con doble altura,imagen_principal,propiedades/imagenes_principal/38_principal.webp,True,/media/propiedades/imagenes_principal/38_principal.webp,,
+38,Galpón con doble altura,imagen,propiedades/galeria/38_4613.webp,True,/media/propiedades/galeria/38_4613.webp,PropiedadImagen,55
+38,Galpón con doble altura,imagen,propiedades/galeria/38_6050.webp,True,/media/propiedades/galeria/38_6050.webp,PropiedadImagen,56
+39,Casa quinta con pileta,imagen_principal,propiedades/imagenes_principal/39_principal.webp,True,/media/propiedades/imagenes_principal/39_principal.webp,,
+39,Casa quinta con pileta,imagen,propiedades/galeria/39_7486.webp,True,/media/propiedades/galeria/39_7486.webp,PropiedadImagen,57
+39,Casa quinta con pileta,imagen,propiedades/galeria/39_3461.webp,True,/media/propiedades/galeria/39_3461.webp,PropiedadImagen,58
+40,Terreno ideal inversión,imagen_principal,propiedades/imagenes_principal/40_principal.webp,True,/media/propiedades/imagenes_principal/40_principal.webp,,
+40,Terreno ideal inversión,imagen,propiedades/galeria/40_1988.webp,True,/media/propiedades/galeria/40_1988.webp,PropiedadImagen,59
+40,Terreno ideal inversión,imagen,propiedades/galeria/40_392.webp,True,/media/propiedades/galeria/40_392.webp,PropiedadImagen,60
+40,Terreno ideal inversión,imagen,propiedades/galeria/40_6390.webp,True,/media/propiedades/galeria/40_6390.webp,PropiedadImagen,61
+41,Terreno ideal inversión,imagen_principal,propiedades/imagenes_principal/41_principal.webp,True,/media/propiedades/imagenes_principal/41_principal.webp,,
+41,Terreno ideal inversión,imagen,propiedades/galeria/41_4266.webp,True,/media/propiedades/galeria/41_4266.webp,PropiedadImagen,62
+41,Terreno ideal inversión,imagen,propiedades/galeria/41_4908.webp,True,/media/propiedades/galeria/41_4908.webp,PropiedadImagen,63
